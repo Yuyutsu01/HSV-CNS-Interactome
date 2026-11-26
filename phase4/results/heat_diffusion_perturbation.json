@@ -1,0 +1,552 @@
+{
+  "ICP34.5": {
+    "category": "target",
+    "cns_heat_sum": 0.178501,
+    "non_cns_heat_sum": 0.321499,
+    "cns_heat_fraction": 0.357,
+    "z_score": 5.241,
+    "permutation_p": 0.0,
+    "top_heated_hosts": [
+      {
+        "host": "FYN",
+        "heat": 0.016641
+      },
+      {
+        "host": "GSK3B",
+        "heat": 0.015817
+      },
+      {
+        "host": "YWHAG",
+        "heat": 0.015806
+      },
+      {
+        "host": "YWHAZ",
+        "heat": 0.014901
+      },
+      {
+        "host": "YWHAB",
+        "heat": 0.014302
+      },
+      {
+        "host": "USP7",
+        "heat": 0.014044
+      },
+      {
+        "host": "GRB2",
+        "heat": 0.012803
+      },
+      {
+        "host": "GSK3A",
+        "heat": 0.012577
+      },
+      {
+        "host": "GABARAP",
+        "heat": 0.011654
+      },
+      {
+        "host": "NCK1",
+        "heat": 0.01154
+      }
+    ]
+  },
+  "US3": {
+    "category": "target",
+    "cns_heat_sum": 0.176695,
+    "non_cns_heat_sum": 0.323305,
+    "cns_heat_fraction": 0.3534,
+    "z_score": 5.114,
+    "permutation_p": 0.0,
+    "top_heated_hosts": [
+      {
+        "host": "GSK3B",
+        "heat": 0.017644
+      },
+      {
+        "host": "YWHAG",
+        "heat": 0.015788
+      },
+      {
+        "host": "USP7",
+        "heat": 0.015624
+      },
+      {
+        "host": "YWHAZ",
+        "heat": 0.014884
+      },
+      {
+        "host": "FYN",
+        "heat": 0.014426
+      },
+      {
+        "host": "YWHAB",
+        "heat": 0.014286
+      },
+      {
+        "host": "GSK3A",
+        "heat": 0.01403
+      },
+      {
+        "host": "CSNK2A1",
+        "heat": 0.013053
+      },
+      {
+        "host": "NCK1",
+        "heat": 0.012509
+      },
+      {
+        "host": "PRKACA",
+        "heat": 0.012069
+      }
+    ]
+  },
+  "pUL37": {
+    "category": "target",
+    "cns_heat_sum": 0.176633,
+    "non_cns_heat_sum": 0.323367,
+    "cns_heat_fraction": 0.3533,
+    "z_score": 5.083,
+    "permutation_p": 0.0,
+    "top_heated_hosts": [
+      {
+        "host": "USP7",
+        "heat": 0.018198
+      },
+      {
+        "host": "CSNK2A1",
+        "heat": 0.016415
+      },
+      {
+        "host": "GSK3B",
+        "heat": 0.016266
+      },
+      {
+        "host": "YWHAG",
+        "heat": 0.015531
+      },
+      {
+        "host": "YWHAZ",
+        "heat": 0.014642
+      },
+      {
+        "host": "YWHAB",
+        "heat": 0.014054
+      },
+      {
+        "host": "FYN",
+        "heat": 0.013984
+      },
+      {
+        "host": "NCK1",
+        "heat": 0.013736
+      },
+      {
+        "host": "CASP3",
+        "heat": 0.01335
+      },
+      {
+        "host": "GSK3A",
+        "heat": 0.012934
+      }
+    ]
+  },
+  "ICP8_UL29": {
+    "category": "control",
+    "cns_heat_sum": 0.183608,
+    "non_cns_heat_sum": 0.316392,
+    "cns_heat_fraction": 0.3672,
+    "z_score": 5.236,
+    "permutation_p": 0.0,
+    "top_heated_hosts": [
+      {
+        "host": "GABARAP",
+        "heat": 0.022656
+      },
+      {
+        "host": "MAP1LC3B",
+        "heat": 0.020901
+      },
+      {
+        "host": "GSK3B",
+        "heat": 0.015593
+      },
+      {
+        "host": "YWHAG",
+        "heat": 0.013752
+      },
+      {
+        "host": "KPNA1",
+        "heat": 0.01358
+      },
+      {
+        "host": "FYN",
+        "heat": 0.013381
+      },
+      {
+        "host": "USP7",
+        "heat": 0.013171
+      },
+      {
+        "host": "YWHAZ",
+        "heat": 0.012965
+      },
+      {
+        "host": "YWHAB",
+        "heat": 0.012444
+      },
+      {
+        "host": "GSK3A",
+        "heat": 0.012398
+      }
+    ]
+  },
+  "UL42": {
+    "category": "control",
+    "cns_heat_sum": 0.177554,
+    "non_cns_heat_sum": 0.322446,
+    "cns_heat_fraction": 0.3551,
+    "z_score": 5.148,
+    "permutation_p": 0.0,
+    "top_heated_hosts": [
+      {
+        "host": "YWHAG",
+        "heat": 0.017921
+      },
+      {
+        "host": "YWHAZ",
+        "heat": 0.016895
+      },
+      {
+        "host": "FYN",
+        "heat": 0.016444
+      },
+      {
+        "host": "YWHAB",
+        "heat": 0.016216
+      },
+      {
+        "host": "GSK3B",
+        "heat": 0.015908
+      },
+      {
+        "host": "USP7",
+        "heat": 0.013767
+      },
+      {
+        "host": "GRB2",
+        "heat": 0.01267
+      },
+      {
+        "host": "GSK3A",
+        "heat": 0.012649
+      },
+      {
+        "host": "CSNK2A1",
+        "heat": 0.011976
+      },
+      {
+        "host": "PRKACA",
+        "heat": 0.011498
+      }
+    ]
+  },
+  "gD_US6": {
+    "category": "control",
+    "cns_heat_sum": 0.176662,
+    "non_cns_heat_sum": 0.323338,
+    "cns_heat_fraction": 0.3533,
+    "z_score": 5.019,
+    "permutation_p": 0.0,
+    "top_heated_hosts": [
+      {
+        "host": "GSK3B",
+        "heat": 0.019652
+      },
+      {
+        "host": "USP7",
+        "heat": 0.01682
+      },
+      {
+        "host": "CSNK2A1",
+        "heat": 0.016081
+      },
+      {
+        "host": "GSK3A",
+        "heat": 0.015627
+      },
+      {
+        "host": "YWHAG",
+        "heat": 0.014631
+      },
+      {
+        "host": "YWHAZ",
+        "heat": 0.013793
+      },
+      {
+        "host": "YWHAB",
+        "heat": 0.013239
+      },
+      {
+        "host": "FYN",
+        "heat": 0.013186
+      },
+      {
+        "host": "CASP3",
+        "heat": 0.013149
+      },
+      {
+        "host": "TBK1",
+        "heat": 0.01175
+      }
+    ]
+  },
+  "VP11_12_UL46": {
+    "category": "control",
+    "cns_heat_sum": 0.179024,
+    "non_cns_heat_sum": 0.320976,
+    "cns_heat_fraction": 0.358,
+    "z_score": 5.239,
+    "permutation_p": 0.0,
+    "top_heated_hosts": [
+      {
+        "host": "YWHAG",
+        "heat": 0.017601
+      },
+      {
+        "host": "FYN",
+        "heat": 0.016613
+      },
+      {
+        "host": "YWHAZ",
+        "heat": 0.016594
+      },
+      {
+        "host": "GSK3B",
+        "heat": 0.016172
+      },
+      {
+        "host": "YWHAB",
+        "heat": 0.015927
+      },
+      {
+        "host": "USP7",
+        "heat": 0.014147
+      },
+      {
+        "host": "GSK3A",
+        "heat": 0.012859
+      },
+      {
+        "host": "GRB2",
+        "heat": 0.012771
+      },
+      {
+        "host": "CSNK2A1",
+        "heat": 0.012644
+      },
+      {
+        "host": "SRC",
+        "heat": 0.011443
+      }
+    ]
+  },
+  "VP16_UL48": {
+    "category": "control",
+    "cns_heat_sum": 0.178267,
+    "non_cns_heat_sum": 0.321733,
+    "cns_heat_fraction": 0.3565,
+    "z_score": 5.129,
+    "permutation_p": 0.0,
+    "top_heated_hosts": [
+      {
+        "host": "YWHAG",
+        "heat": 0.018627
+      },
+      {
+        "host": "YWHAZ",
+        "heat": 0.01756
+      },
+      {
+        "host": "FYN",
+        "heat": 0.016974
+      },
+      {
+        "host": "YWHAB",
+        "heat": 0.016855
+      },
+      {
+        "host": "GSK3B",
+        "heat": 0.016202
+      },
+      {
+        "host": "USP7",
+        "heat": 0.014523
+      },
+      {
+        "host": "GRB2",
+        "heat": 0.013057
+      },
+      {
+        "host": "GSK3A",
+        "heat": 0.012883
+      },
+      {
+        "host": "CSNK2A1",
+        "heat": 0.012866
+      },
+      {
+        "host": "YWHAE",
+        "heat": 0.012053
+      }
+    ]
+  },
+  "VP22_UL49": {
+    "category": "control",
+    "cns_heat_sum": 0.179461,
+    "non_cns_heat_sum": 0.320539,
+    "cns_heat_fraction": 0.3589,
+    "z_score": 4.896,
+    "permutation_p": 0.0,
+    "top_heated_hosts": [
+      {
+        "host": "FYN",
+        "heat": 0.02706
+      },
+      {
+        "host": "GRB2",
+        "heat": 0.020672
+      },
+      {
+        "host": "SRC",
+        "heat": 0.01864
+      },
+      {
+        "host": "YWHAG",
+        "heat": 0.017207
+      },
+      {
+        "host": "YWHAZ",
+        "heat": 0.016222
+      },
+      {
+        "host": "YWHAB",
+        "heat": 0.01557
+      },
+      {
+        "host": "GSK3B",
+        "heat": 0.014484
+      },
+      {
+        "host": "USP7",
+        "heat": 0.012505
+      },
+      {
+        "host": "GSK3A",
+        "heat": 0.011517
+      },
+      {
+        "host": "NCK1",
+        "heat": 0.010666
+      }
+    ]
+  },
+  "ICP27_UL54": {
+    "category": "control",
+    "cns_heat_sum": 0.180328,
+    "non_cns_heat_sum": 0.319672,
+    "cns_heat_fraction": 0.3607,
+    "z_score": 5.309,
+    "permutation_p": 0.0,
+    "top_heated_hosts": [
+      {
+        "host": "YWHAG",
+        "heat": 0.01747
+      },
+      {
+        "host": "YWHAZ",
+        "heat": 0.01647
+      },
+      {
+        "host": "FYN",
+        "heat": 0.016446
+      },
+      {
+        "host": "YWHAB",
+        "heat": 0.015808
+      },
+      {
+        "host": "GSK3B",
+        "heat": 0.015772
+      },
+      {
+        "host": "USP7",
+        "heat": 0.01384
+      },
+      {
+        "host": "GRB2",
+        "heat": 0.012664
+      },
+      {
+        "host": "GSK3A",
+        "heat": 0.012541
+      },
+      {
+        "host": "CSNK2A1",
+        "heat": 0.01203
+      },
+      {
+        "host": "SRC",
+        "heat": 0.011328
+      }
+    ]
+  },
+  "ICP22_US1": {
+    "category": "control",
+    "cns_heat_sum": 0.178963,
+    "non_cns_heat_sum": 0.321037,
+    "cns_heat_fraction": 0.3579,
+    "z_score": 5.273,
+    "permutation_p": 0.0,
+    "top_heated_hosts": [
+      {
+        "host": "YWHAG",
+        "heat": 0.017508
+      },
+      {
+        "host": "YWHAZ",
+        "heat": 0.016506
+      },
+      {
+        "host": "FYN",
+        "heat": 0.016013
+      },
+      {
+        "host": "YWHAB",
+        "heat": 0.015843
+      },
+      {
+        "host": "GSK3B",
+        "heat": 0.015612
+      },
+      {
+        "host": "USP7",
+        "heat": 0.013575
+      },
+      {
+        "host": "GSK3A",
+        "heat": 0.012413
+      },
+      {
+        "host": "GRB2",
+        "heat": 0.012395
+      },
+      {
+        "host": "CSNK2A1",
+        "heat": 0.011781
+      },
+      {
+        "host": "NCK1",
+        "heat": 0.011162
+      }
+    ]
+  }
+}

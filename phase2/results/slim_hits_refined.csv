@@ -1,0 +1,275 @@
+motif_class,description,start,end,matched_sequence,in_idr,targets,pathway,protein,category,iupred3_mean,composition_mean,cns_score,max_brain_tpm,conservation_score,conservation_status,mimicry_score,mimicry_status,composite_score
+LIG_ATG8_1,Atg8 binding motif,126,129,FRLP,True,MAP1LC3B; GABARAP,autophagy,ICP34.5,target,0.70735,0.6434912500000001,15.052,180.0,,no_orthologs,0.0,no_data,0.5665
+CLV_CASP_3,Caspase-3/7 cleavage site (DxxD↓G/S/A/N),81,85,DWPDS,True,CASP3; CASP7,apoptosis,ICP34.5,target,0.9879399999999998,0.8244998000000001,5.35,10.0,,no_orthologs,0.5,scored,0.4974
+DOC_CASP_3,Caspase docking/cleavage motif,75,78,DDDD,True,CASP3; CASP7,apoptosis,ICP34.5,target,0.95485,0.6656095,5.35,10.0,,no_orthologs,0.0,no_data,0.3908
+DOC_CASP_3,Caspase docking/cleavage motif,81,84,DWPD,True,CASP3; CASP7,apoptosis,ICP34.5,target,0.9879499999999999,0.8231217500000001,5.35,10.0,,no_orthologs,0.0,no_data,0.3974
+DOC_MAPK_DCC_7,MAPK D-motif docking site,3,15,RRRRHRGPRRPRP,True,MAPK1; MAPK3; MAPK8; MAPK14,MAPK_signaling,ICP34.5,target,0.9714692307692308,0.8419737692307693,4.858,40.0,,no_orthologs,0.0,scored,0.3826
+DOC_MAPK_DCC_7,MAPK D-motif docking site,149,159,RRAGGEGAPEP,True,MAPK1; MAPK3; MAPK8; MAPK14,MAPK_signaling,ICP34.5,target,0.8733636363636365,0.7674223636363636,4.858,40.0,,no_orthologs,0.0,scored,0.363
+DOC_MAPK_JIP1_7,JNK-interacting protein binding,8,18,RGPRRPRPPGP,True,MAPK8; MAPK9; MAPK10,MAPK_signaling,ICP34.5,target,0.9801454545454547,0.8406473636363636,4.443,25.0,,no_orthologs,0.0,no_data,0.3747
+DOC_MAPK_JIP1_7,JNK-interacting protein binding,102,110,RPRPPPPGV,True,MAPK8; MAPK9; MAPK10,MAPK_signaling,ICP34.5,target,0.9791777777777777,0.8614037777777778,4.443,25.0,,no_orthologs,0.0,no_data,0.3745
+DOC_MAPK_JIP1_7,JNK-interacting protein binding,124,132,RPFRLPPRL,True,MAPK8; MAPK9; MAPK10,MAPK_signaling,ICP34.5,target,0.7088888888888888,0.6411706666666667,4.443,25.0,,no_orthologs,0.0,no_data,0.3204
+MOD_CDK_SPxK_1,CDK phosphorylation (SP-x-K/R),174,177,TPAR,True,CDK1; CDK2; CDK5,cell_cycle,ICP34.5,target,0.8204,0.62499375,1.616,65.0,,no_orthologs,0.25,scored,0.3268
+MOD_CK1_1,CK1 phosphorylation site (primed),27,31,SQVTS,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,ICP34.5,target,0.97714,0.6714812,3.192,35.0,,no_orthologs,0.0,no_data,0.3449
+MOD_CK1_1,CK1 phosphorylation site (primed),119,123,SHPPS,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,ICP34.5,target,0.92538,0.7883359999999999,3.192,35.0,,no_orthologs,0.0,no_data,0.3346
+MOD_GSK3_1,GSK3 phosphorylation (primed),27,31,SQVTS,True,GSK3A; GSK3B,Wnt_signaling,ICP34.5,target,0.97714,0.6714812,3.512,45.0,,no_orthologs,0.0,no_data,0.3524
+MOD_GSK3_1,GSK3 phosphorylation (primed),119,123,SHPPS,True,GSK3A; GSK3B,Wnt_signaling,ICP34.5,target,0.92538,0.7883359999999999,3.512,45.0,,no_orthologs,0.0,no_data,0.342
+MOD_PIKK_1,ATM/ATR phosphorylation site,27,28,SQ,True,ATM; ATR,DNA_damage_signaling,ICP34.5,target,0.9856,0.7114085,0.852,5.0,,no_orthologs,0.0,no_data,0.292
+LIG_SH3_1,Class II SH3 binding,12,18,RPRPPGP,True,SRC; FYN; LCK; GRB2,SH3_signaling,ICP34.5,target,0.9818,0.8338631428571428,3.178,55.0,,no_orthologs,0.0,no_data,0.3455
+LIG_SH3_1,Class II SH3 binding,102,108,RPRPPPP,True,SRC; FYN; LCK; GRB2,SH3_signaling,ICP34.5,target,0.9782428571428571,0.8596804285714287,3.178,55.0,,no_orthologs,0.0,no_data,0.3448
+LIG_SH3_3,Class I SH3 binding,122,127,PSRPFR,True,SRC; FYN; ABL1,SH3_signaling,ICP34.5,target,0.8285499999999999,0.7253276666666667,3.32,55.0,,no_orthologs,0.5,scored,0.4182
+LIG_SH3_3,Class I SH3 binding,172,177,PATPAR,True,SRC; FYN; ABL1,SH3_signaling,ICP34.5,target,0.8485333333333333,0.6542963333333334,3.32,55.0,,no_orthologs,0.5,scored,0.4222
+TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),3,5,RRR,True,KPNA1; KPNA2,nuclear_transport,ICP34.5,target,0.9562333333333334,0.8276456666666666,2.918,20.0,,no_orthologs,0.0,no_data,0.3343
+DEG_APCC_DBOX_1,APC/C D-box (destruction box),145,148,RLRL,True,ANAPC2; FZR1,ubiquitin_proteasome,ICP34.5,target,0.662875,0.5861085,2.603,15.0,,no_orthologs,0.0,no_data,0.2683
+LIG_WW_3,WW domain PPxR motif (Group III),121,124,PPSR,True,FE65,WW_signaling,ICP34.5,target,0.9007,0.77614625,1.629,25.0,,no_orthologs,0.0,no_data,0.2931
+LIG_WW_3,WW domain PPxR motif (Group III),129,131,PPR,True,FE65,WW_signaling,ICP34.5,target,0.6442,0.5921326666666666,1.629,25.0,,no_orthologs,0.0,no_data,0.2418
+LIG_KLC_1,Kinesin light chain binding,82,84,WPD,True,KLC1; KLC2,axonal_transport,ICP34.5,target,0.9881666666666667,0.8259236666666666,9.774,30.0,,no_orthologs,0.0,no_data,0.5007
+DOC_CYCLIN_D_SAMS_1,Cyclin D binding motif,61,64,LLLR,True,CCND1; CCND3,cell_cycle,ICP34.5,target,0.7693,0.5548142500000001,1.007,8.0,,no_orthologs,0.0,no_data,0.2524
+LIG_FHA_1,FHA domain pTxxI/L/V motif,17,22,GPTGAV,True,CHEK2; RNF8; MDC1,DNA_damage_signaling,ICP34.5,target,0.9864833333333333,0.7940201666666667,0.805,5.0,,no_orthologs,0.0,no_data,0.2911
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,38,41,AVRS,True,USP7,ubiquitin_signaling,ICP34.5,target,0.972625,0.78557825,3.045,20.0,,no_orthologs,0.0,no_data,0.3406
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,55,58,PPPS,True,USP7,ubiquitin_signaling,ICP34.5,target,0.8903,0.72107525,3.045,20.0,,no_orthologs,0.0,no_data,0.3241
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,116,119,ADPS,True,USP7,ubiquitin_signaling,ICP34.5,target,0.94835,0.800584,3.045,20.0,,no_orthologs,0.0,no_data,0.3357
+DOC_CASP_3,Caspase docking/cleavage motif,88,91,DPSA,True,CASP3; CASP7,apoptosis,US3,target,0.8672500000000001,0.64122775,5.35,10.0,0.5,computed,0.0,no_data,0.4233
+DOC_CASP_3,Caspase docking/cleavage motif,92,95,DAAD,True,CASP3; CASP7,apoptosis,US3,target,0.90045,0.67653175,5.35,10.0,0.5,computed,0.0,no_data,0.4299
+DOC_CASP_3,Caspase docking/cleavage motif,98,101,DEDA,True,CASP3; CASP7,apoptosis,US3,target,0.841825,0.6636390000000001,5.35,10.0,0.5,computed,0.0,no_data,0.4182
+DOC_CASP_3,Caspase docking/cleavage motif,103,106,DDVA,True,CASP3; CASP7,apoptosis,US3,target,0.7753000000000001,0.6211755,5.35,10.0,0.5,computed,0.0,no_data,0.4049
+DOC_MAPK_DCC_7,MAPK D-motif docking site,15,23,RRKEEAVPP,True,MAPK1; MAPK3; MAPK8; MAPK14,MAPK_signaling,US3,target,0.7614444444444444,0.7349251111111111,4.858,40.0,0.444,computed,0.0,scored,0.3766
+MOD_CK2_1,CK2 phosphorylation site,38,41,TPAE,True,CSNK2A1; CSNK2A2,CK2_signaling,US3,target,0.5737,0.6021687499999999,2.996,30.0,0.5,computed,0.25,scored,0.3596
+MOD_CK2_1,CK2 phosphorylation site,62,65,SEAE,True,CSNK2A1; CSNK2A2,CK2_signaling,US3,target,0.7487250000000001,0.6452497500000001,2.996,30.0,0.5,computed,0.5,scored,0.4447
+MOD_CK2_1,CK2 phosphorylation site,147,150,SRDE,True,CSNK2A1; CSNK2A2,CK2_signaling,US3,target,0.6928249999999999,0.6617430000000001,2.996,30.0,0.5,computed,0.5,scored,0.4335
+MOD_CK2_1,CK2 phosphorylation site,157,160,TAEE,True,CSNK2A1; CSNK2A2,CK2_signaling,US3,target,0.59555,0.58051675,2.996,30.0,0.5,computed,0.25,scored,0.364
+MOD_GSK3_1,GSK3 phosphorylation (primed),52,56,TPKPS,True,GSK3A; GSK3B,Wnt_signaling,US3,target,0.9458,0.8236828,3.512,45.0,0.6,computed,0.0,no_data,0.4211
+MOD_GSK3_1,GSK3 phosphorylation (primed),58,62,TTPPS,True,GSK3A; GSK3B,Wnt_signaling,US3,target,0.8751800000000001,0.7580841999999999,3.512,45.0,0.4,computed,0.0,no_data,0.357
+MOD_PKA_2,PKA phosphorylation site,144,147,RRRS,True,PRKACA; PRKACB,cAMP_signaling,US3,target,0.6852499999999999,0.6880775,5.898,60.0,0.5,computed,0.75,scored,0.5497
+MOD_GRK_1,GRK phosphorylation (GPCR kinase),87,90,DDPS,True,GRK2; GRK5,GPCR_signaling,US3,target,0.8373249999999999,0.61787425,2.674,15.0,0.5,computed,0.0,no_data,0.3549
+LIG_TRAF2_1,TRAF2 binding motif,157,160,TAEE,True,TRAF2; TRAF6,NFkB_innate_immunity,US3,target,0.59555,0.58051675,4.796,12.0,0.5,computed,0.25,scored,0.406
+LIG_TRAF6_MATH_1,TRAF6 MATH domain binding,108,113,PEEYAE,True,TRAF6,NFkB_innate_immunity,US3,target,0.65435,0.5786203333333334,4.394,8.0,0.333,computed,0.333,scored,0.3832
+TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),15,17,RRK,True,KPNA1; KPNA2,nuclear_transport,US3,target,0.6226333333333334,0.6829839999999999,2.918,20.0,0.333,computed,0.0,no_data,0.2759
+TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),144,146,RRR,True,KPNA1; KPNA2,nuclear_transport,US3,target,0.6834666666666666,0.6978973333333333,2.918,20.0,0.333,computed,0.0,no_data,0.288
+LIG_FHA_2,FHA domain pTxxD/E motif,155,160,GFTAEE,True,CHEK2; RNF8,DNA_damage_signaling,US3,target,0.6,0.5823578333333334,0.805,5.0,0.333,computed,0.0,no_data,0.222
+LIG_BRCT_BRCA1_1,BRCA1 BRCT domain pSxxF motif,154,156,TGF,True,BRCA1,DNA_damage_signaling,US3,target,0.5995,0.5891103333333333,0.549,2.0,0.333,computed,0.0,no_data,0.216
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,53,56,PKPS,True,USP7,ubiquitin_signaling,US3,target,0.951025,0.83039325,3.045,20.0,0.75,computed,0.0,no_data,0.4488
+DOC_CASP_3,Caspase docking/cleavage motif,1109,1112,DTVA,True,CASP3; CASP7,apoptosis,pUL37,target,0.846275,0.56607975,5.35,10.0,0.375,computed,0.0,no_data,0.3878
+MOD_CK2_1,CK2 phosphorylation site,1054,1057,SPRD,True,CSNK2A1; CSNK2A2,CK2_signaling,pUL37,target,0.758525,0.671562,2.996,30.0,0.25,computed,0.25,scored,0.3341
+MOD_CK2_1,CK2 phosphorylation site,1098,1101,TPVE,True,CSNK2A1; CSNK2A2,CK2_signaling,pUL37,target,0.937375,0.679558,2.996,30.0,0.5,computed,0.25,scored,0.4324
+MOD_PLK_1,Polo-like kinase phosphorylation,1108,1111,EDTV,True,PLK1,cell_cycle,pUL37,target,0.878025,0.5851805,0.549,2.0,0.25,computed,0.0,no_data,0.2509
+MOD_NEK2_1,NEK2 phosphorylation,1117,1121,LPLTS,True,NEK2,cell_cycle,pUL37,target,0.76298,0.549775,0.347,1.0,0.2,computed,0.0,no_data,0.2107
+LIG_TRAF6_MATH_1,TRAF6 MATH domain binding,1099,1104,PVEDDE,True,TRAF6,NFkB_innate_immunity,pUL37,target,0.9278333333333334,0.6526273333333333,4.394,8.0,0.5,computed,0.333,scored,0.4797
+DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,4,6,RGL,True,CCNA2; CCNB1; CCNE1,cell_cycle,pUL37,target,0.6251666666666668,0.5577993333333334,0.49,2.0,0.667,computed,0.0,no_data,0.3032
+DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,28,30,RLL,True,CCNA2; CCNB1; CCNE1,cell_cycle,pUL37,target,0.6238,0.6734986666666666,0.49,2.0,0.667,computed,0.0,no_data,0.3029
+DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,1056,1058,RDL,True,CCNA2; CCNB1; CCNE1,cell_cycle,pUL37,target,0.8061333333333334,0.6802990000000001,0.49,2.0,0.333,computed,0.0,no_data,0.2559
+LIG_FHA_2,FHA domain pTxxD/E motif,1096,1101,SNTPVE,True,CHEK2; RNF8,DNA_damage_signaling,pUL37,target,0.9306500000000001,0.6809626666666667,0.805,5.0,0.417,computed,0.0,no_data,0.3092
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,974,977,PPQS,True,USP7,ubiquitin_signaling,pUL37,target,0.646375,0.6532497500000001,3.045,20.0,0.25,computed,0.0,no_data,0.2628
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,1063,1066,AGNS,True,USP7,ubiquitin_signaling,pUL37,target,0.826325,0.6520090000000001,3.045,20.0,0.375,computed,0.0,no_data,0.3301
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,1093,1096,APHS,True,USP7,ubiquitin_signaling,pUL37,target,0.951475,0.74551625,3.045,20.0,0.25,computed,0.0,no_data,0.3238
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,1118,1121,PLTS,True,USP7,ubiquitin_signaling,pUL37,target,0.7414000000000001,0.53438425,3.045,20.0,0.25,computed,0.0,no_data,0.2818
+LIG_ATG8_1,Atg8 binding motif,1157,1160,FGGP,True,MAP1LC3B; GABARAP,autophagy,ICP8_UL29,control,0.697675,0.6966937500000001,15.052,180.0,,no_orthologs,0.0,no_data,0.5645
+MOD_PLK_1,Polo-like kinase phosphorylation,1190,1193,DLTL,True,PLK1,cell_cycle,ICP8_UL29,control,0.6697500000000001,0.59550925,0.549,2.0,,no_orthologs,0.0,no_data,0.2218
+TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),1170,1172,RKR,True,KPNA1; KPNA2,nuclear_transport,ICP8_UL29,control,0.5705,0.6878886666666667,2.918,20.0,,no_orthologs,0.0,no_data,0.2572
+LIG_WW_3,WW domain PPxR motif (Group III),1184,1187,PPDK,True,FE65,WW_signaling,ICP8_UL29,control,0.75395,0.64076675,1.629,25.0,,no_orthologs,0.0,no_data,0.2638
+MOD_N-GLC_1,N-glycosylation site,1153,1155,NAT,True,STT3A; STT3B,glycosylation,ICP8_UL29,control,0.6626666666666666,0.654325,1.459,20.0,,no_orthologs,0.0,no_data,0.2416
+LIG_BRCT_BRCA1_1,BRCA1 BRCT domain pSxxF motif,1155,1157,TPF,True,BRCA1,DNA_damage_signaling,ICP8_UL29,control,0.7098666666666666,0.689634,0.549,2.0,,no_orthologs,0.0,no_data,0.2298
+DOC_CASP_3,Caspase docking/cleavage motif,33,36,DADD,True,CASP3; CASP7,apoptosis,UL42,control,0.9777,0.80516925,5.35,10.0,,no_orthologs,0.0,no_data,0.3954
+LIG_14-3-3_CanoR_1,14-3-3 phospho-binding mode 1,13,18,RRPSSP,True,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ,14-3-3_signaling,UL42,control,0.97105,0.8732443333333334,8.131,350.0,,no_orthologs,0.0,no_data,0.4589
+LIG_14-3-3_CanoR_1,14-3-3 phospho-binding mode 1,24,29,RDGTPP,True,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ,14-3-3_signaling,UL42,control,0.9849833333333334,0.8507853333333334,8.131,350.0,,no_orthologs,0.0,no_data,0.4617
+LIG_14-3-3_CanoR_2,14-3-3 phospho-binding mode 2,12,18,RRRPSSP,True,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ,14-3-3_signaling,UL42,control,0.9665571428571429,0.8705858571428571,8.131,350.0,,no_orthologs,0.0,no_data,0.458
+DOC_MAPK_DCC_7,MAPK D-motif docking site,2,11,KRACSRSPSP,True,MAPK1; MAPK3; MAPK8; MAPK14,MAPK_signaling,UL42,control,0.8964200000000002,0.8120806999999999,4.858,40.0,,no_orthologs,0.143,scored,0.3962
+MOD_CDK_SPxK_1,CDK phosphorylation (SP-x-K/R),10,13,SPRR,True,CDK1; CDK2; CDK5,cell_cycle,UL42,control,0.9336,0.8430727499999999,1.616,65.0,,no_orthologs,0.5,scored,0.3994
+MOD_CDK_SPxK_1,CDK phosphorylation (SP-x-K/R),17,20,SPRR,True,CDK1; CDK2; CDK5,cell_cycle,UL42,control,0.987325,0.88484475,1.616,65.0,,no_orthologs,0.5,scored,0.4102
+MOD_CDK_SPxK_1,CDK phosphorylation (SP-x-K/R),21,24,TPPR,True,CDK1; CDK2; CDK5,cell_cycle,UL42,control,0.9849749999999999,0.8728009999999999,1.616,65.0,,no_orthologs,0.25,scored,0.3597
+MOD_CDK_SPxxK_3,CDK phosphorylation (SP-xx-K/R),8,12,SPSPR,True,CDK1; CDK2; CDK5,cell_cycle,UL42,control,0.92354,0.8341844,1.616,65.0,,no_orthologs,0.0,no_data,0.2974
+MOD_CDK_SPxxK_3,CDK phosphorylation (SP-xx-K/R),27,31,TPPQK,True,CDK1; CDK2; CDK5,cell_cycle,UL42,control,0.9869999999999999,0.8440612,1.616,65.0,,no_orthologs,0.0,no_data,0.3101
+MOD_CK1_1,CK1 phosphorylation site (primed),6,10,SRSPS,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,UL42,control,0.9110400000000001,0.8251156,3.192,35.0,,no_orthologs,0.0,no_data,0.3317
+MOD_CK1_1,CK1 phosphorylation site (primed),17,21,SPRRT,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,UL42,control,0.9875999999999999,0.8853047999999999,3.192,35.0,,no_orthologs,0.0,no_data,0.347
+MOD_CK1_1,CK1 phosphorylation site (primed),42,46,SNDAS,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,UL42,control,0.96836,0.7892766,3.192,35.0,,no_orthologs,0.0,no_data,0.3432
+MOD_CK2_1,CK2 phosphorylation site,53,56,SGGE,True,CSNK2A1; CSNK2A2,CK2_signaling,UL42,control,0.8936499999999999,0.7978025,2.996,30.0,,no_orthologs,0.5,scored,0.4236
+MOD_GSK3_1,GSK3 phosphorylation (primed),6,10,SRSPS,True,GSK3A; GSK3B,Wnt_signaling,UL42,control,0.9110400000000001,0.8251156,3.512,45.0,,no_orthologs,0.0,no_data,0.3392
+MOD_GSK3_1,GSK3 phosphorylation (primed),17,21,SPRRT,True,GSK3A; GSK3B,Wnt_signaling,UL42,control,0.9875999999999999,0.8853047999999999,3.512,45.0,,no_orthologs,0.0,no_data,0.3545
+MOD_GSK3_1,GSK3 phosphorylation (primed),38,42,TPGAS,True,GSK3A; GSK3B,Wnt_signaling,UL42,control,0.9661,0.778197,3.512,45.0,,no_orthologs,0.0,no_data,0.3502
+MOD_GSK3_1,GSK3 phosphorylation (primed),49,53,TRPGS,True,GSK3A; GSK3B,Wnt_signaling,UL42,control,0.9021800000000001,0.7797377999999999,3.512,45.0,,no_orthologs,0.0,no_data,0.3374
+MOD_GSK3_1,GSK3 phosphorylation (primed),80,84,TFSSS,True,GSK3A; GSK3B,Wnt_signaling,UL42,control,0.81554,0.6948268000000001,3.512,45.0,,no_orthologs,0.0,no_data,0.3201
+MOD_PKA_2,PKA phosphorylation site,13,16,RRPS,True,PRKACA; PRKACB,cAMP_signaling,UL42,control,0.963775,0.8697475,5.898,60.0,,no_orthologs,0.75,scored,0.5554
+MOD_PKB_1,Akt/PKB phosphorylation site,12,17,RRRPSS,True,AKT1; AKT2; AKT3,PI3K_Akt_signaling,UL42,control,0.9631500000000001,0.8683079999999999,4.637,35.0,,no_orthologs,0.0,no_data,0.3758
+MOD_GRK_1,GRK phosphorylation (GPCR kinase),35,38,DDPT,True,GRK2; GRK5,GPCR_signaling,UL42,control,0.9740749999999999,0.79557525,2.674,15.0,,no_orthologs,0.0,no_data,0.3322
+LIG_SH3_1,Class II SH3 binding,12,18,RRRPSSP,True,SRC; FYN; LCK; GRB2,SH3_signaling,UL42,control,0.9665571428571429,0.8705858571428571,3.178,55.0,,no_orthologs,0.0,no_data,0.3425
+LIG_SH3_3,Class I SH3 binding,15,20,PSSPRR,True,SRC; FYN; ABL1,SH3_signaling,UL42,control,0.9827166666666667,0.8817791666666666,3.32,55.0,,no_orthologs,0.5,scored,0.449
+TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),12,14,RRR,True,KPNA1; KPNA2,nuclear_transport,UL42,control,0.9492333333333333,0.8607763333333334,2.918,20.0,,no_orthologs,0.0,no_data,0.3329
+TRG_NLS_Bipartite_1,Bipartite NLS,2,14,KRACSRSPSPRRR,True,KPNA1; KPNA2; KPNA3,nuclear_transport,UL42,control,0.9086076923076926,0.8233181538461538,2.773,20.0,,no_orthologs,0.0,no_data,0.3214
+DEG_SCF_FBW7_1,FBW7 phosphodegron,37,42,PTPGAS,True,FBXW7,ubiquitin_proteasome,UL42,control,0.9670333333333333,0.7790676666666666,2.197,8.0,,no_orthologs,0.0,no_data,0.3197
+LIG_WW_3,WW domain PPxR motif (Group III),22,24,PPR,True,FE65,WW_signaling,UL42,control,0.9837333333333333,0.8680196666666666,1.629,25.0,,no_orthologs,0.0,no_data,0.3098
+LIG_WW_3,WW domain PPxR motif (Group III),28,31,PPQK,True,FE65,WW_signaling,UL42,control,0.987125,0.84141775,1.629,25.0,,no_orthologs,0.0,no_data,0.3104
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,39,42,PGAS,True,USP7,ubiquitin_signaling,UL42,control,0.96385,0.771636,3.045,20.0,,no_orthologs,0.0,no_data,0.3388
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,59,62,ACRS,True,USP7,ubiquitin_signaling,UL42,control,0.718375,0.7126607500000001,3.045,20.0,,no_orthologs,0.0,no_data,0.2897
+CLV_CASP_3,Caspase-3/7 cleavage site (DxxD↓G/S/A/N),297,301,DPEDS,True,CASP3; CASP7,apoptosis,gD_US6,control,0.7461,0.6936188,5.35,10.0,,no_orthologs,0.5,scored,0.4491
+DOC_CASP_3,Caspase docking/cleavage motif,297,300,DPED,True,CASP3; CASP7,apoptosis,gD_US6,control,0.7648250000000001,0.705882,5.35,10.0,,no_orthologs,0.0,no_data,0.3528
+MOD_CK2_1,CK2 phosphorylation site,289,292,TQPE,True,CSNK2A1; CSNK2A2,CK2_signaling,gD_US6,control,0.896025,0.78205375,2.996,30.0,,no_orthologs,0.25,scored,0.3741
+MOD_GSK3_1,GSK3 phosphorylation (primed),285,289,TPNAT,True,GSK3A; GSK3B,Wnt_signaling,gD_US6,control,0.7735399999999999,0.7247228000000001,3.512,45.0,,no_orthologs,0.0,no_data,0.3117
+MOD_PIKK_1,ATM/ATR phosphorylation site,289,290,TQ,True,ATM; ATR,DNA_damage_signaling,gD_US6,control,0.9126,0.7982215,0.852,5.0,,no_orthologs,0.0,no_data,0.2774
+LIG_TRAF6_MATH_1,TRAF6 MATH domain binding,279,284,PPELSE,True,TRAF6,NFkB_innate_immunity,gD_US6,control,0.6258333333333334,0.6411515,4.394,8.0,,no_orthologs,0.333,scored,0.3693
+TRG_LysEnd_APsAcLL_1,Dileucine endosomal sorting,299,304,EDSALL,True,AP1M1; AP3D1,endocytosis,gD_US6,control,0.68985,0.661596,2.603,15.0,,no_orthologs,0.0,no_data,0.2737
+MOD_N-GLC_1,N-glycosylation site,287,289,NAT,True,STT3A; STT3B,glycosylation,gD_US6,control,0.8250333333333333,0.7550973333333334,1.459,20.0,,no_orthologs,0.0,no_data,0.274
+LIG_FHA_2,FHA domain pTxxD/E motif,287,292,NATQPE,True,CHEK2; RNF8,DNA_damage_signaling,gD_US6,control,0.8577666666666667,0.7643478333333333,0.805,5.0,,no_orthologs,0.0,no_data,0.2653
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,280,283,PELS,True,USP7,ubiquitin_signaling,gD_US6,control,0.6210249999999999,0.639744,3.045,20.0,,no_orthologs,0.0,no_data,0.2703
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,298,301,PEDS,True,USP7,ubiquitin_signaling,gD_US6,control,0.7304999999999999,0.6856724999999999,3.045,20.0,,no_orthologs,0.0,no_data,0.2921
+LIG_BH3_BclXL_1,BH3 motif — anti-apoptotic Bcl-2 binding,35,46,ITAGAVTNASEA,True,BCL2; BCL2L1; MCL1,apoptosis,VP11_12_UL46,control,0.8758666666666667,0.6347593333333333,8.84,55.0,,no_orthologs,0.0,scored,0.4564
+DOC_CASP_3,Caspase docking/cleavage motif,128,131,DRRD,True,CASP3; CASP7,apoptosis,VP11_12_UL46,control,0.7035750000000001,0.640373,5.35,10.0,,no_orthologs,0.0,no_data,0.3405
+DOC_MAPK_JIP1_7,JNK-interacting protein binding,117,125,RPTKPPGPV,True,MAPK8; MAPK9; MAPK10,MAPK_signaling,VP11_12_UL46,control,0.8415555555555556,0.7243554444444444,4.443,25.0,,no_orthologs,0.0,no_data,0.347
+MOD_CDK_SPxK_1,CDK phosphorylation (SP-x-K/R),111,114,TPAK,True,CDK1; CDK2; CDK5,cell_cycle,VP11_12_UL46,control,0.970325,0.839073,1.616,65.0,,no_orthologs,0.5,scored,0.4068
+MOD_CDK_SPxxK_3,CDK phosphorylation (SP-xx-K/R),101,105,TPDPK,True,CDK1; CDK2; CDK5,cell_cycle,VP11_12_UL46,control,0.9704799999999999,0.8178608,1.616,65.0,,no_orthologs,0.0,no_data,0.3068
+MOD_CK1_1,CK1 phosphorylation site (primed),44,48,SEAPT,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,VP11_12_UL46,control,0.88182,0.6973826,3.192,35.0,,no_orthologs,0.0,no_data,0.3258
+MOD_CK1_1,CK1 phosphorylation site (primed),57,61,SPEVT,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,VP11_12_UL46,control,0.9392399999999999,0.758887,3.192,35.0,,no_orthologs,0.0,no_data,0.3373
+MOD_CK1_1,CK1 phosphorylation site (primed),83,87,SPPTT,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,VP11_12_UL46,control,0.97262,0.8240874,3.192,35.0,,no_orthologs,0.0,no_data,0.344
+MOD_CK1_1,CK1 phosphorylation site (primed),92,96,STPKS,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,VP11_12_UL46,control,0.9768799999999999,0.8498981999999999,3.192,35.0,,no_orthologs,0.0,no_data,0.3449
+MOD_CK1_1,CK1 phosphorylation site (primed),115,119,SGRPT,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,VP11_12_UL46,control,0.88038,0.7318572000000001,3.192,35.0,,no_orthologs,0.0,no_data,0.3256
+MOD_CK2_1,CK2 phosphorylation site,77,80,TPTE,True,CSNK2A1; CSNK2A2,CK2_signaling,VP11_12_UL46,control,0.965325,0.72962675,2.996,30.0,,no_orthologs,0.25,scored,0.388
+MOD_CK2_1,CK2 phosphorylation site,100,103,STPD,True,CSNK2A1; CSNK2A2,CK2_signaling,VP11_12_UL46,control,0.97345,0.81554375,2.996,30.0,,no_orthologs,0.25,scored,0.3896
+MOD_GSK3_1,GSK3 phosphorylation (primed),44,48,SEAPT,True,GSK3A; GSK3B,Wnt_signaling,VP11_12_UL46,control,0.88182,0.6973826,3.512,45.0,,no_orthologs,0.0,no_data,0.3333
+MOD_GSK3_1,GSK3 phosphorylation (primed),57,61,SPEVT,True,GSK3A; GSK3B,Wnt_signaling,VP11_12_UL46,control,0.9392399999999999,0.758887,3.512,45.0,,no_orthologs,0.0,no_data,0.3448
+MOD_GSK3_1,GSK3 phosphorylation (primed),72,76,TQNKT,True,GSK3A; GSK3B,Wnt_signaling,VP11_12_UL46,control,0.9637,0.7149652000000002,3.512,45.0,,no_orthologs,0.0,no_data,0.3497
+MOD_GSK3_1,GSK3 phosphorylation (primed),79,83,TEPAS,True,GSK3A; GSK3B,Wnt_signaling,VP11_12_UL46,control,0.9673999999999999,0.7681874,3.512,45.0,,no_orthologs,0.0,no_data,0.3504
+MOD_GSK3_1,GSK3 phosphorylation (primed),87,91,TPKPT,True,GSK3A; GSK3B,Wnt_signaling,VP11_12_UL46,control,0.9745799999999999,0.8556649999999999,3.512,45.0,,no_orthologs,0.0,no_data,0.3519
+MOD_GSK3_1,GSK3 phosphorylation (primed),92,96,STPKS,True,GSK3A; GSK3B,Wnt_signaling,VP11_12_UL46,control,0.9768799999999999,0.8498981999999999,3.512,45.0,,no_orthologs,0.0,no_data,0.3523
+MOD_GSK3_1,GSK3 phosphorylation (primed),111,115,TPAKS,True,GSK3A; GSK3B,Wnt_signaling,VP11_12_UL46,control,0.9666399999999999,0.8316952000000001,3.512,45.0,,no_orthologs,0.0,no_data,0.3503
+MOD_PIKK_1,ATM/ATR phosphorylation site,72,73,TQ,True,ATM; ATR,DNA_damage_signaling,VP11_12_UL46,control,0.9584,0.6914165,0.852,5.0,,no_orthologs,0.0,no_data,0.2866
+LIG_SH3_1,Class II SH3 binding,75,81,KTTPTEP,True,SRC; FYN; LCK; GRB2,SH3_signaling,VP11_12_UL46,control,0.9665428571428573,0.7357127142857143,3.178,55.0,,no_orthologs,0.0,no_data,0.3425
+DEG_SCF_FBW7_1,FBW7 phosphodegron,60,65,VTPTST,True,FBXW7,ubiquitin_proteasome,VP11_12_UL46,control,0.9305166666666667,0.6893178333333333,2.197,8.0,,no_orthologs,0.0,no_data,0.3124
+DEG_APCC_DBOX_1,APC/C D-box (destruction box),130,133,RDPL,True,ANAPC2; FZR1,ubiquitin_proteasome,VP11_12_UL46,control,0.629425,0.5637782499999999,2.603,15.0,,no_orthologs,0.0,no_data,0.2616
+LIG_KLC_1,Kinesin light chain binding,126,128,WCD,True,KLC1; KLC2,axonal_transport,VP11_12_UL46,control,0.7399666666666667,0.6744896666666667,9.774,30.0,,no_orthologs,0.0,no_data,0.4511
+MOD_N-GLC_1,N-glycosylation site,42,44,NAS,True,STT3A; STT3B,glycosylation,VP11_12_UL46,control,0.8842333333333334,0.6571253333333332,1.459,20.0,,no_orthologs,0.0,no_data,0.2859
+MOD_N-GLC_1,N-glycosylation site,70,72,NVT,True,STT3A; STT3B,glycosylation,VP11_12_UL46,control,0.9597000000000001,0.6692226666666666,1.459,20.0,,no_orthologs,0.0,no_data,0.301
+MOD_N-GLC_1,N-glycosylation site,74,76,NKT,True,STT3A; STT3B,glycosylation,VP11_12_UL46,control,0.9672333333333333,0.7306643333333334,1.459,20.0,,no_orthologs,0.0,no_data,0.3025
+MOD_N-GLC_1,N-glycosylation site,108,110,NNT,True,STT3A; STT3B,glycosylation,VP11_12_UL46,control,0.9649333333333333,0.8074179999999999,1.459,20.0,,no_orthologs,0.0,no_data,0.302
+LIG_FHA_2,FHA domain pTxxD/E motif,75,80,KTTPTE,True,CHEK2; RNF8,DNA_damage_signaling,VP11_12_UL46,control,0.9668166666666668,0.7319641666666666,0.805,5.0,,no_orthologs,0.0,no_data,0.2871
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,46,49,APTS,True,USP7,ubiquitin_signaling,VP11_12_UL46,control,0.896575,0.7373175,3.045,20.0,,no_orthologs,0.0,no_data,0.3254
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,97,100,PPTS,True,USP7,ubiquitin_signaling,VP11_12_UL46,control,0.974775,0.84610425,3.045,20.0,,no_orthologs,0.0,no_data,0.341
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,112,115,PAKS,True,USP7,ubiquitin_signaling,VP11_12_UL46,control,0.9662,0.83399575,3.045,20.0,,no_orthologs,0.0,no_data,0.3393
+DOC_CASP_3,Caspase docking/cleavage motif,382,385,DLPD,True,CASP3; CASP7,apoptosis,VP16_UL48,control,0.6269,0.57731925,5.35,10.0,,no_orthologs,0.0,no_data,0.3252
+LIG_14-3-3_CanoR_1,14-3-3 phospho-binding mode 1,409,414,RLSTAP,True,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ,14-3-3_signaling,VP16_UL48,control,0.6238833333333335,0.5763501666666667,8.131,350.0,,no_orthologs,0.0,no_data,0.3895
+LIG_14-3-3_CanoR_2,14-3-3 phospho-binding mode 2,408,414,RRLSTAP,True,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ,14-3-3_signaling,VP16_UL48,control,0.6098142857142858,0.5710437142857143,8.131,350.0,,no_orthologs,0.0,no_data,0.3867
+MOD_CK2_1,CK2 phosphorylation site,419,422,SLGD,True,CSNK2A1; CSNK2A2,CK2_signaling,VP16_UL48,control,0.67705,0.5507015,2.996,30.0,,no_orthologs,0.25,scored,0.3303
+MOD_CK2_1,CK2 phosphorylation site,458,461,TPHD,True,CSNK2A1; CSNK2A2,CK2_signaling,VP16_UL48,control,0.753675,0.6850265,2.996,30.0,,no_orthologs,0.0,scored,0.2956
+MOD_GSK3_1,GSK3 phosphorylation (primed),407,411,TRRLS,True,GSK3A; GSK3B,Wnt_signaling,VP16_UL48,control,0.5513799999999999,0.5541988,3.512,45.0,,no_orthologs,0.0,no_data,0.2672
+MOD_GSK3_1,GSK3 phosphorylation (primed),412,416,TAPPT,True,GSK3A; GSK3B,Wnt_signaling,VP16_UL48,control,0.69056,0.5893802000000001,3.512,45.0,,no_orthologs,0.0,no_data,0.2951
+MOD_GSK3_1,GSK3 phosphorylation (primed),458,462,TPHDS,True,GSK3A; GSK3B,Wnt_signaling,VP16_UL48,control,0.74366,0.6799588,3.512,45.0,,no_orthologs,0.0,no_data,0.3057
+MOD_PKA_2,PKA phosphorylation site,408,411,RRLS,True,PRKACA; PRKACB,cAMP_signaling,VP16_UL48,control,0.52855,0.53713375,5.898,60.0,,no_orthologs,0.75,scored,0.4683
+MOD_PLK_1,Polo-like kinase phosphorylation,417,420,DVSL,True,PLK1,cell_cycle,VP16_UL48,control,0.647025,0.550987,0.549,2.0,,no_orthologs,0.0,no_data,0.2172
+LIG_TRAF2_1,TRAF2 binding motif,388,391,APEE,True,TRAF2; TRAF6,NFkB_innate_immunity,VP16_UL48,control,0.6129249999999999,0.62472975,4.796,12.0,,no_orthologs,0.25,scored,0.3595
+LIG_SH3_1,Class II SH3 binding,29,35,KNTPAAP,True,SRC; FYN; LCK; GRB2,SH3_signaling,VP16_UL48,control,0.7501571428571429,0.7606798571428571,3.178,55.0,,no_orthologs,0.0,no_data,0.2992
+LIG_WW_1,WW domain PY motif (Group I),35,38,PPLY,True,NEDD4; NEDD4L; ITCH; WWP1,ubiquitin_signaling,VP16_UL48,control,0.634575,0.6841870000000001,3.125,35.0,,no_orthologs,0.0,no_data,0.2748
+LIG_WW_3,WW domain PPxR motif (Group III),20,23,PPPR,True,FE65,WW_signaling,VP16_UL48,control,0.940525,0.8306565,1.629,25.0,,no_orthologs,0.0,no_data,0.3011
+DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,408,410,RRL,True,CCNA2; CCNB1; CCNE1,cell_cycle,VP16_UL48,control,0.5282,0.5368376666666667,0.49,2.0,,no_orthologs,0.0,no_data,0.1921
+LIG_FHA_1,FHA domain pTxxI/L/V motif,405,410,GHTRRL,True,CHEK2; RNF8; MDC1,DNA_damage_signaling,VP16_UL48,control,0.5617833333333333,0.5798305,0.805,5.0,,no_orthologs,0.0,no_data,0.2061
+LIG_FHA_2,FHA domain pTxxD/E motif,456,461,GFTPHD,True,CHEK2; RNF8,DNA_damage_signaling,VP16_UL48,control,0.7610333333333333,0.688485,0.805,5.0,,no_orthologs,0.0,no_data,0.246
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,459,462,PHDS,True,USP7,ubiquitin_signaling,VP16_UL48,control,0.7335,0.67294725,3.045,20.0,,no_orthologs,0.0,no_data,0.2928
+LIG_SH3_1,Class II SH3 binding,93,99,RGGPRNP,True,SRC; FYN; LCK; GRB2,SH3_signaling,VP22_UL49,control,0.8299000000000001,0.8443741428571429,3.178,55.0,,no_orthologs,0.0,no_data,0.3151
+LIG_LIR_Gen_1,LC3-interacting region (LIR/AIM motif),103,108,SVWSRL,True,MAP1LC3A; MAP1LC3B; GABARAP; GABARAPL2,autophagy,ICP27_UL54,control,0.9144833333333334,0.706808,14.129,180.0,,no_orthologs,0.0,scored,0.5876
+LIG_LIR_Apic_2,Apicomplexan-type LIR motif,103,108,SVWSRL,True,MAP1LC3B,autophagy,ICP27_UL54,control,0.9144833333333334,0.706808,14.387,120.0,,no_orthologs,0.0,no_data,0.5936
+DOC_CASP_3,Caspase docking/cleavage motif,49,52,DMED,True,CASP3; CASP7,apoptosis,ICP27_UL54,control,0.9798250000000001,0.7983247499999999,5.35,10.0,,no_orthologs,0.0,no_data,0.3958
+DOC_CASP_3,Caspase docking/cleavage motif,229,232,DPRA,True,CASP3; CASP7,apoptosis,ICP27_UL54,control,0.920325,0.787787,5.35,10.0,,no_orthologs,0.0,no_data,0.3839
+LIG_CaN_CNBR_1,Calcineurin (PP2B) PxIxIT motif,217,222,PLMTLA,True,PPP3CA; PPP3CB,phosphatase_signaling,ICP27_UL54,control,0.8883333333333333,0.6659383333333333,9.704,60.0,,no_orthologs,0.0,no_data,0.4791
+DOC_MAPK_JIP1_7,JNK-interacting protein binding,67,75,RPAVRPSRP,True,MAPK8; MAPK9; MAPK10,MAPK_signaling,ICP27_UL54,control,0.9607111111111111,0.7453406666666667,4.443,25.0,,no_orthologs,0.0,no_data,0.3708
+DOC_MAPK_JIP1_7,JNK-interacting protein binding,195,203,RGSEQPDPP,True,MAPK8; MAPK9; MAPK10,MAPK_signaling,ICP27_UL54,control,0.969588888888889,0.8125624444444445,4.443,25.0,,no_orthologs,0.0,no_data,0.3726
+DOC_MAPK_JIP1_7,JNK-interacting protein binding,212,221,RQAPPPLMTL,True,MAPK8; MAPK9; MAPK10,MAPK_signaling,ICP27_UL54,control,0.8843,0.6465011,4.443,25.0,,no_orthologs,0.0,no_data,0.3555
+MOD_CK1_1,CK1 phosphorylation site (primed),40,44,SGECS,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,ICP27_UL54,control,0.9545,0.7343763999999999,3.192,35.0,,no_orthologs,0.0,no_data,0.3404
+MOD_CK2_1,CK2 phosphorylation site,30,33,SRRD,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP27_UL54,control,0.982275,0.8177702499999999,2.996,30.0,,no_orthologs,0.25,scored,0.3914
+MOD_CK2_1,CK2 phosphorylation site,39,42,SSGE,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP27_UL54,control,0.94615,0.7402219999999999,2.996,30.0,,no_orthologs,0.5,scored,0.4341
+MOD_CK2_1,CK2 phosphorylation site,44,47,SSSD,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP27_UL54,control,0.9702500000000001,0.7606310000000001,2.996,30.0,,no_orthologs,0.25,scored,0.389
+MOD_CK2_1,CK2 phosphorylation site,73,76,SRPE,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP27_UL54,control,0.9742500000000001,0.77414775,2.996,30.0,,no_orthologs,0.5,scored,0.4398
+MOD_GSK3_1,GSK3 phosphorylation (primed),40,44,SGECS,True,GSK3A; GSK3B,Wnt_signaling,ICP27_UL54,control,0.9545,0.7343763999999999,3.512,45.0,,no_orthologs,0.0,no_data,0.3478
+MOD_GSK3_1,GSK3 phosphorylation (primed),85,89,TPRPT,True,GSK3A; GSK3B,Wnt_signaling,ICP27_UL54,control,0.9917999999999999,0.8224195999999999,3.512,45.0,,no_orthologs,0.0,no_data,0.3553
+MOD_PKA_2,PKA phosphorylation site,111,114,RRPS,True,PRKACA; PRKACB,cAMP_signaling,ICP27_UL54,control,0.8617,0.66411825,5.898,60.0,,no_orthologs,0.75,scored,0.535
+MOD_PIKK_1,ATM/ATR phosphorylation site,83,84,TQ,True,ATM; ATR,DNA_damage_signaling,ICP27_UL54,control,0.9904,0.837506,0.852,5.0,,no_orthologs,0.0,no_data,0.293
+MOD_NEK2_1,NEK2 phosphorylation,35,39,LESDS,True,NEK2,cell_cycle,ICP27_UL54,control,0.9477800000000001,0.7767848,0.347,1.0,,no_orthologs,0.0,no_data,0.2727
+LIG_TRAF6_MATH_1,TRAF6 MATH domain binding,24,29,PPEPAE,True,TRAF6,NFkB_innate_immunity,ICP27_UL54,control,0.9829333333333333,0.7788675,4.394,8.0,,no_orthologs,0.333,scored,0.4407
+LIG_SH3_1,Class II SH3 binding,91,97,RQGPNDP,True,SRC; FYN; LCK; GRB2,SH3_signaling,ICP27_UL54,control,0.9871714285714285,0.8138141428571427,3.178,55.0,,no_orthologs,0.0,no_data,0.3466
+TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),144,146,RRR,True,KPNA1; KPNA2,nuclear_transport,ICP27_UL54,control,0.9773999999999999,0.8557826666666667,2.918,20.0,,no_orthologs,0.0,no_data,0.3386
+TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),163,165,RRR,True,KPNA1; KPNA2,nuclear_transport,ICP27_UL54,control,0.973,0.772385,2.918,20.0,,no_orthologs,0.0,no_data,0.3377
+DEG_APCC_DBOX_1,APC/C D-box (destruction box),32,35,RDDL,True,ANAPC2; FZR1,ubiquitin_proteasome,ICP27_UL54,control,0.971725,0.8147595,2.603,15.0,,no_orthologs,0.0,no_data,0.3301
+LIG_WW_3,WW domain PPxR motif (Group III),130,133,PPTK,True,FE65,WW_signaling,ICP27_UL54,control,0.975275,0.78233,1.629,25.0,,no_orthologs,0.0,no_data,0.3081
+LIG_KLC_1,Kinesin light chain binding,182,184,WTD,True,KLC1; KLC2,axonal_transport,ICP27_UL54,control,0.9634999999999999,0.7913920000000001,9.774,30.0,,no_orthologs,0.0,no_data,0.4958
+LIG_FHA_1,FHA domain pTxxI/L/V motif,206,211,QRTRGV,True,CHEK2; RNF8; MDC1,DNA_damage_signaling,ICP27_UL54,control,0.9769833333333334,0.8038609999999999,0.805,5.0,,no_orthologs,0.0,no_data,0.2892
+LIG_FHA_1,FHA domain pTxxI/L/V motif,218,223,LMTLAI,True,CHEK2; RNF8; MDC1,DNA_damage_signaling,ICP27_UL54,control,0.8949333333333334,0.6791111666666666,0.805,5.0,,no_orthologs,0.0,no_data,0.2728
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,27,30,PAES,True,USP7,ubiquitin_signaling,ICP27_UL54,control,0.9837,0.7900069999999999,3.045,20.0,,no_orthologs,0.0,no_data,0.3428
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,100,103,APHS,True,USP7,ubiquitin_signaling,ICP27_UL54,control,0.9565999999999999,0.7181905,3.045,20.0,,no_orthologs,0.0,no_data,0.3374
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,113,116,PSCS,True,USP7,ubiquitin_signaling,ICP27_UL54,control,0.864325,0.68024025,3.045,20.0,,no_orthologs,0.0,no_data,0.3189
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,287,290,AANS,True,USP7,ubiquitin_signaling,ICP27_UL54,control,0.546325,0.59319325,3.045,20.0,,no_orthologs,0.0,no_data,0.2553
+LIG_LIR_Gen_1,LC3-interacting region (LIR/AIM motif),113,119,DWSYDDI,True,MAP1LC3A; MAP1LC3B; GABARAP; GABARAPL2,autophagy,ICP22_US1,control,0.7932285714285714,0.6649487142857142,14.129,180.0,,no_orthologs,0.4,scored,0.6433
+LIG_LIR_Apic_2,Apicomplexan-type LIR motif,113,119,DWSYDDI,True,MAP1LC3B,autophagy,ICP22_US1,control,0.7932285714285714,0.6649487142857142,14.387,120.0,,no_orthologs,0.0,no_data,0.5693
+LIG_ULK_LIR_1,ULK-type LIR motif,113,119,DWSYDDI,True,ULK1; ULK2,autophagy,ICP22_US1,control,0.7932285714285714,0.6649487142857142,0.0,0.0,,no_orthologs,0.0,no_data,0.2336
+CLV_CASP_3,Caspase-3/7 cleavage site (DxxD↓G/S/A/N),325,329,DTEDA,True,CASP3; CASP7,apoptosis,ICP22_US1,control,0.76718,0.6415222,5.35,10.0,,no_orthologs,0.5,scored,0.4533
+DOC_CASP_3,Caspase docking/cleavage motif,106,109,DDPD,True,CASP3; CASP7,apoptosis,ICP22_US1,control,0.7608250000000001,0.58787325,5.35,10.0,,no_orthologs,0.0,no_data,0.352
+DOC_CASP_3,Caspase docking/cleavage motif,110,113,DTSD,True,CASP3; CASP7,apoptosis,ICP22_US1,control,0.763975,0.60373625,5.35,10.0,,no_orthologs,0.0,no_data,0.3526
+DOC_CASP_3,Caspase docking/cleavage motif,307,310,DATD,True,CASP3; CASP7,apoptosis,ICP22_US1,control,0.6446000000000001,0.5958782499999999,5.35,10.0,,no_orthologs,0.0,no_data,0.3288
+DOC_CASP_3,Caspase docking/cleavage motif,325,328,DTED,True,CASP3; CASP7,apoptosis,ICP22_US1,control,0.75685,0.6338035,5.35,10.0,,no_orthologs,0.0,no_data,0.3512
+DOC_CASP_3,Caspase docking/cleavage motif,384,387,DSGA,True,CASP3; CASP7,apoptosis,ICP22_US1,control,0.8013250000000001,0.7774995,5.35,10.0,,no_orthologs,0.0,no_data,0.3601
+LIG_14-3-3_CanoR_2,14-3-3 phospho-binding mode 2,30,36,RKRPSRP,True,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ,14-3-3_signaling,ICP22_US1,control,0.8570285714285714,0.7830418571428571,8.131,350.0,,no_orthologs,0.0,no_data,0.4361
+DOC_MAPK_DCC_7,MAPK D-motif docking site,16,25,RRPALRSPPL,True,MAPK1; MAPK3; MAPK8; MAPK14,MAPK_signaling,ICP22_US1,control,0.7297999999999999,0.7034829,4.858,40.0,,no_orthologs,0.143,scored,0.3629
+DOC_MAPK_DCC_7,MAPK D-motif docking site,80,90,RRLGGRFFLDM,True,MAPK1; MAPK3; MAPK8; MAPK14,MAPK_signaling,ICP22_US1,control,0.6522636363636363,0.5592871818181818,4.858,40.0,,no_orthologs,0.0,scored,0.3188
+DOC_MAPK_DCC_7,MAPK D-motif docking site,124,132,KRARVNLRL,True,MAPK1; MAPK3; MAPK8; MAPK14,MAPK_signaling,ICP22_US1,control,0.7424888888888889,0.6400828888888889,4.858,40.0,,no_orthologs,0.286,scored,0.3941
+DOC_MAPK_JIP1_7,JNK-interacting protein binding,125,132,RARVNLRL,True,MAPK8; MAPK9; MAPK10,MAPK_signaling,ICP22_US1,control,0.7671,0.655362,4.443,25.0,,no_orthologs,0.0,no_data,0.3321
+DOC_MAPK_JIP1_7,JNK-interacting protein binding,341,348,RGSLAVRL,True,MAPK8; MAPK9; MAPK10,MAPK_signaling,ICP22_US1,control,0.585675,0.5811247500000001,4.443,25.0,,no_orthologs,0.0,no_data,0.2958
+MOD_CDK_SPxxK_3,CDK phosphorylation (SP-xx-K/R),337,341,TPEPR,True,CDK1; CDK2; CDK5,cell_cycle,ICP22_US1,control,0.7087199999999999,0.6438122,1.616,65.0,,no_orthologs,0.0,no_data,0.2545
+MOD_CK1_1,CK1 phosphorylation site (primed),34,38,SRPLS,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,ICP22_US1,control,0.8457399999999999,0.7708218,3.192,35.0,,no_orthologs,0.0,no_data,0.3186
+MOD_CK1_1,CK1 phosphorylation site (primed),41,45,SEVES,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,ICP22_US1,control,0.8249000000000001,0.7034028000000001,3.192,35.0,,no_orthologs,0.0,no_data,0.3145
+MOD_CK1_1,CK1 phosphorylation site (primed),51,55,SEVES,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,ICP22_US1,control,0.84482,0.6765528,3.192,35.0,,no_orthologs,0.0,no_data,0.3184
+MOD_CK1_1,CK1 phosphorylation site (primed),152,156,STRET,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,ICP22_US1,control,0.82828,0.7093858,3.192,35.0,,no_orthologs,0.0,no_data,0.3151
+MOD_CK1_1,CK1 phosphorylation site (primed),322,326,SQSDT,True,CSNK1A1; CSNK1D; CSNK1E,Wnt_signaling,ICP22_US1,control,0.76676,0.6745492,3.192,35.0,,no_orthologs,0.0,no_data,0.3028
+MOD_CK2_1,CK2 phosphorylation site,39,42,SESE,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP22_US1,control,0.8308,0.7370887500000001,2.996,30.0,,no_orthologs,0.5,scored,0.4111
+MOD_CK2_1,CK2 phosphorylation site,47,50,TALE,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP22_US1,control,0.820425,0.67399425,2.996,30.0,,no_orthologs,0.25,scored,0.359
+MOD_CK2_1,CK2 phosphorylation site,51,54,SEVE,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP22_US1,control,0.83965,0.67067425,2.996,30.0,,no_orthologs,0.5,scored,0.4128
+MOD_CK2_1,CK2 phosphorylation site,57,60,TASD,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP22_US1,control,0.899675,0.730082,2.996,30.0,,no_orthologs,0.0,scored,0.3248
+MOD_CK2_1,CK2 phosphorylation site,103,106,SVSD,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP22_US1,control,0.8536499999999999,0.63270425,2.996,30.0,,no_orthologs,0.25,scored,0.3656
+MOD_CK2_1,CK2 phosphorylation site,115,118,SYDD,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP22_US1,control,0.80605,0.68884975,2.996,30.0,,no_orthologs,0.25,scored,0.3561
+MOD_CK2_1,CK2 phosphorylation site,152,155,STRE,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP22_US1,control,0.810575,0.692717,2.996,30.0,,no_orthologs,0.5,scored,0.407
+MOD_CK2_1,CK2 phosphorylation site,309,312,TDLE,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP22_US1,control,0.622,0.5772452499999999,2.996,30.0,,no_orthologs,0.25,scored,0.3193
+MOD_CK2_1,CK2 phosphorylation site,322,325,SQSD,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP22_US1,control,0.770825,0.68341325,2.996,30.0,,no_orthologs,0.25,scored,0.3491
+MOD_CK2_1,CK2 phosphorylation site,375,378,SSVE,True,CSNK2A1; CSNK2A2,CK2_signaling,ICP22_US1,control,0.7052999999999999,0.613638,2.996,30.0,,no_orthologs,0.5,scored,0.386
+MOD_GSK3_1,GSK3 phosphorylation (primed),34,38,SRPLS,True,GSK3A; GSK3B,Wnt_signaling,ICP22_US1,control,0.8457399999999999,0.7708218,3.512,45.0,,no_orthologs,0.0,no_data,0.3261
+MOD_GSK3_1,GSK3 phosphorylation (primed),41,45,SEVES,True,GSK3A; GSK3B,Wnt_signaling,ICP22_US1,control,0.8249000000000001,0.7034028000000001,3.512,45.0,,no_orthologs,0.0,no_data,0.3219
+MOD_GSK3_1,GSK3 phosphorylation (primed),47,51,TALES,True,GSK3A; GSK3B,Wnt_signaling,ICP22_US1,control,0.8219199999999999,0.6734648,3.512,45.0,,no_orthologs,0.0,no_data,0.3213
+MOD_GSK3_1,GSK3 phosphorylation (primed),55,59,SETAS,True,GSK3A; GSK3B,Wnt_signaling,ICP22_US1,control,0.88268,0.7093828,3.512,45.0,,no_orthologs,0.0,no_data,0.3335
+MOD_GSK3_1,GSK3 phosphorylation (primed),111,115,TSDWS,True,GSK3A; GSK3B,Wnt_signaling,ICP22_US1,control,0.79094,0.6410817999999999,3.512,45.0,,no_orthologs,0.0,no_data,0.3151
+MOD_GSK3_1,GSK3 phosphorylation (primed),152,156,STRET,True,GSK3A; GSK3B,Wnt_signaling,ICP22_US1,control,0.82828,0.7093858,3.512,45.0,,no_orthologs,0.0,no_data,0.3226
+MOD_GSK3_1,GSK3 phosphorylation (primed),322,326,SQSDT,True,GSK3A; GSK3B,Wnt_signaling,ICP22_US1,control,0.76676,0.6745492,3.512,45.0,,no_orthologs,0.0,no_data,0.3103
+MOD_PKA_2,PKA phosphorylation site,31,34,KRPS,True,PRKACA; PRKACB,cAMP_signaling,ICP22_US1,control,0.8719250000000001,0.792508,5.898,60.0,,no_orthologs,0.5,scored,0.487
+MOD_PIKK_1,ATM/ATR phosphorylation site,156,157,TQ,True,ATM; ATR,DNA_damage_signaling,ICP22_US1,control,0.9002,0.7748145,0.852,5.0,,no_orthologs,0.0,no_data,0.2749
+MOD_PIKK_1,ATM/ATR phosphorylation site,322,323,SQ,True,ATM; ATR,DNA_damage_signaling,ICP22_US1,control,0.78515,0.7138960000000001,0.852,5.0,,no_orthologs,0.0,no_data,0.2519
+MOD_PLK_1,Polo-like kinase phosphorylation,101,104,DASV,True,PLK1,cell_cycle,ICP22_US1,control,0.904925,0.6738305,0.549,2.0,,no_orthologs,0.0,no_data,0.2688
+MOD_PLK_1,Polo-like kinase phosphorylation,317,320,DHTL,True,PLK1,cell_cycle,ICP22_US1,control,0.703325,0.642457,0.549,2.0,,no_orthologs,0.0,no_data,0.2285
+MOD_NEK2_1,NEK2 phosphorylation,37,41,LSSES,True,NEK2,cell_cycle,ICP22_US1,control,0.83504,0.7513425999999999,0.347,1.0,,no_orthologs,0.0,no_data,0.2501
+MOD_NEK2_1,NEK2 phosphorylation,87,91,FLDMS,True,NEK2,cell_cycle,ICP22_US1,control,0.68858,0.5398334,0.347,1.0,,no_orthologs,0.0,no_data,0.2208
+MOD_NEK2_1,NEK2 phosphorylation,171,175,MLRRS,True,NEK2,cell_cycle,ICP22_US1,control,0.7641,0.7191763999999999,0.347,1.0,,no_orthologs,0.0,no_data,0.2359
+MOD_NEK2_1,NEK2 phosphorylation,320,324,LASQS,True,NEK2,cell_cycle,ICP22_US1,control,0.75742,0.6904602,0.347,1.0,,no_orthologs,0.0,no_data,0.2346
+MOD_GRK_1,GRK phosphorylation (GPCR kinase),109,112,DDTS,True,GRK2; GRK5,GPCR_signaling,ICP22_US1,control,0.7395499999999999,0.5800099999999999,2.674,15.0,,no_orthologs,0.0,no_data,0.2853
+LIG_SH2_STAT3_1,STAT3 SH2 pYxxL motif,116,119,YDDI,True,STAT3,JAK_STAT_signaling,ICP22_US1,control,0.7789,0.665638,4.159,15.0,,no_orthologs,0.0,no_data,0.3278
+LIG_SH2_SRC_1,Src SH2 pYEEI motif,116,119,YDDI,True,SRC; FYN,SH2_signaling,ICP22_US1,control,0.7789,0.665638,3.584,55.0,,no_orthologs,0.0,no_data,0.3144
+LIG_SH3_1,Class II SH3 binding,30,36,RKRPSRP,True,SRC; FYN; LCK; GRB2,SH3_signaling,ICP22_US1,control,0.8570285714285714,0.7830418571428571,3.178,55.0,,no_orthologs,0.0,no_data,0.3206
+LIG_SH3_3,Class I SH3 binding,120,125,PPRPKR,True,SRC; FYN; ABL1,SH3_signaling,ICP22_US1,control,0.6015333333333334,0.5467383333333334,3.32,55.0,,no_orthologs,0.5,scored,0.3728
+TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),28,30,RKR,True,KPNA1; KPNA2,nuclear_transport,ICP22_US1,control,0.8331,0.7687243333333335,2.918,20.0,,no_orthologs,0.0,no_data,0.3097
+TRG_NLS_Bipartite_1,Bipartite NLS,16,32,RRPALRSPPLGTRKRKR,True,KPNA1; KPNA2; KPNA3,nuclear_transport,ICP22_US1,control,0.7813117647058823,0.7389838823529412,2.773,20.0,,no_orthologs,0.0,no_data,0.296
+DEG_APCC_DBOX_1,APC/C D-box (destruction box),17,20,RPAL,True,ANAPC2; FZR1,ubiquitin_proteasome,ICP22_US1,control,0.679825,0.651153,2.603,15.0,,no_orthologs,0.0,no_data,0.2717
+DEG_APCC_DBOX_1,APC/C D-box (destruction box),85,88,RFFL,True,ANAPC2; FZR1,ubiquitin_proteasome,ICP22_US1,control,0.67005,0.56648525,2.603,15.0,,no_orthologs,0.0,no_data,0.2697
+DEG_APCC_DBOX_1,APC/C D-box (destruction box),127,130,RVNL,True,ANAPC2; FZR1,ubiquitin_proteasome,ICP22_US1,control,0.8006,0.6755257499999999,2.603,15.0,,no_orthologs,0.0,no_data,0.2959
+DEG_APCC_DBOX_1,APC/C D-box (destruction box),341,344,RGSL,True,ANAPC2; FZR1,ubiquitin_proteasome,ICP22_US1,control,0.628325,0.5904780000000001,2.603,15.0,,no_orthologs,0.0,no_data,0.2614
+LIG_WW_3,WW domain PPxR motif (Group III),120,122,PPR,True,FE65,WW_signaling,ICP22_US1,control,0.6099,0.554494,1.629,25.0,,no_orthologs,0.0,no_data,0.235
+LIG_MYOSIN_MEF2_1,Myosin binding motif,125,131,RARVNLR,True,MYO5A; MYO6,axonal_transport,ICP22_US1,control,0.7731142857142858,0.6583154285714284,8.753,20.0,,no_orthologs,0.0,no_data,0.4339
+LIG_MYOSIN_MEF2_1,Myosin binding motif,341,347,RGSLAVR,True,MYO5A; MYO6,axonal_transport,ICP22_US1,control,0.5971285714285715,0.586269,8.753,20.0,,no_orthologs,0.0,no_data,0.3987
+LIG_KLC_1,Kinesin light chain binding,87,89,FLD,True,KLC1; KLC2,axonal_transport,ICP22_US1,control,0.6908666666666666,0.5568686666666667,9.774,30.0,,no_orthologs,0.0,no_data,0.4412
+LIG_KLC_1,Kinesin light chain binding,116,118,YDD,True,KLC1; KLC2,axonal_transport,ICP22_US1,control,0.7955666666666668,0.6837823333333333,9.774,30.0,,no_orthologs,0.0,no_data,0.4622
+TRG_ENDOCYTIC_2,Tyrosine-based endocytic sorting,116,119,YDDI,True,AP2M1,endocytosis,ICP22_US1,control,0.7789,0.665638,3.584,35.0,,no_orthologs,0.0,no_data,0.3144
+DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,35,37,RPL,True,CCNA2; CCNB1; CCNE1,cell_cycle,ICP22_US1,control,0.8454333333333333,0.7695829999999999,0.49,2.0,,no_orthologs,0.0,no_data,0.2555
+DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,80,82,RRL,True,CCNA2; CCNB1; CCNE1,cell_cycle,ICP22_US1,control,0.6136333333333334,0.5505823333333334,0.49,2.0,,no_orthologs,0.0,no_data,0.2092
+LIG_FHA_1,FHA domain pTxxI/L/V motif,372,377,ADTSSV,True,CHEK2; RNF8; MDC1,DNA_damage_signaling,ICP22_US1,control,0.6785166666666668,0.5930311666666667,0.805,5.0,,no_orthologs,0.0,no_data,0.2295
+LIG_FHA_2,FHA domain pTxxD/E motif,45,50,SDTALE,True,CHEK2; RNF8,DNA_damage_signaling,ICP22_US1,control,0.8171333333333334,0.6758924999999999,0.805,5.0,,no_orthologs,0.0,no_data,0.2572
+LIG_FHA_2,FHA domain pTxxD/E motif,55,60,SETASD,True,CHEK2; RNF8,DNA_damage_signaling,ICP22_US1,control,0.8897166666666667,0.7192398333333334,0.805,5.0,,no_orthologs,0.0,no_data,0.2717
+LIG_FHA_2,FHA domain pTxxD/E motif,307,312,DATDLE,True,CHEK2; RNF8,DNA_damage_signaling,ICP22_US1,control,0.6264333333333334,0.5875678333333333,0.805,5.0,,no_orthologs,0.0,no_data,0.2191
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,19,22,ALRS,True,USP7,ubiquitin_signaling,ICP22_US1,control,0.6987,0.69131875,3.045,20.0,,no_orthologs,0.0,no_data,0.2858
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,36,39,PLSS,True,USP7,ubiquitin_signaling,ICP22_US1,control,0.8438249999999999,0.7674875,3.045,20.0,,no_orthologs,0.0,no_data,0.3148
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,48,51,ALES,True,USP7,ubiquitin_signaling,ICP22_US1,control,0.8295,0.6809624999999999,3.045,20.0,,no_orthologs,0.0,no_data,0.312
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,58,61,ASDS,True,USP7,ubiquitin_signaling,ICP22_US1,control,0.9124,0.74853925,3.045,20.0,,no_orthologs,0.0,no_data,0.3285
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,102,105,ASVS,True,USP7,ubiquitin_signaling,ICP22_US1,control,0.888425,0.656672,3.045,20.0,,no_orthologs,0.0,no_data,0.3237
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,161,164,PTPS,True,USP7,ubiquitin_signaling,ICP22_US1,control,0.9055749999999999,0.7786784999999999,3.045,20.0,,no_orthologs,0.0,no_data,0.3272
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,313,316,AAGS,True,USP7,ubiquitin_signaling,ICP22_US1,control,0.601925,0.5896327499999999,3.045,20.0,,no_orthologs,0.0,no_data,0.2664
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,321,324,ASQS,True,USP7,ubiquitin_signaling,ICP22_US1,control,0.76455,0.6949759999999999,3.045,20.0,,no_orthologs,0.0,no_data,0.299
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,340,343,PRGS,True,USP7,ubiquitin_signaling,ICP22_US1,control,0.6465000000000001,0.59658,3.045,20.0,,no_orthologs,0.0,no_data,0.2754
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,372,375,ADTS,True,USP7,ubiquitin_signaling,ICP22_US1,control,0.678175,0.59208375,3.045,20.0,,no_orthologs,0.0,no_data,0.2817
+DOC_USP7_MATH_1,USP7/HAUSP MATH domain binding,380,383,PGPS,True,USP7,ubiquitin_signaling,ICP22_US1,control,0.8395750000000001,0.742691,3.045,20.0,,no_orthologs,0.0,no_data,0.314

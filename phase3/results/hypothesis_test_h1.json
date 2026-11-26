@@ -1,0 +1,145 @@
+{
+  "targets": [
+    {
+      "protein": "ICP34.5",
+      "category": "target",
+      "degree": 38,
+      "idr_aa": 161,
+      "slim_density": 23.6,
+      "cns_interaction_frac": 0.46,
+      "cns_targeting_score": 10.857,
+      "cns_weighted_degree": 6.594,
+      "pathway_diversity": 12,
+      "composite_h1_score": 0.6666
+    },
+    {
+      "protein": "US3",
+      "category": "target",
+      "degree": 22,
+      "idr_aa": 128,
+      "slim_density": 17.19,
+      "cns_interaction_frac": 0.469,
+      "cns_targeting_score": 8.061,
+      "cns_weighted_degree": 4.012,
+      "pathway_diversity": 10,
+      "composite_h1_score": 0.4814
+    },
+    {
+      "protein": "pUL37",
+      "category": "target",
+      "degree": 13,
+      "idr_aa": 145,
+      "slim_density": 8.97,
+      "cns_interaction_frac": 0.301,
+      "cns_targeting_score": 2.699,
+      "cns_weighted_degree": 1.304,
+      "pathway_diversity": 6,
+      "composite_h1_score": 0.2126
+    }
+  ],
+  "controls": [
+    {
+      "protein": "ICP8_UL29",
+      "category": "control",
+      "degree": 9,
+      "idr_aa": 42,
+      "slim_density": 21.43,
+      "cns_interaction_frac": 0.451,
+      "cns_targeting_score": 9.664,
+      "cns_weighted_degree": 1.542,
+      "pathway_diversity": 6,
+      "composite_h1_score": 0.3266
+    },
+    {
+      "protein": "UL42",
+      "category": "control",
+      "degree": 40,
+      "idr_aa": 100,
+      "slim_density": 40.0,
+      "cns_interaction_frac": 0.542,
+      "cns_targeting_score": 21.68,
+      "cns_weighted_degree": 8.687,
+      "pathway_diversity": 14,
+      "composite_h1_score": 0.9527
+    },
+    {
+      "protein": "gD_US6",
+      "category": "control",
+      "degree": 16,
+      "idr_aa": 32,
+      "slim_density": 50.0,
+      "cns_interaction_frac": 0.421,
+      "cns_targeting_score": 21.05,
+      "cns_weighted_degree": 2.143,
+      "pathway_diversity": 8,
+      "composite_h1_score": 0.5615
+    },
+    {
+      "protein": "VP11_12_UL46",
+      "category": "control",
+      "degree": 34,
+      "idr_aa": 107,
+      "slim_density": 31.78,
+      "cns_interaction_frac": 0.465,
+      "cns_targeting_score": 14.776,
+      "cns_weighted_degree": 5.617,
+      "pathway_diversity": 11,
+      "composite_h1_score": 0.6663
+    },
+    {
+      "protein": "VP16_UL48",
+      "category": "control",
+      "degree": 33,
+      "idr_aa": 89,
+      "slim_density": 37.08,
+      "cns_interaction_frac": 0.498,
+      "cns_targeting_score": 18.465,
+      "cns_weighted_degree": 5.502,
+      "pathway_diversity": 11,
+      "composite_h1_score": 0.7171
+    },
+    {
+      "protein": "VP22_UL49",
+      "category": "control",
+      "degree": 4,
+      "idr_aa": 27,
+      "slim_density": 14.81,
+      "cns_interaction_frac": 0.466,
+      "cns_targeting_score": 6.904,
+      "cns_weighted_degree": 0.588,
+      "pathway_diversity": 1,
+      "composite_h1_score": 0.1471
+    },
+    {
+      "protein": "ICP27_UL54",
+      "category": "control",
+      "degree": 39,
+      "idr_aa": 252,
+      "slim_density": 15.48,
+      "cns_interaction_frac": 0.487,
+      "cns_targeting_score": 7.537,
+      "cns_weighted_degree": 7.959,
+      "pathway_diversity": 16,
+      "composite_h1_score": 0.7514
+    },
+    {
+      "protein": "ICP22_US1",
+      "category": "control",
+      "degree": 62,
+      "idr_aa": 236,
+      "slim_density": 26.27,
+      "cns_interaction_frac": 0.501,
+      "cns_targeting_score": 13.162,
+      "cns_weighted_degree": 11.953,
+      "pathway_diversity": 19,
+      "composite_h1_score": 1.0555
+    }
+  ],
+  "mann_whitney_U": 7.0,
+  "mann_whitney_p": 0.8606,
+  "effect_size_cohens_d": -0.709,
+  "target_mean": 0.4535,
+  "control_mean": 0.6473,
+  "target_std": 0.1864,
+  "control_std": 0.282
+}

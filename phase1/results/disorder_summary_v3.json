@@ -1,0 +1,249 @@
+[
+  {
+    "protein": "ICP34.5",
+    "accession": "P36313",
+    "category": "target",
+    "length": 248,
+    "idr_boundaries": [
+      [
+        1,
+        66
+      ],
+      [
+        73,
+        132
+      ],
+      [
+        145,
+        179
+      ]
+    ],
+    "idr_fraction": 0.649,
+    "n_idrs": 3,
+    "iupred3_mean": 0.771,
+    "composition_mean": 0.683,
+    "iupred3_disordered_frac": 0.798
+  },
+  {
+    "protein": "US3",
+    "accession": "P04413",
+    "category": "target",
+    "length": 481,
+    "idr_boundaries": [
+      [
+        14,
+        34
+      ],
+      [
+        37,
+        67
+      ],
+      [
+        81,
+        120
+      ],
+      [
+        125,
+        160
+      ]
+    ],
+    "idr_fraction": 0.266,
+    "n_idrs": 4,
+    "iupred3_mean": 0.397,
+    "composition_mean": 0.495,
+    "iupred3_disordered_frac": 0.358
+  },
+  {
+    "protein": "pUL37",
+    "accession": "P10221",
+    "category": "target",
+    "length": 1123,
+    "idr_boundaries": [
+      [
+        1,
+        52
+      ],
+      [
+        964,
+        983
+      ],
+      [
+        1051,
+        1123
+      ]
+    ],
+    "idr_fraction": 0.129,
+    "n_idrs": 3,
+    "iupred3_mean": 0.293,
+    "composition_mean": 0.454,
+    "iupred3_disordered_frac": 0.154
+  },
+  {
+    "protein": "ICP8_UL29",
+    "accession": "P04296",
+    "category": "control",
+    "length": 1196,
+    "idr_boundaries": [
+      [
+        1153,
+        1194
+      ]
+    ],
+    "idr_fraction": 0.035,
+    "n_idrs": 1,
+    "iupred3_mean": 0.252,
+    "composition_mean": 0.442,
+    "iupred3_disordered_frac": 0.094
+  },
+  {
+    "protein": "UL42",
+    "accession": "P10186",
+    "category": "control",
+    "length": 334,
+    "idr_boundaries": [
+      [
+        1,
+        100
+      ]
+    ],
+    "idr_fraction": 0.299,
+    "n_idrs": 1,
+    "iupred3_mean": 0.438,
+    "composition_mean": 0.516,
+    "iupred3_disordered_frac": 0.32
+  },
+  {
+    "protein": "gD_US6",
+    "accession": "P57083",
+    "category": "control",
+    "length": 394,
+    "idr_boundaries": [
+      [
+        277,
+        308
+      ]
+    ],
+    "idr_fraction": 0.081,
+    "n_idrs": 1,
+    "iupred3_mean": 0.284,
+    "composition_mean": 0.445,
+    "iupred3_disordered_frac": 0.188
+  },
+  {
+    "protein": "VP11_12_UL46",
+    "accession": "P10228",
+    "category": "control",
+    "length": 511,
+    "idr_boundaries": [
+      [
+        27,
+        133
+      ]
+    ],
+    "idr_fraction": 0.209,
+    "n_idrs": 1,
+    "iupred3_mean": 0.492,
+    "composition_mean": 0.498,
+    "iupred3_disordered_frac": 0.44
+  },
+  {
+    "protein": "VP16_UL48",
+    "accession": "P06492",
+    "category": "control",
+    "length": 490,
+    "idr_boundaries": [
+      [
+        12,
+        38
+      ],
+      [
+        379,
+        399
+      ],
+      [
+        405,
+        424
+      ],
+      [
+        444,
+        464
+      ]
+    ],
+    "idr_fraction": 0.182,
+    "n_idrs": 4,
+    "iupred3_mean": 0.323,
+    "composition_mean": 0.463,
+    "iupred3_disordered_frac": 0.267
+  },
+  {
+    "protein": "VP22_UL49",
+    "accession": "P10216",
+    "category": "control",
+    "length": 596,
+    "idr_boundaries": [
+      [
+        80,
+        106
+      ]
+    ],
+    "idr_fraction": 0.045,
+    "n_idrs": 1,
+    "iupred3_mean": 0.262,
+    "composition_mean": 0.456,
+    "iupred3_disordered_frac": 0.156
+  },
+  {
+    "protein": "ICP27_UL54",
+    "accession": "P10238",
+    "category": "control",
+    "length": 512,
+    "idr_boundaries": [
+      [
+        17,
+        245
+      ],
+      [
+        272,
+        294
+      ]
+    ],
+    "idr_fraction": 0.492,
+    "n_idrs": 2,
+    "iupred3_mean": 0.565,
+    "composition_mean": 0.566,
+    "iupred3_disordered_frac": 0.576
+  },
+  {
+    "protein": "ICP22_US1",
+    "accession": "P04485",
+    "category": "control",
+    "length": 420,
+    "idr_boundaries": [
+      [
+        6,
+        91
+      ],
+      [
+        97,
+        133
+      ],
+      [
+        141,
+        180
+      ],
+      [
+        304,
+        350
+      ],
+      [
+        368,
+        393
+      ]
+    ],
+    "idr_fraction": 0.562,
+    "n_idrs": 5,
+    "iupred3_mean": 0.573,
+    "composition_mean": 0.574,
+    "iupred3_disordered_frac": 0.645
+  }
+]

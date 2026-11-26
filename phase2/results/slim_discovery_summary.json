@@ -1,0 +1,573 @@
+{
+  "n_proteins": 11,
+  "n_total_hits": 157,
+  "n_overlapping_pairs": 258,
+  "enrichment": {
+    "target_density": 8.75063584279289,
+    "control_density": 12.325489743046472,
+    "ratio": 0.7099625268626454
+  },
+  "proteins": [
+    {
+      "protein": "ICP34.5",
+      "category": "target",
+      "length": 248,
+      "idr_boundaries": [
+        [
+          1,
+          66
+        ],
+        [
+          73,
+          132
+        ],
+        [
+          145,
+          179
+        ]
+      ],
+      "idr_length": 161,
+      "n_slim_hits": 12,
+      "slim_density": 7.45,
+      "n_unique_motifs": 8,
+      "n_overlapping_pairs": 6,
+      "pathway_distribution": {
+        "MAPK_signaling": 2,
+        "cell_cycle": 1,
+        "Wnt_signaling": 2,
+        "apoptosis": 2,
+        "ubiquitin_proteasome": 1,
+        "SH3_signaling": 2,
+        "nuclear_transport": 1,
+        "DNA_damage_signaling": 1
+      },
+      "host_targets": [
+        "ANAPC2",
+        "CASP3",
+        "CASP7",
+        "CDK1",
+        "CDK2",
+        "CDK5",
+        "CHEK2",
+        "FYN",
+        "GSK3A",
+        "GSK3B",
+        "KPNA1",
+        "KPNA2",
+        "LCK",
+        "MAPK1",
+        "MAPK14",
+        "MAPK3",
+        "MAPK8",
+        "RNF8",
+        "SRC"
+      ]
+    },
+    {
+      "protein": "US3",
+      "category": "target",
+      "length": 481,
+      "idr_boundaries": [
+        [
+          14,
+          34
+        ],
+        [
+          37,
+          67
+        ],
+        [
+          81,
+          120
+        ],
+        [
+          125,
+          160
+        ]
+      ],
+      "idr_length": 128,
+      "n_slim_hits": 17,
+      "slim_density": 13.28,
+      "n_unique_motifs": 9,
+      "n_overlapping_pairs": 10,
+      "pathway_distribution": {
+        "MAPK_signaling": 1,
+        "CK2_signaling": 4,
+        "Wnt_signaling": 2,
+        "cAMP_signaling": 1,
+        "NFkB_innate_immunity": 2,
+        "apoptosis": 4,
+        "nuclear_transport": 2,
+        "DNA_damage_signaling": 1
+      },
+      "host_targets": [
+        "CASP3",
+        "CASP7",
+        "CHEK2",
+        "CSNK2A1",
+        "CSNK2A2",
+        "GSK3A",
+        "GSK3B",
+        "KPNA1",
+        "KPNA2",
+        "MAPK1",
+        "MAPK14",
+        "MAPK3",
+        "MAPK8",
+        "PRKACA",
+        "PRKACB",
+        "RNF8",
+        "TRAF2",
+        "TRAF6"
+      ]
+    },
+    {
+      "protein": "pUL37",
+      "category": "target",
+      "length": 1123,
+      "idr_boundaries": [
+        [
+          1,
+          52
+        ],
+        [
+          964,
+          983
+        ],
+        [
+          1051,
+          1123
+        ]
+      ],
+      "idr_length": 145,
+      "n_slim_hits": 8,
+      "slim_density": 5.52,
+      "n_unique_motifs": 5,
+      "n_overlapping_pairs": 5,
+      "pathway_distribution": {
+        "CK2_signaling": 2,
+        "NFkB_innate_immunity": 1,
+        "apoptosis": 1,
+        "DNA_damage_signaling": 1,
+        "cell_cycle": 3
+      },
+      "host_targets": [
+        "CASP3",
+        "CASP7",
+        "CCNA2",
+        "CCNB1",
+        "CCNE1",
+        "CHEK2",
+        "CSNK2A1",
+        "CSNK2A2",
+        "RNF8",
+        "TRAF6"
+      ]
+    },
+    {
+      "protein": "ICP8_UL29",
+      "category": "control",
+      "length": 1196,
+      "idr_boundaries": [
+        [
+          1153,
+          1194
+        ]
+      ],
+      "idr_length": 42,
+      "n_slim_hits": 1,
+      "slim_density": 2.38,
+      "n_unique_motifs": 1,
+      "n_overlapping_pairs": 0,
+      "pathway_distribution": {
+        "nuclear_transport": 1
+      },
+      "host_targets": [
+        "KPNA1",
+        "KPNA2"
+      ]
+    },
+    {
+      "protein": "UL42",
+      "category": "control",
+      "length": 334,
+      "idr_boundaries": [
+        [
+          1,
+          100
+        ]
+      ],
+      "idr_length": 100,
+      "n_slim_hits": 20,
+      "slim_density": 20.0,
+      "n_unique_motifs": 13,
+      "n_overlapping_pairs": 75,
+      "pathway_distribution": {
+        "14-3-3_signaling": 3,
+        "MAPK_signaling": 1,
+        "cell_cycle": 3,
+        "CK2_signaling": 1,
+        "Wnt_signaling": 5,
+        "cAMP_signaling": 1,
+        "PI3K_Akt_signaling": 1,
+        "apoptosis": 1,
+        "ubiquitin_proteasome": 1,
+        "SH3_signaling": 1,
+        "nuclear_transport": 2
+      },
+      "host_targets": [
+        "AKT1",
+        "AKT2",
+        "AKT3",
+        "CASP3",
+        "CASP7",
+        "CDK1",
+        "CDK2",
+        "CDK5",
+        "CSNK2A1",
+        "CSNK2A2",
+        "FBXW7",
+        "FYN",
+        "GSK3A",
+        "GSK3B",
+        "KPNA1",
+        "KPNA2",
+        "KPNA3",
+        "LCK",
+        "MAPK1",
+        "MAPK14",
+        "MAPK3",
+        "MAPK8",
+        "PRKACA",
+        "PRKACB",
+        "SFN",
+        "SRC",
+        "YWHAB",
+        "YWHAE",
+        "YWHAG",
+        "YWHAH",
+        "YWHAQ",
+        "YWHAZ"
+      ]
+    },
+    {
+      "protein": "gD_US6",
+      "category": "control",
+      "length": 394,
+      "idr_boundaries": [
+        [
+          277,
+          308
+        ]
+      ],
+      "idr_length": 32,
+      "n_slim_hits": 5,
+      "slim_density": 15.62,
+      "n_unique_motifs": 5,
+      "n_overlapping_pairs": 8,
+      "pathway_distribution": {
+        "CK2_signaling": 1,
+        "Wnt_signaling": 1,
+        "NFkB_innate_immunity": 1,
+        "apoptosis": 1,
+        "DNA_damage_signaling": 1
+      },
+      "host_targets": [
+        "CASP3",
+        "CASP7",
+        "CHEK2",
+        "CSNK2A1",
+        "CSNK2A2",
+        "GSK3A",
+        "GSK3B",
+        "RNF8",
+        "TRAF6"
+      ]
+    },
+    {
+      "protein": "VP11_12_UL46",
+      "category": "control",
+      "length": 511,
+      "idr_boundaries": [
+        [
+          27,
+          133
+        ]
+      ],
+      "idr_length": 107,
+      "n_slim_hits": 16,
+      "slim_density": 14.95,
+      "n_unique_motifs": 9,
+      "n_overlapping_pairs": 14,
+      "pathway_distribution": {
+        "apoptosis/autophagy": 1,
+        "cell_cycle": 1,
+        "CK2_signaling": 2,
+        "Wnt_signaling": 7,
+        "apoptosis": 1,
+        "ubiquitin_proteasome": 2,
+        "SH3_signaling": 1,
+        "DNA_damage_signaling": 1
+      },
+      "host_targets": [
+        "ANAPC2",
+        "BCL2",
+        "BCL2L1",
+        "CASP3",
+        "CASP7",
+        "CDK1",
+        "CDK2",
+        "CDK5",
+        "CHEK2",
+        "CSNK2A1",
+        "CSNK2A2",
+        "FBXW7",
+        "FYN",
+        "GSK3A",
+        "GSK3B",
+        "LCK",
+        "MCL1",
+        "RNF8",
+        "SRC"
+      ]
+    },
+    {
+      "protein": "VP16_UL48",
+      "category": "control",
+      "length": 490,
+      "idr_boundaries": [
+        [
+          12,
+          38
+        ],
+        [
+          379,
+          399
+        ],
+        [
+          405,
+          424
+        ],
+        [
+          444,
+          464
+        ]
+      ],
+      "idr_length": 89,
+      "n_slim_hits": 14,
+      "slim_density": 15.73,
+      "n_unique_motifs": 11,
+      "n_overlapping_pairs": 22,
+      "pathway_distribution": {
+        "14-3-3_signaling": 2,
+        "CK2_signaling": 2,
+        "Wnt_signaling": 3,
+        "cAMP_signaling": 1,
+        "NFkB_innate_immunity": 1,
+        "apoptosis": 1,
+        "SH3_signaling": 1,
+        "ubiquitin_signaling": 1,
+        "DNA_damage_signaling": 1,
+        "cell_cycle": 1
+      },
+      "host_targets": [
+        "CASP3",
+        "CASP7",
+        "CCNA2",
+        "CCNB1",
+        "CCNE1",
+        "CHEK2",
+        "CSNK2A1",
+        "CSNK2A2",
+        "FYN",
+        "GSK3A",
+        "GSK3B",
+        "ITCH",
+        "LCK",
+        "NEDD4",
+        "NEDD4L",
+        "PRKACA",
+        "PRKACB",
+        "RNF8",
+        "SFN",
+        "SRC",
+        "TRAF2",
+        "TRAF6",
+        "WWP1",
+        "YWHAB",
+        "YWHAE",
+        "YWHAG",
+        "YWHAH",
+        "YWHAQ",
+        "YWHAZ"
+      ]
+    },
+    {
+      "protein": "VP22_UL49",
+      "category": "control",
+      "length": 596,
+      "idr_boundaries": [
+        [
+          80,
+          106
+        ]
+      ],
+      "idr_length": 27,
+      "n_slim_hits": 1,
+      "slim_density": 3.7,
+      "n_unique_motifs": 1,
+      "n_overlapping_pairs": 0,
+      "pathway_distribution": {
+        "SH3_signaling": 1
+      },
+      "host_targets": [
+        "FYN",
+        "LCK",
+        "SRC"
+      ]
+    },
+    {
+      "protein": "ICP27_UL54",
+      "category": "control",
+      "length": 512,
+      "idr_boundaries": [
+        [
+          17,
+          245
+        ],
+        [
+          272,
+          294
+        ]
+      ],
+      "idr_length": 252,
+      "n_slim_hits": 18,
+      "slim_density": 7.14,
+      "n_unique_motifs": 11,
+      "n_overlapping_pairs": 13,
+      "pathway_distribution": {
+        "autophagy": 2,
+        "CK2_signaling": 4,
+        "Wnt_signaling": 2,
+        "cAMP_signaling": 1,
+        "NFkB_innate_immunity": 1,
+        "apoptosis": 2,
+        "ubiquitin_proteasome": 1,
+        "SH3_signaling": 1,
+        "nuclear_transport": 2,
+        "DNA_damage_signaling": 2
+      },
+      "host_targets": [
+        "ANAPC2",
+        "CASP3",
+        "CASP7",
+        "CHEK2",
+        "CSNK2A1",
+        "CSNK2A2",
+        "FYN",
+        "GABARAP",
+        "GABARAPL2",
+        "GSK3A",
+        "GSK3B",
+        "KPNA1",
+        "KPNA2",
+        "LCK",
+        "MAP1LC3A",
+        "MAP1LC3B",
+        "PRKACA",
+        "PRKACB",
+        "RNF8",
+        "SRC",
+        "TRAF6"
+      ]
+    },
+    {
+      "protein": "ICP22_US1",
+      "category": "control",
+      "length": 420,
+      "idr_boundaries": [
+        [
+          6,
+          91
+        ],
+        [
+          97,
+          133
+        ],
+        [
+          141,
+          180
+        ],
+        [
+          304,
+          350
+        ],
+        [
+          368,
+          393
+        ]
+      ],
+      "idr_length": 236,
+      "n_slim_hits": 45,
+      "slim_density": 19.07,
+      "n_unique_motifs": 17,
+      "n_overlapping_pairs": 105,
+      "pathway_distribution": {
+        "autophagy": 2,
+        "14-3-3_signaling": 1,
+        "MAPK_signaling": 3,
+        "CK2_signaling": 10,
+        "Wnt_signaling": 7,
+        "cAMP_signaling": 1,
+        "apoptosis": 5,
+        "ubiquitin_proteasome": 4,
+        "JAK_STAT_signaling": 2,
+        "SH3_signaling": 1,
+        "nuclear_transport": 2,
+        "endocytosis": 1,
+        "DNA_damage_signaling": 4,
+        "cell_cycle": 2
+      },
+      "host_targets": [
+        "ANAPC2",
+        "AP2M1",
+        "CASP3",
+        "CASP7",
+        "CCNA2",
+        "CCNB1",
+        "CCNE1",
+        "CHEK2",
+        "CSNK2A1",
+        "CSNK2A2",
+        "FYN",
+        "GABARAP",
+        "GABARAPL2",
+        "GSK3A",
+        "GSK3B",
+        "KPNA1",
+        "KPNA2",
+        "KPNA3",
+        "LCK",
+        "MAP1LC3A",
+        "MAP1LC3B",
+        "MAPK1",
+        "MAPK14",
+        "MAPK3",
+        "MAPK8",
+        "PRKACA",
+        "PRKACB",
+        "RNF8",
+        "SRC",
+        "STAT3",
+        "STAT5A",
+        "STAT5B",
+        "YWHAB",
+        "YWHAE",
+        "YWHAG",
+        "YWHAH",
+        "YWHAQ",
+        "YWHAZ"
+      ]
+    }
+  ]
+}

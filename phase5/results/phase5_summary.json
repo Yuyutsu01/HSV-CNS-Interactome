@@ -1,0 +1,358 @@
+{
+  "total_switches": 3695,
+  "high_confidence": 3542,
+  "medium_confidence": 153,
+  "low_confidence": 0,
+  "categories": {
+    "signaling_rewiring": 1277,
+    "immune_evasion": 792,
+    "other": 660,
+    "neuronal_hijacking": 427,
+    "apoptosis_modulation": 366,
+    "transport_hijacking": 150,
+    "transcription_control": 23
+  },
+  "per_protein": {
+    "US3": {
+      "total": 267,
+      "high": 252,
+      "categories": [
+        "apoptosis_modulation",
+        "immune_evasion",
+        "neuronal_hijacking",
+        "other",
+        "signaling_rewiring",
+        "transcription_control",
+        "transport_hijacking"
+      ]
+    },
+    "pUL37": {
+      "total": 147,
+      "high": 144,
+      "categories": [
+        "apoptosis_modulation",
+        "immune_evasion",
+        "neuronal_hijacking",
+        "other",
+        "signaling_rewiring",
+        "transport_hijacking"
+      ]
+    },
+    "ICP34.5": {
+      "total": 177,
+      "high": 177,
+      "categories": [
+        "apoptosis_modulation",
+        "immune_evasion",
+        "neuronal_hijacking",
+        "other",
+        "signaling_rewiring",
+        "transport_hijacking"
+      ]
+    },
+    "ICP8_UL29": {
+      "total": 33,
+      "high": 29,
+      "categories": [
+        "apoptosis_modulation",
+        "immune_evasion",
+        "neuronal_hijacking",
+        "other",
+        "signaling_rewiring",
+        "transport_hijacking"
+      ]
+    },
+    "UL42": {
+      "total": 803,
+      "high": 798,
+      "categories": [
+        "apoptosis_modulation",
+        "immune_evasion",
+        "neuronal_hijacking",
+        "other",
+        "signaling_rewiring",
+        "transcription_control",
+        "transport_hijacking"
+      ]
+    },
+    "gD_US6": {
+      "total": 133,
+      "high": 133,
+      "categories": [
+        "apoptosis_modulation",
+        "immune_evasion",
+        "neuronal_hijacking",
+        "other",
+        "signaling_rewiring",
+        "transport_hijacking"
+      ]
+    },
+    "VP11_12_UL46": {
+      "total": 340,
+      "high": 334,
+      "categories": [
+        "apoptosis_modulation",
+        "immune_evasion",
+        "neuronal_hijacking",
+        "other",
+        "signaling_rewiring"
+      ]
+    },
+    "ICP27_UL54": {
+      "total": 351,
+      "high": 348,
+      "categories": [
+        "apoptosis_modulation",
+        "immune_evasion",
+        "neuronal_hijacking",
+        "other",
+        "signaling_rewiring",
+        "transcription_control",
+        "transport_hijacking"
+      ]
+    },
+    "ICP22_US1": {
+      "total": 1275,
+      "high": 1202,
+      "categories": [
+        "apoptosis_modulation",
+        "immune_evasion",
+        "neuronal_hijacking",
+        "other",
+        "signaling_rewiring",
+        "transport_hijacking"
+      ]
+    },
+    "VP16_UL48": {
+      "total": 169,
+      "high": 125,
+      "categories": [
+        "apoptosis_modulation",
+        "immune_evasion",
+        "neuronal_hijacking",
+        "other",
+        "signaling_rewiring",
+        "transport_hijacking"
+      ]
+    }
+  },
+  "hypothesis_h2": {
+    "targets": [
+      {
+        "protein": "US3",
+        "n_switches": 267,
+        "n_high_conf": 252,
+        "n_cross_pathway": 267,
+        "n_categories": 7,
+        "switch_density": 4.525,
+        "categories": [
+          "apoptosis_modulation",
+          "immune_evasion",
+          "neuronal_hijacking",
+          "other",
+          "signaling_rewiring",
+          "transcription_control",
+          "transport_hijacking"
+        ]
+      },
+      {
+        "protein": "pUL37",
+        "n_switches": 147,
+        "n_high_conf": 144,
+        "n_cross_pathway": 147,
+        "n_categories": 6,
+        "switch_density": 3.585,
+        "categories": [
+          "apoptosis_modulation",
+          "immune_evasion",
+          "neuronal_hijacking",
+          "other",
+          "signaling_rewiring",
+          "transport_hijacking"
+        ]
+      },
+      {
+        "protein": "ICP34.5",
+        "n_switches": 177,
+        "n_high_conf": 177,
+        "n_cross_pathway": 177,
+        "n_categories": 6,
+        "switch_density": 2.766,
+        "categories": [
+          "apoptosis_modulation",
+          "immune_evasion",
+          "neuronal_hijacking",
+          "other",
+          "signaling_rewiring",
+          "transport_hijacking"
+        ]
+      }
+    ],
+    "controls": [
+      {
+        "protein": "UL42",
+        "n_switches": 803,
+        "n_high_conf": 798,
+        "n_cross_pathway": 803,
+        "n_categories": 7,
+        "switch_density": 11.638,
+        "categories": [
+          "apoptosis_modulation",
+          "immune_evasion",
+          "neuronal_hijacking",
+          "other",
+          "signaling_rewiring",
+          "transcription_control",
+          "transport_hijacking"
+        ]
+      },
+      {
+        "protein": "ICP22_US1",
+        "n_switches": 1275,
+        "n_high_conf": 1202,
+        "n_cross_pathway": 1275,
+        "n_categories": 6,
+        "switch_density": 7.969,
+        "categories": [
+          "apoptosis_modulation",
+          "immune_evasion",
+          "neuronal_hijacking",
+          "other",
+          "signaling_rewiring",
+          "transport_hijacking"
+        ]
+      },
+      {
+        "protein": "gD_US6",
+        "n_switches": 133,
+        "n_high_conf": 133,
+        "n_cross_pathway": 133,
+        "n_categories": 6,
+        "switch_density": 6.045,
+        "categories": [
+          "apoptosis_modulation",
+          "immune_evasion",
+          "neuronal_hijacking",
+          "other",
+          "signaling_rewiring",
+          "transport_hijacking"
+        ]
+      },
+      {
+        "protein": "VP11_12_UL46",
+        "n_switches": 340,
+        "n_high_conf": 334,
+        "n_cross_pathway": 340,
+        "n_categories": 5,
+        "switch_density": 5.397,
+        "categories": [
+          "apoptosis_modulation",
+          "immune_evasion",
+          "neuronal_hijacking",
+          "other",
+          "signaling_rewiring"
+        ]
+      },
+      {
+        "protein": "VP16_UL48",
+        "n_switches": 169,
+        "n_high_conf": 125,
+        "n_cross_pathway": 169,
+        "n_categories": 6,
+        "switch_density": 4.024,
+        "categories": [
+          "apoptosis_modulation",
+          "immune_evasion",
+          "neuronal_hijacking",
+          "other",
+          "signaling_rewiring",
+          "transport_hijacking"
+        ]
+      },
+      {
+        "protein": "ICP27_UL54",
+        "n_switches": 351,
+        "n_high_conf": 348,
+        "n_cross_pathway": 351,
+        "n_categories": 7,
+        "switch_density": 3.944,
+        "categories": [
+          "apoptosis_modulation",
+          "immune_evasion",
+          "neuronal_hijacking",
+          "other",
+          "signaling_rewiring",
+          "transcription_control",
+          "transport_hijacking"
+        ]
+      },
+      {
+        "protein": "ICP8_UL29",
+        "n_switches": 33,
+        "n_high_conf": 29,
+        "n_cross_pathway": 33,
+        "n_categories": 6,
+        "switch_density": 2.2,
+        "categories": [
+          "apoptosis_modulation",
+          "immune_evasion",
+          "neuronal_hijacking",
+          "other",
+          "signaling_rewiring",
+          "transport_hijacking"
+        ]
+      }
+    ],
+    "mann_whitney_U": 5.0,
+    "mann_whitney_p": 0.9083,
+    "target_mean_density": 3.625,
+    "control_mean_density": 5.888,
+    "power_analysis": {
+      "n_group1": 3,
+      "n_group2": 7,
+      "observed_effect_size_d": -0.85,
+      "achieved_power": 0.23,
+      "alpha": 0.05,
+      "min_detectable_effect_d_at_80pct": 2.25,
+      "interpretation": "With n=3 vs n=7, this test is severely underpowered (achieved power=23.0%). The minimum detectable effect at 80% power is Cohen's d=2.25, which corresponds to a very large effect. The observed d=-0.85 falls below this threshold. Non-significant results should be interpreted as inconclusive, not as evidence of no difference.",
+      "power_curve": {
+        "0.5": 0.121,
+        "0.75": 0.198,
+        "1.0": 0.29,
+        "1.25": 0.402,
+        "1.5": 0.513,
+        "1.75": 0.632,
+        "2.0": 0.734,
+        "2.25": 0.825,
+        "2.5": 0.889,
+        "2.75": 0.934,
+        "3.0": 0.965,
+        "3.25": 0.981,
+        "3.5": 0.991,
+        "3.75": 0.994,
+        "4.0": 0.997,
+        "4.25": 0.999,
+        "4.5": 1.0,
+        "4.75": 1.0,
+        "5.0": 1.0
+      }
+    }
+  },
+  "hypothesis_h3": {
+    "target_cns_switches": 100,
+    "target_total_switches": 591,
+    "target_cns_fraction": 0.169,
+    "control_cns_switches": 442,
+    "control_total_switches": 3104,
+    "control_cns_fraction": 0.142,
+    "fisher_odds_ratio": 1.23,
+    "fisher_p_value": 0.0537,
+    "power_analysis": {
+      "achieved_power_10pp_diff": 1.0,
+      "target_cns_proportion": 0.169,
+      "control_cns_proportion": 0.142,
+      "interpretation": "With 591 target vs 3104 control switches, this test has 100% power to detect a 10 percentage-point difference in CNS pathway fraction. Non-significant results are inconclusive."
+    }
+  },
+  "n_validated": 34
+}

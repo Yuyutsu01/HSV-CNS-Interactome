@@ -1,0 +1,287 @@
+{
+  "ICP34.5": {
+    "accession": "P36313",
+    "category": "target",
+    "length": 248,
+    "idr_boundaries": [
+      [
+        1,
+        66
+      ],
+      [
+        73,
+        132
+      ],
+      [
+        145,
+        179
+      ],
+      [
+        200,
+        248
+      ]
+    ],
+    "idr_fraction": 0.847,
+    "n_idrs": 4,
+    "has_iupred3": false,
+    "has_plddt": false
+  },
+  "US3": {
+    "accession": "P04413",
+    "category": "target",
+    "length": 481,
+    "idr_boundaries": [
+      [
+        7,
+        67
+      ],
+      [
+        81,
+        120
+      ],
+      [
+        125,
+        183
+      ],
+      [
+        412,
+        440
+      ]
+    ],
+    "idr_fraction": 0.393,
+    "n_idrs": 4,
+    "has_iupred3": false,
+    "has_plddt": false
+  },
+  "pUL37": {
+    "accession": "P10221",
+    "category": "target",
+    "length": 1123,
+    "idr_boundaries": [
+      [
+        1,
+        57
+      ],
+      [
+        323,
+        343
+      ],
+      [
+        794,
+        818
+      ],
+      [
+        914,
+        933
+      ],
+      [
+        959,
+        986
+      ],
+      [
+        1044,
+        1123
+      ]
+    ],
+    "idr_fraction": 0.206,
+    "n_idrs": 6,
+    "has_iupred3": false,
+    "has_plddt": false
+  },
+  "ICP8_UL29": {
+    "accession": "P04296",
+    "category": "control",
+    "length": 1196,
+    "idr_boundaries": [
+      [
+        122,
+        147
+      ],
+      [
+        280,
+        315
+      ],
+      [
+        420,
+        444
+      ],
+      [
+        741,
+        762
+      ],
+      [
+        924,
+        952
+      ],
+      [
+        1152,
+        1194
+      ]
+    ],
+    "idr_fraction": 0.151,
+    "n_idrs": 6,
+    "has_iupred3": false,
+    "has_plddt": false
+  },
+  "UL42": {
+    "accession": "P10186",
+    "category": "control",
+    "length": 334,
+    "idr_boundaries": [
+      [
+        1,
+        100
+      ]
+    ],
+    "idr_fraction": 0.299,
+    "n_idrs": 1,
+    "has_iupred3": false,
+    "has_plddt": false
+  },
+  "gD_US6": {
+    "accession": "P57083",
+    "category": "control",
+    "length": 394,
+    "idr_boundaries": [
+      [
+        270,
+        309
+      ],
+      [
+        372,
+        394
+      ]
+    ],
+    "idr_fraction": 0.16,
+    "n_idrs": 2,
+    "has_iupred3": false,
+    "has_plddt": false
+  },
+  "VP11_12_UL46": {
+    "accession": "P10228",
+    "category": "control",
+    "length": 511,
+    "idr_boundaries": [
+      [
+        27,
+        133
+      ],
+      [
+        452,
+        472
+      ]
+    ],
+    "idr_fraction": 0.25,
+    "n_idrs": 2,
+    "has_iupred3": false,
+    "has_plddt": false
+  },
+  "VP16_UL48": {
+    "accession": "P06492",
+    "category": "control",
+    "length": 490,
+    "idr_boundaries": [
+      [
+        12,
+        60
+      ],
+      [
+        306,
+        327
+      ],
+      [
+        379,
+        424
+      ],
+      [
+        444,
+        468
+      ]
+    ],
+    "idr_fraction": 0.29,
+    "n_idrs": 4,
+    "has_iupred3": false,
+    "has_plddt": false
+  },
+  "VP22_UL49": {
+    "accession": "P10216",
+    "category": "control",
+    "length": 596,
+    "idr_boundaries": [
+      [
+        70,
+        111
+      ],
+      [
+        220,
+        246
+      ],
+      [
+        257,
+        283
+      ],
+      [
+        296,
+        333
+      ],
+      [
+        353,
+        399
+      ]
+    ],
+    "idr_fraction": 0.304,
+    "n_idrs": 5,
+    "has_iupred3": false,
+    "has_plddt": false
+  },
+  "ICP27_UL54": {
+    "accession": "P10238",
+    "category": "control",
+    "length": 512,
+    "idr_boundaries": [
+      [
+        17,
+        245
+      ],
+      [
+        272,
+        301
+      ]
+    ],
+    "idr_fraction": 0.506,
+    "n_idrs": 2,
+    "has_iupred3": false,
+    "has_plddt": false
+  },
+  "ICP22_US1": {
+    "accession": "P04485",
+    "category": "control",
+    "length": 420,
+    "idr_boundaries": [
+      [
+        6,
+        91
+      ],
+      [
+        97,
+        133
+      ],
+      [
+        141,
+        190
+      ],
+      [
+        304,
+        360
+      ],
+      [
+        368,
+        405
+      ]
+    ],
+    "idr_fraction": 0.638,
+    "n_idrs": 5,
+    "has_iupred3": false,
+    "has_plddt": false
+  }
+}

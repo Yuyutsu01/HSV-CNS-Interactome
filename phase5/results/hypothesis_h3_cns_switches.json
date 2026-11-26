@@ -1,0 +1,16 @@
+{
+  "target_cns_switches": 100,
+  "target_total_switches": 591,
+  "target_cns_fraction": 0.169,
+  "control_cns_switches": 442,
+  "control_total_switches": 3104,
+  "control_cns_fraction": 0.142,
+  "fisher_odds_ratio": 1.23,
+  "fisher_p_value": 0.0537,
+  "power_analysis": {
+    "achieved_power_10pp_diff": 1.0,
+    "target_cns_proportion": 0.169,
+    "control_cns_proportion": 0.142,
+    "interpretation": "With 591 target vs 3104 control switches, this test has 100% power to detect a 10 percentage-point difference in CNS pathway fraction. Non-significant results are inconclusive."
+  }
+}

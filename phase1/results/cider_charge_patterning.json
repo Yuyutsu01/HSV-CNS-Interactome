@@ -1,0 +1,112 @@
+{
+  "ICP34.5": {
+    "kappa": 0.3504,
+    "fcr": 0.2419,
+    "ncpr": 0.0726,
+    "mean_hydropathy": 3.761,
+    "delta": 0.0776,
+    "deltaMax": 0.2216,
+    "source": "localCIDER",
+    "category": "target"
+  },
+  "US3": {
+    "kappa": 0.2517,
+    "fcr": 0.2308,
+    "ncpr": -0.027,
+    "mean_hydropathy": 4.099,
+    "delta": 0.0564,
+    "deltaMax": 0.224,
+    "source": "localCIDER",
+    "category": "target"
+  },
+  "pUL37": {
+    "kappa": 0.1582,
+    "fcr": 0.1834,
+    "ncpr": -0.0196,
+    "mean_hydropathy": 4.542,
+    "delta": 0.0285,
+    "deltaMax": 0.1802,
+    "source": "localCIDER",
+    "category": "target"
+  },
+  "ICP8_UL29": {
+    "kappa": 0.1774,
+    "fcr": 0.1957,
+    "ncpr": -0.0117,
+    "mean_hydropathy": 4.447,
+    "delta": 0.0343,
+    "deltaMax": 0.1931,
+    "source": "localCIDER",
+    "category": "control"
+  },
+  "UL42": {
+    "kappa": 0.1903,
+    "fcr": 0.2096,
+    "ncpr": 0.0299,
+    "mean_hydropathy": 4.09,
+    "delta": 0.038,
+    "deltaMax": 0.1999,
+    "source": "localCIDER",
+    "category": "control"
+  },
+  "gD_US6": {
+    "kappa": 0.2534,
+    "fcr": 0.1777,
+    "ncpr": 0.0051,
+    "mean_hydropathy": 4.343,
+    "delta": 0.0432,
+    "deltaMax": 0.1706,
+    "source": "localCIDER",
+    "category": "control"
+  },
+  "VP11_12_UL46": {
+    "kappa": 0.216,
+    "fcr": 0.1624,
+    "ncpr": 0.002,
+    "mean_hydropathy": 4.174,
+    "delta": 0.0339,
+    "deltaMax": 0.1569,
+    "source": "localCIDER",
+    "category": "control"
+  },
+  "VP16_UL48": {
+    "kappa": 0.202,
+    "fcr": 0.2327,
+    "ncpr": -0.0531,
+    "mean_hydropathy": 4.236,
+    "delta": 0.0448,
+    "deltaMax": 0.222,
+    "source": "localCIDER",
+    "category": "control"
+  },
+  "VP22_UL49": {
+    "kappa": 0.2186,
+    "fcr": 0.2047,
+    "ncpr": -0.0067,
+    "mean_hydropathy": 4.451,
+    "delta": 0.0438,
+    "deltaMax": 0.2002,
+    "source": "localCIDER",
+    "category": "control"
+  },
+  "ICP27_UL54": {
+    "kappa": 0.2444,
+    "fcr": 0.252,
+    "ncpr": -0.0059,
+    "mean_hydropathy": 3.91,
+    "delta": 0.0604,
+    "deltaMax": 0.2471,
+    "source": "localCIDER",
+    "category": "control"
+  },
+  "ICP22_US1": {
+    "kappa": 0.2895,
+    "fcr": 0.2976,
+    "ncpr": -0.0071,
+    "mean_hydropathy": 3.722,
+    "delta": 0.0846,
+    "deltaMax": 0.2922,
+    "source": "localCIDER",
+    "category": "control"
+  }
+}

@@ -1,0 +1,158 @@
+protein,category,motif_class,description,start,end,matched_sequence,in_idr,iupred3_mean,composition_mean,pathway,host_targets,cns_score,max_brain_tpm,composite_score
+ICP34.5,target,DOC_MAPK_DCC_7,MAPK D-motif / docking site,3,15,RRRRHRGPRRPRP,True,0.9715,0.842,MAPK_signaling,MAPK1; MAPK3; MAPK8; MAPK14,4.858,40,0.6534
+ICP34.5,target,DOC_MAPK_DCC_7,MAPK D-motif / docking site,149,159,RRAGGEGAPEP,True,0.8734,0.7674,MAPK_signaling,MAPK1; MAPK3; MAPK8; MAPK14,4.858,40,0.624
+ICP34.5,target,MOD_CDK_SPxK_1,CDK phosphorylation site (SP-x-K/R),174,177,TPAR,True,0.8204,0.625,cell_cycle,CDK1; CDK2; CDK5,1.616,65,0.5
+ICP34.5,target,MOD_GSK3_1,GSK3 phosphorylation site (primed),27,31,SQVTS,True,0.9771,0.6715,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.6102
+ICP34.5,target,MOD_GSK3_1,GSK3 phosphorylation site (primed),119,123,SHPPS,True,0.9254,0.7883,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5947
+ICP34.5,target,DOC_CASP_3,Caspase-3 cleavage site,75,78,DDDD,True,0.9548,0.6656,apoptosis,CASP3; CASP7,5.35,10,0.6648
+ICP34.5,target,DOC_CASP_3,Caspase-3 cleavage site,81,84,DWPD,True,0.9879,0.8231,apoptosis,CASP3; CASP7,5.35,10,0.6747
+ICP34.5,target,DEG_APCC_DBOX_1,APC/C D-box (destruction box),145,148,RLRL,True,0.6629,0.5861,ubiquitin_proteasome,ANAPC2,2.398,10,0.4788
+ICP34.5,target,LIG_SH3_3,Class II SH3 binding motif,12,18,RPRPPGP,True,0.9818,0.8339,SH3_signaling,SRC; FYN; LCK,3.219,55,0.6018
+ICP34.5,target,LIG_SH3_3,Class II SH3 binding motif,102,108,RPRPPPP,True,0.9782,0.8597,SH3_signaling,SRC; FYN; LCK,3.219,55,0.6008
+ICP34.5,target,TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),3,5,RRR,True,0.9562,0.8276,nuclear_transport,KPNA1; KPNA2,2.918,20,0.5841
+ICP34.5,target,LIG_FHA_2,FHA domain binding pTxxD motif,17,22,GPTGAV,True,0.9865,0.794,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.5228
+US3,target,DOC_MAPK_DCC_7,MAPK D-motif / docking site,15,23,RRKEEAVPP,True,0.7614,0.7349,MAPK_signaling,MAPK1; MAPK3; MAPK8; MAPK14,4.858,40,0.5904
+US3,target,MOD_CK2_1,CK2 phosphorylation site,38,41,TPAE,True,0.5737,0.6022,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.472
+US3,target,MOD_CK2_1,CK2 phosphorylation site,62,65,SEAE,True,0.7487,0.6452,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5245
+US3,target,MOD_CK2_1,CK2 phosphorylation site,147,150,SRDE,True,0.6928,0.6617,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5077
+US3,target,MOD_CK2_1,CK2 phosphorylation site,157,160,TAEE,True,0.5956,0.5805,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.4785
+US3,target,MOD_GSK3_1,GSK3 phosphorylation site (primed),52,56,TPKPS,True,0.9458,0.8237,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.6008
+US3,target,MOD_GSK3_1,GSK3 phosphorylation site (primed),58,62,TTPPS,True,0.8752,0.7581,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5796
+US3,target,MOD_PKA_2,PKA phosphorylation site,144,147,RRRS,True,0.6852,0.6881,cAMP_signaling,PRKACA; PRKACB,5.898,60,0.6022
+US3,target,LIG_TRAF2_1,TRAF2 binding motif,157,160,TAEE,True,0.5956,0.5805,NFkB_innate_immunity,TRAF2; TRAF6,4.796,12,0.5385
+US3,target,LIG_TRAF6_MATH_1,TRAF6 MATH domain binding motif,108,113,PEEYAE,True,0.6543,0.5786,NFkB_innate_immunity,TRAF6,4.394,8,0.5428
+US3,target,DOC_CASP_3,Caspase-3 cleavage site,88,91,DPSA,True,0.8673,0.6412,apoptosis,CASP3; CASP7,5.35,10,0.6385
+US3,target,DOC_CASP_3,Caspase-3 cleavage site,92,95,DAAD,True,0.9004,0.6765,apoptosis,CASP3; CASP7,5.35,10,0.6485
+US3,target,DOC_CASP_3,Caspase-3 cleavage site,98,101,DEDA,True,0.8418,0.6636,apoptosis,CASP3; CASP7,5.35,10,0.6309
+US3,target,DOC_CASP_3,Caspase-3 cleavage site,103,106,DDVA,True,0.7753,0.6212,apoptosis,CASP3; CASP7,5.35,10,0.6109
+US3,target,TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),15,17,RRK,True,0.6226,0.683,nuclear_transport,KPNA1; KPNA2,2.918,20,0.484
+US3,target,TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),144,146,RRR,True,0.6835,0.6979,nuclear_transport,KPNA1; KPNA2,2.918,20,0.5023
+US3,target,LIG_FHA_2,FHA domain binding pTxxD motif,155,160,GFTAEE,True,0.6,0.5824,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.4068
+pUL37,target,MOD_CK2_1,CK2 phosphorylation site,1054,1057,SPRD,True,0.7585,0.6716,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5274
+pUL37,target,MOD_CK2_1,CK2 phosphorylation site,1098,1101,TPVE,True,0.9374,0.6796,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5811
+pUL37,target,LIG_TRAF6_MATH_1,TRAF6 MATH domain binding motif,1099,1104,PVEDDE,True,0.9278,0.6526,NFkB_innate_immunity,TRAF6,4.394,8,0.6248
+pUL37,target,DOC_CASP_3,Caspase-3 cleavage site,1109,1112,DTVA,True,0.8463,0.5661,apoptosis,CASP3; CASP7,5.35,10,0.6322
+pUL37,target,LIG_FHA_2,FHA domain binding pTxxD motif,1096,1101,SNTPVE,True,0.9307,0.681,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.506
+pUL37,target,DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,4,6,RGL,True,0.6252,0.5578,cell_cycle,CCNA2; CCNB1; CCNE1,0.49,2,0.4039
+pUL37,target,DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,28,30,RLL,True,0.6238,0.6735,cell_cycle,CCNA2; CCNB1; CCNE1,0.49,2,0.4035
+pUL37,target,DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,1056,1058,RDL,True,0.8061,0.6803,cell_cycle,CCNA2; CCNB1; CCNE1,0.49,2,0.4582
+ICP8_UL29,control,TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),1170,1172,RKR,True,0.5705,0.6879,nuclear_transport,KPNA1; KPNA2,2.918,20,0.4684
+UL42,control,LIG_14-3-3_CanoR_1,14-3-3 binding phospho-motif (mode 1),13,18,RRPSSP,True,0.971,0.8732,14-3-3_signaling,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ; SFN,7.903,350,0.7547
+UL42,control,LIG_14-3-3_CanoR_1,14-3-3 binding phospho-motif (mode 1),24,29,RDGTPP,True,0.985,0.8508,14-3-3_signaling,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ; SFN,7.903,350,0.7589
+UL42,control,LIG_14-3-3_CanoR_2,14-3-3 binding phospho-motif (mode 2),12,18,RRRPSSP,True,0.9666,0.8706,14-3-3_signaling,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ,8.131,350,0.761
+UL42,control,DOC_MAPK_DCC_7,MAPK D-motif / docking site,2,11,KRACSRSPSP,True,0.8964,0.8121,MAPK_signaling,MAPK1; MAPK3; MAPK8; MAPK14,4.858,40,0.6309
+UL42,control,MOD_CDK_SPxK_1,CDK phosphorylation site (SP-x-K/R),10,13,SPRR,True,0.9336,0.8431,cell_cycle,CDK1; CDK2; CDK5,1.616,65,0.5339
+UL42,control,MOD_CDK_SPxK_1,CDK phosphorylation site (SP-x-K/R),17,20,SPRR,True,0.9873,0.8848,cell_cycle,CDK1; CDK2; CDK5,1.616,65,0.5501
+UL42,control,MOD_CDK_SPxK_1,CDK phosphorylation site (SP-x-K/R),21,24,TPPR,True,0.985,0.8728,cell_cycle,CDK1; CDK2; CDK5,1.616,65,0.5494
+UL42,control,MOD_CK2_1,CK2 phosphorylation site,53,56,SGGE,True,0.8936,0.7978,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5679
+UL42,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),6,10,SRSPS,True,0.911,0.8251,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5904
+UL42,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),17,21,SPRRT,True,0.9876,0.8853,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.6133
+UL42,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),38,42,TPGAS,True,0.9661,0.7782,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.6069
+UL42,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),49,53,TRPGS,True,0.9022,0.7797,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5877
+UL42,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),80,84,TFSSS,True,0.8155,0.6948,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5617
+UL42,control,MOD_PKA_2,PKA phosphorylation site,13,16,RRPS,True,0.9638,0.8697,cAMP_signaling,PRKACA; PRKACB,5.898,60,0.6857
+UL42,control,MOD_PKB_1,Akt/PKB phosphorylation site,12,17,RRRPSS,True,0.9632,0.8683,PI3K_Akt_signaling,AKT1; AKT2; AKT3,4.637,35,0.6435
+UL42,control,DOC_CASP_3,Caspase-3 cleavage site,33,36,DADD,True,0.9777,0.8052,apoptosis,CASP3; CASP7,5.35,10,0.6716
+UL42,control,DEG_SCF_FBW7_1,SCF-FBW7 phosphodegron,37,42,PTPGAS,True,0.967,0.7791,ubiquitin_proteasome,FBXW7,2.197,8,0.5633
+UL42,control,LIG_SH3_3,Class II SH3 binding motif,12,18,RRRPSSP,True,0.9666,0.8706,SH3_signaling,SRC; FYN; LCK,3.219,55,0.5973
+UL42,control,TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),12,14,RRR,True,0.9492,0.8608,nuclear_transport,KPNA1; KPNA2,2.918,20,0.582
+UL42,control,TRG_NLS_Bipartite_1,Bipartite NLS,2,14,KRACSRSPSPRRR,True,0.9086,0.8233,nuclear_transport,KPNA1; KPNA2; KPNA3,2.773,20,0.565
+gD_US6,control,MOD_CK2_1,CK2 phosphorylation site,289,292,TQPE,True,0.896,0.7821,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5687
+gD_US6,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),285,289,TPNAT,True,0.7735,0.7247,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5491
+gD_US6,control,LIG_TRAF6_MATH_1,TRAF6 MATH domain binding motif,279,284,PPELSE,True,0.6258,0.6412,NFkB_innate_immunity,TRAF6,4.394,8,0.5342
+gD_US6,control,DOC_CASP_3,Caspase-3 cleavage site,297,300,DPED,True,0.7648,0.7059,apoptosis,CASP3; CASP7,5.35,10,0.6078
+gD_US6,control,LIG_FHA_2,FHA domain binding pTxxD motif,287,292,NATQPE,True,0.8578,0.7643,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.4842
+VP11_12_UL46,control,LIG_BH3_BclXL_1,BH3 motif binding anti-apoptotic Bcl-2 family,35,46,ITAGAVTNASEA,True,0.8759,0.6348,apoptosis/autophagy,BCL2; BCL2L1; MCL1,8.84,55,0.7574
+VP11_12_UL46,control,MOD_CDK_SPxK_1,CDK phosphorylation site (SP-x-K/R),111,114,TPAK,True,0.9703,0.8391,cell_cycle,CDK1; CDK2; CDK5,1.616,65,0.545
+VP11_12_UL46,control,MOD_CK2_1,CK2 phosphorylation site,77,80,TPTE,True,0.9653,0.7296,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5895
+VP11_12_UL46,control,MOD_CK2_1,CK2 phosphorylation site,100,103,STPD,True,0.9735,0.8155,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5919
+VP11_12_UL46,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),44,48,SEAPT,True,0.8818,0.6974,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5816
+VP11_12_UL46,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),57,61,SPEVT,True,0.9392,0.7589,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5988
+VP11_12_UL46,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),72,76,TQNKT,True,0.9637,0.715,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.6062
+VP11_12_UL46,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),79,83,TEPAS,True,0.9674,0.7682,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.6073
+VP11_12_UL46,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),87,91,TPKPT,True,0.9746,0.8557,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.6094
+VP11_12_UL46,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),92,96,STPKS,True,0.9769,0.8499,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.6101
+VP11_12_UL46,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),111,115,TPAKS,True,0.9666,0.8317,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.607
+VP11_12_UL46,control,DOC_CASP_3,Caspase-3 cleavage site,128,131,DRRD,True,0.7036,0.6404,apoptosis,CASP3; CASP7,5.35,10,0.5894
+VP11_12_UL46,control,DEG_SCF_FBW7_1,SCF-FBW7 phosphodegron,60,65,VTPTST,True,0.9305,0.6893,ubiquitin_proteasome,FBXW7,2.197,8,0.5524
+VP11_12_UL46,control,DEG_APCC_DBOX_1,APC/C D-box (destruction box),130,133,RDPL,True,0.6294,0.5638,ubiquitin_proteasome,ANAPC2,2.398,10,0.4688
+VP11_12_UL46,control,LIG_SH3_3,Class II SH3 binding motif,75,81,KTTPTEP,True,0.9665,0.7357,SH3_signaling,SRC; FYN; LCK,3.219,55,0.5973
+VP11_12_UL46,control,LIG_FHA_2,FHA domain binding pTxxD motif,75,80,KTTPTE,True,0.9668,0.732,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.5169
+VP16_UL48,control,LIG_14-3-3_CanoR_1,14-3-3 binding phospho-motif (mode 1),409,414,RLSTAP,True,0.6239,0.5764,14-3-3_signaling,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ; SFN,7.903,350,0.6506
+VP16_UL48,control,LIG_14-3-3_CanoR_2,14-3-3 binding phospho-motif (mode 2),408,414,RRLSTAP,True,0.6098,0.571,14-3-3_signaling,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ,8.131,350,0.654
+VP16_UL48,control,MOD_CK2_1,CK2 phosphorylation site,419,422,SLGD,True,0.6771,0.5507,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.503
+VP16_UL48,control,MOD_CK2_1,CK2 phosphorylation site,458,461,TPHD,True,0.7537,0.685,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.526
+VP16_UL48,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),407,411,TRRLS,True,0.5514,0.5542,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.4825
+VP16_UL48,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),412,416,TAPPT,True,0.6906,0.5894,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5242
+VP16_UL48,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),458,462,TPHDS,True,0.7437,0.68,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5402
+VP16_UL48,control,MOD_PKA_2,PKA phosphorylation site,408,411,RRLS,True,0.5285,0.5371,cAMP_signaling,PRKACA; PRKACB,5.898,60,0.5552
+VP16_UL48,control,LIG_TRAF2_1,TRAF2 binding motif,388,391,APEE,True,0.6129,0.6247,NFkB_innate_immunity,TRAF2; TRAF6,4.796,12,0.5437
+VP16_UL48,control,DOC_CASP_3,Caspase-3 cleavage site,382,385,DLPD,True,0.6269,0.5773,apoptosis,CASP3; CASP7,5.35,10,0.5664
+VP16_UL48,control,LIG_SH3_3,Class II SH3 binding motif,29,35,KNTPAAP,True,0.7502,0.7607,SH3_signaling,SRC; FYN; LCK,3.219,55,0.5324
+VP16_UL48,control,LIG_WW_1,WW domain binding PY motif,35,38,PPLY,True,0.6346,0.6842,ubiquitin_signaling,NEDD4; NEDD4L; ITCH; WWP1,3.125,35,0.4945
+VP16_UL48,control,LIG_FHA_2,FHA domain binding pTxxD motif,456,461,GFTPHD,True,0.761,0.6885,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.4551
+VP16_UL48,control,DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,408,410,RRL,True,0.5282,0.5368,cell_cycle,CCNA2; CCNB1; CCNE1,0.49,2,0.3748
+VP22_UL49,control,LIG_SH3_3,Class II SH3 binding motif,93,99,RGGPRNP,True,0.8299,0.8444,SH3_signaling,SRC; FYN; LCK,3.219,55,0.5563
+ICP27_UL54,control,LIG_LIR_Gen_1,LC3-interacting region (LIR/AIM motif),103,108,SVWSRL,True,0.9145,0.7068,autophagy,MAP1LC3A; MAP1LC3B; GABARAP; GABARAPL2,14.129,180,0.9453
+ICP27_UL54,control,LIG_LIR_Apic_2,Apicomplexan-type LIR motif,103,108,SVWSRL,True,0.9145,0.7068,autophagy,MAP1LC3B,14.387,120,0.9539
+ICP27_UL54,control,MOD_CK2_1,CK2 phosphorylation site,30,33,SRRD,True,0.9823,0.8178,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5946
+ICP27_UL54,control,MOD_CK2_1,CK2 phosphorylation site,39,42,SSGE,True,0.9462,0.7402,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5837
+ICP27_UL54,control,MOD_CK2_1,CK2 phosphorylation site,44,47,SSSD,True,0.9703,0.7606,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.591
+ICP27_UL54,control,MOD_CK2_1,CK2 phosphorylation site,73,76,SRPE,True,0.9743,0.7741,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5922
+ICP27_UL54,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),40,44,SGECS,True,0.9545,0.7344,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.6034
+ICP27_UL54,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),85,89,TPRPT,True,0.9918,0.8224,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.6146
+ICP27_UL54,control,MOD_PKA_2,PKA phosphorylation site,111,114,RRPS,True,0.8617,0.6641,cAMP_signaling,PRKACA; PRKACB,5.898,60,0.6551
+ICP27_UL54,control,LIG_TRAF6_MATH_1,TRAF6 MATH domain binding motif,24,29,PPEPAE,True,0.9829,0.7789,NFkB_innate_immunity,TRAF6,4.394,8,0.6413
+ICP27_UL54,control,DOC_CASP_3,Caspase-3 cleavage site,49,52,DMED,True,0.9798,0.7983,apoptosis,CASP3; CASP7,5.35,10,0.6723
+ICP27_UL54,control,DOC_CASP_3,Caspase-3 cleavage site,229,232,DPRA,True,0.9203,0.7878,apoptosis,CASP3; CASP7,5.35,10,0.6544
+ICP27_UL54,control,DEG_APCC_DBOX_1,APC/C D-box (destruction box),32,35,RDDL,True,0.9717,0.8148,ubiquitin_proteasome,ANAPC2,2.398,10,0.5714
+ICP27_UL54,control,LIG_SH3_3,Class II SH3 binding motif,91,97,RQGPNDP,True,0.9872,0.8138,SH3_signaling,SRC; FYN; LCK,3.219,55,0.6035
+ICP27_UL54,control,TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),144,146,RRR,True,0.9774,0.8558,nuclear_transport,KPNA1; KPNA2,2.918,20,0.5905
+ICP27_UL54,control,TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),163,165,RRR,True,0.973,0.7724,nuclear_transport,KPNA1; KPNA2,2.918,20,0.5892
+ICP27_UL54,control,LIG_FHA_2,FHA domain binding pTxxD motif,206,211,QRTRGV,True,0.977,0.8039,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.5199
+ICP27_UL54,control,LIG_FHA_2,FHA domain binding pTxxD motif,218,223,LMTLAI,True,0.8949,0.6791,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.4953
+ICP22_US1,control,LIG_LIR_Gen_1,LC3-interacting region (LIR/AIM motif),113,119,DWSYDDI,True,0.7932,0.6649,autophagy,MAP1LC3A; MAP1LC3B; GABARAP; GABARAPL2,14.129,180,0.9089
+ICP22_US1,control,LIG_LIR_Apic_2,Apicomplexan-type LIR motif,113,119,DWSYDDI,True,0.7932,0.6649,autophagy,MAP1LC3B,14.387,120,0.9175
+ICP22_US1,control,LIG_14-3-3_CanoR_2,14-3-3 binding phospho-motif (mode 2),30,36,RKRPSRP,True,0.857,0.783,14-3-3_signaling,YWHAB; YWHAE; YWHAG; YWHAH; YWHAQ; YWHAZ,8.131,350,0.7281
+ICP22_US1,control,DOC_MAPK_DCC_7,MAPK D-motif / docking site,16,25,RRPALRSPPL,True,0.7298,0.7035,MAPK_signaling,MAPK1; MAPK3; MAPK8; MAPK14,4.858,40,0.5809
+ICP22_US1,control,DOC_MAPK_DCC_7,MAPK D-motif / docking site,80,90,RRLGGRFFLDM,True,0.6523,0.5593,MAPK_signaling,MAPK1; MAPK3; MAPK8; MAPK14,4.858,40,0.5576
+ICP22_US1,control,DOC_MAPK_DCC_7,MAPK D-motif / docking site,124,132,KRARVNLRL,True,0.7425,0.6401,MAPK_signaling,MAPK1; MAPK3; MAPK8; MAPK14,4.858,40,0.5847
+ICP22_US1,control,MOD_CK2_1,CK2 phosphorylation site,39,42,SESE,True,0.8308,0.7371,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5491
+ICP22_US1,control,MOD_CK2_1,CK2 phosphorylation site,47,50,TALE,True,0.8204,0.674,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.546
+ICP22_US1,control,MOD_CK2_1,CK2 phosphorylation site,51,54,SEVE,True,0.8397,0.6707,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5518
+ICP22_US1,control,MOD_CK2_1,CK2 phosphorylation site,57,60,TASD,True,0.8997,0.7301,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5698
+ICP22_US1,control,MOD_CK2_1,CK2 phosphorylation site,103,106,SVSD,True,0.8536,0.6327,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5559
+ICP22_US1,control,MOD_CK2_1,CK2 phosphorylation site,115,118,SYDD,True,0.8061,0.6888,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5417
+ICP22_US1,control,MOD_CK2_1,CK2 phosphorylation site,152,155,STRE,True,0.8106,0.6927,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.543
+ICP22_US1,control,MOD_CK2_1,CK2 phosphorylation site,309,312,TDLE,True,0.622,0.5772,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.4865
+ICP22_US1,control,MOD_CK2_1,CK2 phosphorylation site,322,325,SQSD,True,0.7708,0.6834,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5311
+ICP22_US1,control,MOD_CK2_1,CK2 phosphorylation site,375,378,SSVE,True,0.7053,0.6136,CK2_signaling,CSNK2A1; CSNK2A2,2.996,30,0.5115
+ICP22_US1,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),34,38,SRPLS,True,0.8457,0.7708,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5708
+ICP22_US1,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),41,45,SEVES,True,0.8249,0.7034,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5645
+ICP22_US1,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),47,51,TALES,True,0.8219,0.6735,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5636
+ICP22_US1,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),55,59,SETAS,True,0.8827,0.7094,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5819
+ICP22_US1,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),111,115,TSDWS,True,0.7909,0.6411,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5543
+ICP22_US1,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),152,156,STRET,True,0.8283,0.7094,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5656
+ICP22_US1,control,MOD_GSK3_1,GSK3 phosphorylation site (primed),322,326,SQSDT,True,0.7668,0.6745,Wnt_signaling,GSK3A; GSK3B,3.512,45,0.5471
+ICP22_US1,control,MOD_PKA_2,PKA phosphorylation site,31,34,KRPS,True,0.8719,0.7925,cAMP_signaling,PRKACA; PRKACB,5.898,60,0.6582
+ICP22_US1,control,DOC_CASP_3,Caspase-3 cleavage site,106,109,DDPD,True,0.7608,0.5879,apoptosis,CASP3; CASP7,5.35,10,0.6066
+ICP22_US1,control,DOC_CASP_3,Caspase-3 cleavage site,110,113,DTSD,True,0.764,0.6037,apoptosis,CASP3; CASP7,5.35,10,0.6075
+ICP22_US1,control,DOC_CASP_3,Caspase-3 cleavage site,307,310,DATD,True,0.6446,0.5959,apoptosis,CASP3; CASP7,5.35,10,0.5717
+ICP22_US1,control,DOC_CASP_3,Caspase-3 cleavage site,325,328,DTED,True,0.7569,0.6338,apoptosis,CASP3; CASP7,5.35,10,0.6054
+ICP22_US1,control,DOC_CASP_3,Caspase-3 cleavage site,384,387,DSGA,True,0.8013,0.7775,apoptosis,CASP3; CASP7,5.35,10,0.6187
+ICP22_US1,control,DEG_APCC_DBOX_1,APC/C D-box (destruction box),17,20,RPAL,True,0.6798,0.6512,ubiquitin_proteasome,ANAPC2,2.398,10,0.4839
+ICP22_US1,control,DEG_APCC_DBOX_1,APC/C D-box (destruction box),85,88,RFFL,True,0.6701,0.5665,ubiquitin_proteasome,ANAPC2,2.398,10,0.481
+ICP22_US1,control,DEG_APCC_DBOX_1,APC/C D-box (destruction box),127,130,RVNL,True,0.8006,0.6755,ubiquitin_proteasome,ANAPC2,2.398,10,0.5201
+ICP22_US1,control,DEG_APCC_DBOX_1,APC/C D-box (destruction box),341,344,RGSL,True,0.6283,0.5905,ubiquitin_proteasome,ANAPC2,2.398,10,0.4684
+ICP22_US1,control,LIG_SH2_STAT3_1,STAT3 SH2 domain binding pYxxL motif,116,119,YDDI,True,0.7789,0.6656,JAK_STAT_signaling,STAT3,4.159,15,0.5723
+ICP22_US1,control,LIG_SH2_STAT5_1,STAT5 SH2 domain binding pYxxL motif,116,119,YDDI,True,0.7789,0.6656,JAK_STAT_signaling,STAT5A; STAT5B,2.414,5,0.5141
+ICP22_US1,control,LIG_SH3_3,Class II SH3 binding motif,30,36,RKRPSRP,True,0.857,0.783,SH3_signaling,SRC; FYN; LCK,3.219,55,0.5644
+ICP22_US1,control,TRG_NLS_MonoExtC_4,Monopartite NLS (basic cluster),28,30,RKR,True,0.8331,0.7687,nuclear_transport,KPNA1; KPNA2,2.918,20,0.5472
+ICP22_US1,control,TRG_NLS_Bipartite_1,Bipartite NLS,16,32,RRPALRSPPLGTRKRKR,True,0.7813,0.739,nuclear_transport,KPNA1; KPNA2; KPNA3,2.773,20,0.5268
+ICP22_US1,control,TRG_ENDOCYTIC_2,Tyrosine-based endocytic sorting motif,116,119,YDDI,True,0.7789,0.6656,endocytosis,AP2M1,3.584,35,0.5531
+ICP22_US1,control,LIG_FHA_2,FHA domain binding pTxxD motif,45,50,SDTALE,True,0.8171,0.6759,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.472
+ICP22_US1,control,LIG_FHA_2,FHA domain binding pTxxD motif,55,60,SETASD,True,0.8897,0.7192,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.4937
+ICP22_US1,control,LIG_FHA_2,FHA domain binding pTxxD motif,307,312,DATDLE,True,0.6264,0.5876,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.4148
+ICP22_US1,control,LIG_FHA_2,FHA domain binding pTxxD motif,372,377,ADTSSV,True,0.6785,0.593,DNA_damage_signaling,CHEK2; RNF8,0.805,5,0.4304
+ICP22_US1,control,DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,35,37,RPL,True,0.8454,0.7696,cell_cycle,CCNA2; CCNB1; CCNE1,0.49,2,0.47
+ICP22_US1,control,DOC_CYCLIN_RxL_1,Cyclin binding RxL motif,80,82,RRL,True,0.6136,0.5506,cell_cycle,CCNA2; CCNB1; CCNE1,0.49,2,0.4004

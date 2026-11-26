@@ -1,0 +1,38 @@
+[
+  {
+    "hypothesis": "H1",
+    "description": "Neurovirulence proteins have higher CNS-targeting composite scores",
+    "test": "Mann-Whitney U (one-sided)",
+    "statistic": "U=7.0",
+    "p_value": 0.8606,
+    "effect_size": "d=-0.41",
+    "result": "Not significant",
+    "achieved_power": 0.116,
+    "min_detectable_effect": 2.25,
+    "interpretation": "Control proteins also extensively interact with CNS pathways; neurovirulence may be pathway-specific rather than broader CNS targeting. Test severely underpowered (n=3 vs n=8); non-significant result is inconclusive.",
+    "additional_tests": "Welch t p=0.7045, Permutation p=0.7397"
+  },
+  {
+    "hypothesis": "H2",
+    "description": "Target proteins have higher switch density than controls",
+    "test": "Mann-Whitney U (one-sided)",
+    "statistic": "U=5.0",
+    "p_value": 0.9083,
+    "effect_size": "target_mean=3.625, control_mean=5.888",
+    "result": "Not significant",
+    "achieved_power": 0.23,
+    "min_detectable_effect": 2.25,
+    "interpretation": "Switch density is similar; targets may use qualitatively different switches (immune evasion, autophagy) rather than more switches overall. Test severely underpowered; non-significant result is inconclusive."
+  },
+  {
+    "hypothesis": "H3",
+    "description": "Target switches preferentially involve CNS-enriched pathways",
+    "test": "Fisher's exact test (one-sided)",
+    "statistic": "OR=1.23",
+    "p_value": 0.0537,
+    "effect_size": "target_CNS_frac=0.169, control=0.142",
+    "result": "Not significant",
+    "achieved_power": 1.0,
+    "interpretation": "CNS pathway engagement is comparable; neurovirulence specificity may arise from specific molecular targets (Beclin-1, PP1, TRAF6) rather than pathway breadth. Non-significant result is inconclusive given limited statistical power."
+  }
+]

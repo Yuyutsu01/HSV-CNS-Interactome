@@ -1,0 +1,311 @@
+viral_protein,host_protein,n_slims,max_composite,cns_edge_weight,domain,binding_mode,motif_classes,pathways
+ICP34.5,MAP1LC3B,1,0.5665,0.4636,Atg8/LC3,hydrophobic_groove,LIG_ATG8_1,autophagy
+ICP34.5,GABARAP,1,0.5665,0.5025,Atg8/LC3,hydrophobic_groove,LIG_ATG8_1,autophagy
+ICP34.5,CASP3,3,0.4974,0.2035,Caspase,active_site,CLV_CASP_3; DOC_CASP_3; DOC_CASP_3,apoptosis
+ICP34.5,CASP7,3,0.4974,0.1521,Caspase,active_site,CLV_CASP_3; DOC_CASP_3; DOC_CASP_3,apoptosis
+ICP34.5,MAPK1,2,0.3826,0.2424,MAPK,D_groove,DOC_MAPK_DCC_7; DOC_MAPK_DCC_7,MAPK_signaling
+ICP34.5,MAPK3,2,0.3826,0.2127,MAPK,D_groove,DOC_MAPK_DCC_7; DOC_MAPK_DCC_7,MAPK_signaling
+ICP34.5,MAPK8,5,0.3826,0.1922,MAPK,D_groove,DOC_MAPK_DCC_7; DOC_MAPK_DCC_7; DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7,MAPK_signaling
+ICP34.5,MAPK14,2,0.3826,0.181,MAPK,D_groove,DOC_MAPK_DCC_7; DOC_MAPK_DCC_7,MAPK_signaling
+ICP34.5,MAPK9,3,0.3747,0.164,MAPK_JNK,JIP_site,DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7,MAPK_signaling
+ICP34.5,MAPK10,3,0.3747,0.2083,MAPK_JNK,JIP_site,DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7,MAPK_signaling
+ICP34.5,CDK1,1,0.3268,0.0773,Kinase_CDK,active_site,MOD_CDK_SPxK_1,cell_cycle
+ICP34.5,CDK2,1,0.3268,0.0999,Kinase_CDK,active_site,MOD_CDK_SPxK_1,cell_cycle
+ICP34.5,CDK5,1,0.3268,0.2336,Kinase_CDK,active_site,MOD_CDK_SPxK_1,cell_cycle
+ICP34.5,CSNK1A1,2,0.3449,0.2109,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+ICP34.5,CSNK1D,2,0.3449,0.1792,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+ICP34.5,CSNK1E,2,0.3449,0.1632,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+ICP34.5,GSK3A,2,0.3524,0.1831,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+ICP34.5,GSK3B,2,0.3524,0.2302,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+ICP34.5,ATM,1,0.292,0.0893,PIKK_kinase,active_site,MOD_PIKK_1,DNA_damage_signaling
+ICP34.5,ATR,1,0.292,0.0802,PIKK_kinase,active_site,MOD_PIKK_1,DNA_damage_signaling
+ICP34.5,SRC,4,0.4222,0.1634,SH3,PPII_groove,LIG_SH3_1; LIG_SH3_1; LIG_SH3_3; LIG_SH3_3,SH3_signaling
+ICP34.5,FYN,4,0.4222,0.2373,SH3,PPII_groove,LIG_SH3_1; LIG_SH3_1; LIG_SH3_3; LIG_SH3_3,SH3_signaling
+ICP34.5,LCK,2,0.3455,0.0648,SH3,PPII_groove,LIG_SH3_1; LIG_SH3_1,SH3_signaling
+ICP34.5,GRB2,2,0.3455,0.1795,SH3,PPII_groove,LIG_SH3_1; LIG_SH3_1,SH3_signaling
+ICP34.5,ABL1,2,0.4222,0.1711,SH3,PPII_groove,LIG_SH3_3; LIG_SH3_3,SH3_signaling
+ICP34.5,KPNA1,1,0.3343,0.1737,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4,nuclear_transport
+ICP34.5,KPNA2,1,0.3343,0.1581,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4,nuclear_transport
+ICP34.5,ANAPC2,1,0.2683,0.1098,APC_WD40,Dbox_receptor,DEG_APCC_DBOX_1,ubiquitin_proteasome
+ICP34.5,FZR1,1,0.2683,0.1269,APC_WD40,Dbox_receptor,DEG_APCC_DBOX_1,ubiquitin_proteasome
+ICP34.5,FE65,2,0.2931,0.0,WW,PPxR_groove,LIG_WW_3; LIG_WW_3,WW_signaling
+ICP34.5,KLC1,1,0.5007,0.2934,KLC_TPR,WD_groove,LIG_KLC_1,axonal_transport
+ICP34.5,KLC2,1,0.5007,0.2601,KLC_TPR,WD_groove,LIG_KLC_1,axonal_transport
+ICP34.5,CCND1,1,0.2524,0.0772,Cyclin_N,LL_site,DOC_CYCLIN_D_SAMS_1,cell_cycle
+ICP34.5,CCND3,1,0.2524,0.0946,Cyclin_N,LL_site,DOC_CYCLIN_D_SAMS_1,cell_cycle
+ICP34.5,CHEK2,1,0.2911,0.0689,FHA,pT_pocket,LIG_FHA_1,DNA_damage_signaling
+ICP34.5,RNF8,1,0.2911,0.089,FHA,pT_pocket,LIG_FHA_1,DNA_damage_signaling
+ICP34.5,MDC1,1,0.2911,0.0799,FHA,pT_pocket,LIG_FHA_1,DNA_damage_signaling
+ICP34.5,USP7,3,0.3406,0.1769,MATH/TRAF,MATH_groove,DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1,ubiquitin_signaling
+ICP8_UL29,MAP1LC3B,1,0.5645,0.4619,Atg8/LC3,hydrophobic_groove,LIG_ATG8_1,autophagy
+ICP27_UL54,MAP1LC3B,2,0.5936,0.4808,Atg8/LC3,hydrophobic_groove,LIG_LIR_Gen_1; LIG_LIR_Apic_2,autophagy
+ICP22_US1,MAP1LC3B,2,0.6433,0.5264,Atg8/LC3,hydrophobic_groove,LIG_LIR_Gen_1; LIG_LIR_Apic_2,autophagy
+ICP8_UL29,GABARAP,1,0.5645,0.5007,Atg8/LC3,hydrophobic_groove,LIG_ATG8_1,autophagy
+ICP27_UL54,GABARAP,1,0.5876,0.5212,Atg8/LC3,hydrophobic_groove,LIG_LIR_Gen_1,autophagy
+ICP22_US1,GABARAP,1,0.6433,0.5706,Atg8/LC3,hydrophobic_groove,LIG_LIR_Gen_1,autophagy
+US3,CASP3,4,0.4299,0.1732,Caspase,exosite,DOC_CASP_3; DOC_CASP_3; DOC_CASP_3; DOC_CASP_3,apoptosis
+pUL37,CASP3,1,0.3878,0.1587,Caspase,exosite,DOC_CASP_3,apoptosis
+UL42,CASP3,1,0.3954,0.1618,Caspase,exosite,DOC_CASP_3,apoptosis
+gD_US6,CASP3,2,0.4491,0.1837,Caspase,active_site,CLV_CASP_3; DOC_CASP_3,apoptosis
+VP11_12_UL46,CASP3,1,0.3405,0.1393,Caspase,exosite,DOC_CASP_3,apoptosis
+VP16_UL48,CASP3,1,0.3252,0.1331,Caspase,exosite,DOC_CASP_3,apoptosis
+ICP27_UL54,CASP3,2,0.3958,0.1619,Caspase,exosite,DOC_CASP_3; DOC_CASP_3,apoptosis
+ICP22_US1,CASP3,6,0.4533,0.1855,Caspase,active_site,CLV_CASP_3; DOC_CASP_3; DOC_CASP_3; DOC_CASP_3; DOC_CASP_3; DOC_CASP_3,apoptosis
+US3,CASP7,4,0.4299,0.1294,Caspase,exosite,DOC_CASP_3; DOC_CASP_3; DOC_CASP_3; DOC_CASP_3,apoptosis
+pUL37,CASP7,1,0.3878,0.1186,Caspase,exosite,DOC_CASP_3,apoptosis
+UL42,CASP7,1,0.3954,0.1209,Caspase,exosite,DOC_CASP_3,apoptosis
+gD_US6,CASP7,2,0.4491,0.1373,Caspase,active_site,CLV_CASP_3; DOC_CASP_3,apoptosis
+VP11_12_UL46,CASP7,1,0.3405,0.1041,Caspase,exosite,DOC_CASP_3,apoptosis
+VP16_UL48,CASP7,1,0.3252,0.0994,Caspase,exosite,DOC_CASP_3,apoptosis
+ICP27_UL54,CASP7,2,0.3958,0.121,Caspase,exosite,DOC_CASP_3; DOC_CASP_3,apoptosis
+ICP22_US1,CASP7,6,0.4533,0.1386,Caspase,active_site,CLV_CASP_3; DOC_CASP_3; DOC_CASP_3; DOC_CASP_3; DOC_CASP_3; DOC_CASP_3,apoptosis
+US3,MAPK1,1,0.3766,0.2386,MAPK,D_groove,DOC_MAPK_DCC_7,MAPK_signaling
+UL42,MAPK1,1,0.3962,0.251,MAPK,D_groove,DOC_MAPK_DCC_7,MAPK_signaling
+ICP22_US1,MAPK1,3,0.3941,0.2299,MAPK,D_groove,DOC_MAPK_DCC_7; DOC_MAPK_DCC_7; DOC_MAPK_DCC_7,MAPK_signaling
+US3,MAPK3,1,0.3766,0.2094,MAPK,D_groove,DOC_MAPK_DCC_7,MAPK_signaling
+UL42,MAPK3,1,0.3962,0.2203,MAPK,D_groove,DOC_MAPK_DCC_7,MAPK_signaling
+ICP22_US1,MAPK3,3,0.3941,0.2017,MAPK,D_groove,DOC_MAPK_DCC_7; DOC_MAPK_DCC_7; DOC_MAPK_DCC_7,MAPK_signaling
+US3,MAPK8,1,0.3766,0.1892,MAPK,D_groove,DOC_MAPK_DCC_7,MAPK_signaling
+UL42,MAPK8,1,0.3962,0.199,MAPK,D_groove,DOC_MAPK_DCC_7,MAPK_signaling
+VP11_12_UL46,MAPK8,1,0.347,0.1743,MAPK_JNK,JIP_site,DOC_MAPK_JIP1_7,MAPK_signaling
+ICP27_UL54,MAPK8,3,0.3726,0.1863,MAPK_JNK,JIP_site,DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7,MAPK_signaling
+ICP22_US1,MAPK8,5,0.3941,0.1823,MAPK,D_groove,DOC_MAPK_DCC_7; DOC_MAPK_DCC_7; DOC_MAPK_DCC_7; DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7,MAPK_signaling
+US3,MAPK14,1,0.3766,0.1782,MAPK,D_groove,DOC_MAPK_DCC_7,MAPK_signaling
+UL42,MAPK14,1,0.3962,0.1874,MAPK,D_groove,DOC_MAPK_DCC_7,MAPK_signaling
+ICP22_US1,MAPK14,3,0.3941,0.1717,MAPK,D_groove,DOC_MAPK_DCC_7; DOC_MAPK_DCC_7; DOC_MAPK_DCC_7,MAPK_signaling
+VP11_12_UL46,MAPK9,1,0.347,0.1519,MAPK_JNK,JIP_site,DOC_MAPK_JIP1_7,MAPK_signaling
+ICP27_UL54,MAPK9,3,0.3726,0.1623,MAPK_JNK,JIP_site,DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7,MAPK_signaling
+ICP22_US1,MAPK9,2,0.3321,0.1453,MAPK_JNK,JIP_site,DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7,MAPK_signaling
+VP11_12_UL46,MAPK10,1,0.347,0.1929,MAPK_JNK,JIP_site,DOC_MAPK_JIP1_7,MAPK_signaling
+ICP27_UL54,MAPK10,3,0.3726,0.2061,MAPK_JNK,JIP_site,DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7,MAPK_signaling
+ICP22_US1,MAPK10,2,0.3321,0.1846,MAPK_JNK,JIP_site,DOC_MAPK_JIP1_7; DOC_MAPK_JIP1_7,MAPK_signaling
+UL42,CDK1,5,0.4102,0.0945,Kinase_CDK,active_site,MOD_CDK_SPxK_1; MOD_CDK_SPxK_1; MOD_CDK_SPxK_1; MOD_CDK_SPxxK_3; MOD_CDK_SPxxK_3,cell_cycle
+VP11_12_UL46,CDK1,2,0.4068,0.0962,Kinase_CDK,active_site,MOD_CDK_SPxK_1; MOD_CDK_SPxxK_3,cell_cycle
+ICP22_US1,CDK1,1,0.2545,0.0602,Kinase_CDK,active_site,MOD_CDK_SPxxK_3,cell_cycle
+UL42,CDK2,5,0.4102,0.1221,Kinase_CDK,active_site,MOD_CDK_SPxK_1; MOD_CDK_SPxK_1; MOD_CDK_SPxK_1; MOD_CDK_SPxxK_3; MOD_CDK_SPxxK_3,cell_cycle
+VP11_12_UL46,CDK2,2,0.4068,0.1244,Kinase_CDK,active_site,MOD_CDK_SPxK_1; MOD_CDK_SPxxK_3,cell_cycle
+ICP22_US1,CDK2,1,0.2545,0.0778,Kinase_CDK,active_site,MOD_CDK_SPxxK_3,cell_cycle
+UL42,CDK5,5,0.4102,0.2855,Kinase_CDK,active_site,MOD_CDK_SPxK_1; MOD_CDK_SPxK_1; MOD_CDK_SPxK_1; MOD_CDK_SPxxK_3; MOD_CDK_SPxxK_3,cell_cycle
+VP11_12_UL46,CDK5,2,0.4068,0.2908,Kinase_CDK,active_site,MOD_CDK_SPxK_1; MOD_CDK_SPxxK_3,cell_cycle
+ICP22_US1,CDK5,1,0.2545,0.1819,Kinase_CDK,active_site,MOD_CDK_SPxxK_3,cell_cycle
+UL42,CSNK1A1,3,0.347,0.2028,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+VP11_12_UL46,CSNK1A1,5,0.3449,0.1992,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+ICP27_UL54,CSNK1A1,1,0.3404,0.2081,Kinase_CK1,active_site,MOD_CK1_1,Wnt_signaling
+ICP22_US1,CSNK1A1,5,0.3186,0.1948,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+UL42,CSNK1D,3,0.347,0.1723,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+VP11_12_UL46,CSNK1D,5,0.3449,0.1692,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+ICP27_UL54,CSNK1D,1,0.3404,0.1768,Kinase_CK1,active_site,MOD_CK1_1,Wnt_signaling
+ICP22_US1,CSNK1D,5,0.3186,0.1655,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+UL42,CSNK1E,3,0.347,0.1569,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+VP11_12_UL46,CSNK1E,5,0.3449,0.1541,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+ICP27_UL54,CSNK1E,1,0.3404,0.161,Kinase_CK1,active_site,MOD_CK1_1,Wnt_signaling
+ICP22_US1,CSNK1E,5,0.3186,0.1507,Kinase_CK1,active_site,MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1; MOD_CK1_1,Wnt_signaling
+US3,GSK3A,2,0.4211,0.2188,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+UL42,GSK3A,5,0.3545,0.1762,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+gD_US6,GSK3A,1,0.3117,0.1619,Kinase_GSK3,active_site,MOD_GSK3_1,Wnt_signaling
+VP11_12_UL46,GSK3A,7,0.3523,0.1731,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+VP16_UL48,GSK3A,3,0.3057,0.1388,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+ICP27_UL54,GSK3A,2,0.3553,0.1807,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+ICP22_US1,GSK3A,7,0.3335,0.1694,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+US3,GSK3B,2,0.4211,0.2751,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+UL42,GSK3B,5,0.3545,0.2216,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+gD_US6,GSK3B,1,0.3117,0.2036,Kinase_GSK3,active_site,MOD_GSK3_1,Wnt_signaling
+VP11_12_UL46,GSK3B,7,0.3523,0.2177,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+VP16_UL48,GSK3B,3,0.3057,0.1746,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+ICP27_UL54,GSK3B,2,0.3553,0.2272,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+ICP22_US1,GSK3B,7,0.3335,0.213,Kinase_GSK3,active_site,MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1; MOD_GSK3_1,Wnt_signaling
+gD_US6,ATM,1,0.2774,0.0848,PIKK_kinase,active_site,MOD_PIKK_1,DNA_damage_signaling
+VP11_12_UL46,ATM,1,0.2866,0.0876,PIKK_kinase,active_site,MOD_PIKK_1,DNA_damage_signaling
+ICP27_UL54,ATM,1,0.293,0.0896,PIKK_kinase,active_site,MOD_PIKK_1,DNA_damage_signaling
+ICP22_US1,ATM,2,0.2749,0.084,PIKK_kinase,active_site,MOD_PIKK_1; MOD_PIKK_1,DNA_damage_signaling
+gD_US6,ATR,1,0.2774,0.0762,PIKK_kinase,active_site,MOD_PIKK_1,DNA_damage_signaling
+VP11_12_UL46,ATR,1,0.2866,0.0787,PIKK_kinase,active_site,MOD_PIKK_1,DNA_damage_signaling
+ICP27_UL54,ATR,1,0.293,0.0805,PIKK_kinase,active_site,MOD_PIKK_1,DNA_damage_signaling
+ICP22_US1,ATR,2,0.2749,0.0755,PIKK_kinase,active_site,MOD_PIKK_1; MOD_PIKK_1,DNA_damage_signaling
+UL42,SRC,2,0.449,0.162,SH3,PPII_groove,LIG_SH3_1; LIG_SH3_3,SH3_signaling
+VP11_12_UL46,SRC,1,0.3425,0.162,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+VP16_UL48,SRC,1,0.2992,0.1415,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+VP22_UL49,SRC,1,0.3151,0.1491,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+ICP27_UL54,SRC,1,0.3466,0.164,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+ICP22_US1,SRC,3,0.3728,0.1487,SH2,pY_pocket,LIG_SH2_SRC_1; LIG_SH3_1; LIG_SH3_3,SH2_signaling; SH3_signaling
+UL42,FYN,2,0.449,0.2352,SH3,PPII_groove,LIG_SH3_1; LIG_SH3_3,SH3_signaling
+VP11_12_UL46,FYN,1,0.3425,0.2352,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+VP16_UL48,FYN,1,0.2992,0.2055,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+VP22_UL49,FYN,1,0.3151,0.2164,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+ICP27_UL54,FYN,1,0.3466,0.2381,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+ICP22_US1,FYN,3,0.3728,0.2159,SH2,pY_pocket,LIG_SH2_SRC_1; LIG_SH3_1; LIG_SH3_3,SH2_signaling; SH3_signaling
+UL42,LCK,1,0.3425,0.0642,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+VP11_12_UL46,LCK,1,0.3425,0.0642,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+VP16_UL48,LCK,1,0.2992,0.0561,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+VP22_UL49,LCK,1,0.3151,0.0591,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+ICP27_UL54,LCK,1,0.3466,0.065,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+ICP22_US1,LCK,1,0.3206,0.0601,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+UL42,GRB2,1,0.3425,0.1779,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+VP11_12_UL46,GRB2,1,0.3425,0.1779,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+VP16_UL48,GRB2,1,0.2992,0.1554,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+VP22_UL49,GRB2,1,0.3151,0.1637,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+ICP27_UL54,GRB2,1,0.3466,0.18,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+ICP22_US1,GRB2,1,0.3206,0.1665,SH3,PPII_groove,LIG_SH3_1,SH3_signaling
+UL42,ABL1,1,0.449,0.1837,SH3,PPII_groove,LIG_SH3_3,SH3_signaling
+ICP22_US1,ABL1,1,0.3728,0.1525,SH3,PPII_groove,LIG_SH3_3,SH3_signaling
+US3,KPNA1,2,0.288,0.1433,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4; TRG_NLS_MonoExtC_4,nuclear_transport
+ICP8_UL29,KPNA1,1,0.2572,0.1336,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4,nuclear_transport
+UL42,KPNA1,2,0.3329,0.1729,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4; TRG_NLS_Bipartite_1,nuclear_transport
+ICP27_UL54,KPNA1,2,0.3386,0.1759,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4; TRG_NLS_MonoExtC_4,nuclear_transport
+ICP22_US1,KPNA1,2,0.3097,0.1609,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4; TRG_NLS_Bipartite_1,nuclear_transport
+US3,KPNA2,2,0.288,0.1305,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4; TRG_NLS_MonoExtC_4,nuclear_transport
+ICP8_UL29,KPNA2,1,0.2572,0.1217,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4,nuclear_transport
+UL42,KPNA2,2,0.3329,0.1575,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4; TRG_NLS_Bipartite_1,nuclear_transport
+ICP27_UL54,KPNA2,2,0.3386,0.1602,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4; TRG_NLS_MonoExtC_4,nuclear_transport
+ICP22_US1,KPNA2,2,0.3097,0.1465,Importin_alpha_ARM,NLS_groove,TRG_NLS_MonoExtC_4; TRG_NLS_Bipartite_1,nuclear_transport
+VP11_12_UL46,ANAPC2,1,0.2616,0.107,APC_WD40,Dbox_receptor,DEG_APCC_DBOX_1,ubiquitin_proteasome
+ICP27_UL54,ANAPC2,1,0.3301,0.1351,APC_WD40,Dbox_receptor,DEG_APCC_DBOX_1,ubiquitin_proteasome
+ICP22_US1,ANAPC2,4,0.2959,0.1112,APC_WD40,Dbox_receptor,DEG_APCC_DBOX_1; DEG_APCC_DBOX_1; DEG_APCC_DBOX_1; DEG_APCC_DBOX_1,ubiquitin_proteasome
+VP11_12_UL46,FZR1,1,0.2616,0.1238,APC_WD40,Dbox_receptor,DEG_APCC_DBOX_1,ubiquitin_proteasome
+ICP27_UL54,FZR1,1,0.3301,0.1562,APC_WD40,Dbox_receptor,DEG_APCC_DBOX_1,ubiquitin_proteasome
+ICP22_US1,FZR1,4,0.2959,0.1285,APC_WD40,Dbox_receptor,DEG_APCC_DBOX_1; DEG_APCC_DBOX_1; DEG_APCC_DBOX_1; DEG_APCC_DBOX_1,ubiquitin_proteasome
+ICP8_UL29,FE65,1,0.2638,0.0,WW,PPxR_groove,LIG_WW_3,WW_signaling
+UL42,FE65,2,0.3104,0.0,WW,PPxR_groove,LIG_WW_3; LIG_WW_3,WW_signaling
+VP16_UL48,FE65,1,0.3011,0.0,WW,PPxR_groove,LIG_WW_3,WW_signaling
+ICP27_UL54,FE65,1,0.3081,0.0,WW,PPxR_groove,LIG_WW_3,WW_signaling
+ICP22_US1,FE65,1,0.235,0.0,WW,PPxR_groove,LIG_WW_3,WW_signaling
+VP11_12_UL46,KLC1,1,0.4511,0.2643,KLC_TPR,WD_groove,LIG_KLC_1,axonal_transport
+ICP27_UL54,KLC1,1,0.4958,0.2905,KLC_TPR,WD_groove,LIG_KLC_1,axonal_transport
+ICP22_US1,KLC1,2,0.4622,0.2585,KLC_TPR,WD_groove,LIG_KLC_1; LIG_KLC_1,axonal_transport
+VP11_12_UL46,KLC2,1,0.4511,0.2343,KLC_TPR,WD_groove,LIG_KLC_1,axonal_transport
+ICP27_UL54,KLC2,1,0.4958,0.2576,KLC_TPR,WD_groove,LIG_KLC_1,axonal_transport
+ICP22_US1,KLC2,2,0.4622,0.2292,KLC_TPR,WD_groove,LIG_KLC_1; LIG_KLC_1,axonal_transport
+US3,CHEK2,1,0.222,0.0525,FHA,pT_pocket,LIG_FHA_2,DNA_damage_signaling
+pUL37,CHEK2,1,0.3092,0.0731,FHA,pT_pocket,LIG_FHA_2,DNA_damage_signaling
+gD_US6,CHEK2,1,0.2653,0.0628,FHA,pT_pocket,LIG_FHA_2,DNA_damage_signaling
+VP11_12_UL46,CHEK2,1,0.2871,0.0679,FHA,pT_pocket,LIG_FHA_2,DNA_damage_signaling
+VP16_UL48,CHEK2,2,0.246,0.0488,FHA,pT_pocket,LIG_FHA_1; LIG_FHA_2,DNA_damage_signaling
+ICP27_UL54,CHEK2,2,0.2892,0.0684,FHA,pT_pocket,LIG_FHA_1; LIG_FHA_1,DNA_damage_signaling
+ICP22_US1,CHEK2,4,0.2717,0.0543,FHA,pT_pocket,LIG_FHA_1; LIG_FHA_2; LIG_FHA_2; LIG_FHA_2,DNA_damage_signaling
+US3,RNF8,1,0.222,0.0679,FHA,pT_pocket,LIG_FHA_2,DNA_damage_signaling
+pUL37,RNF8,1,0.3092,0.0945,FHA,pT_pocket,LIG_FHA_2,DNA_damage_signaling
+gD_US6,RNF8,1,0.2653,0.0811,FHA,pT_pocket,LIG_FHA_2,DNA_damage_signaling
+VP11_12_UL46,RNF8,1,0.2871,0.0878,FHA,pT_pocket,LIG_FHA_2,DNA_damage_signaling
+VP16_UL48,RNF8,2,0.246,0.063,FHA,pT_pocket,LIG_FHA_1; LIG_FHA_2,DNA_damage_signaling
+ICP27_UL54,RNF8,2,0.2892,0.0884,FHA,pT_pocket,LIG_FHA_1; LIG_FHA_1,DNA_damage_signaling
+ICP22_US1,RNF8,4,0.2717,0.0702,FHA,pT_pocket,LIG_FHA_1; LIG_FHA_2; LIG_FHA_2; LIG_FHA_2,DNA_damage_signaling
+VP16_UL48,MDC1,1,0.2061,0.0566,FHA,pT_pocket,LIG_FHA_1,DNA_damage_signaling
+ICP27_UL54,MDC1,2,0.2892,0.0794,FHA,pT_pocket,LIG_FHA_1; LIG_FHA_1,DNA_damage_signaling
+ICP22_US1,MDC1,1,0.2295,0.063,FHA,pT_pocket,LIG_FHA_1,DNA_damage_signaling
+US3,USP7,1,0.4488,0.2331,MATH/TRAF,MATH_groove,DOC_USP7_MATH_1,ubiquitin_signaling
+pUL37,USP7,4,0.3301,0.1365,MATH/TRAF,MATH_groove,DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1,ubiquitin_signaling
+UL42,USP7,2,0.3388,0.176,MATH/TRAF,MATH_groove,DOC_USP7_MATH_1; DOC_USP7_MATH_1,ubiquitin_signaling
+gD_US6,USP7,2,0.2921,0.1404,MATH/TRAF,MATH_groove,DOC_USP7_MATH_1; DOC_USP7_MATH_1,ubiquitin_signaling
+VP11_12_UL46,USP7,3,0.341,0.169,MATH/TRAF,MATH_groove,DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1,ubiquitin_signaling
+VP16_UL48,USP7,1,0.2928,0.1521,MATH/TRAF,MATH_groove,DOC_USP7_MATH_1,ubiquitin_signaling
+ICP27_UL54,USP7,4,0.3428,0.1781,MATH/TRAF,MATH_groove,DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1,ubiquitin_signaling
+ICP22_US1,USP7,11,0.3285,0.1485,MATH/TRAF,MATH_groove,DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1; DOC_USP7_MATH_1,ubiquitin_signaling
+US3,CSNK2A1,4,0.4447,0.2107,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1,CK2_signaling
+US3,CSNK2A2,4,0.4447,0.1348,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1,CK2_signaling
+US3,PRKACA,1,0.5497,0.3856,Kinase_PKA,active_site,MOD_PKA_2,cAMP_signaling
+US3,PRKACB,1,0.5497,0.3483,Kinase_PKA,active_site,MOD_PKA_2,cAMP_signaling
+US3,GRK2,1,0.3549,0.1679,Kinase_GRK,active_site,MOD_GRK_1,GPCR_signaling
+US3,GRK5,1,0.3549,0.1553,Kinase_GRK,active_site,MOD_GRK_1,GPCR_signaling
+US3,TRAF2,1,0.406,0.1777,TRAF_MATH,TRAF_groove,LIG_TRAF2_1,NFkB_innate_immunity
+US3,TRAF6,2,0.406,0.1522,TRAF_MATH,TRAF_groove,LIG_TRAF2_1; LIG_TRAF6_MATH_1,NFkB_innate_immunity
+US3,BRCA1,1,0.216,0.0405,BRCT,pS_pocket,LIG_BRCT_BRCA1_1,DNA_damage_signaling
+pUL37,CSNK2A1,2,0.4324,0.1958,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1,CK2_signaling
+UL42,CSNK2A1,1,0.4236,0.2482,Kinase_CK2,active_site,MOD_CK2_1,CK2_signaling
+gD_US6,CSNK2A1,1,0.3741,0.2192,Kinase_CK2,active_site,MOD_CK2_1,CK2_signaling
+VP11_12_UL46,CSNK2A1,2,0.3896,0.2273,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1,CK2_signaling
+VP16_UL48,CSNK2A1,2,0.3303,0.1935,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1,CK2_signaling
+ICP27_UL54,CSNK2A1,4,0.4398,0.2293,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1,CK2_signaling
+ICP22_US1,CSNK2A1,10,0.4128,0.2409,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1,CK2_signaling
+pUL37,CSNK2A2,2,0.4324,0.1253,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1,CK2_signaling
+UL42,CSNK2A2,1,0.4236,0.1588,Kinase_CK2,active_site,MOD_CK2_1,CK2_signaling
+gD_US6,CSNK2A2,1,0.3741,0.1403,Kinase_CK2,active_site,MOD_CK2_1,CK2_signaling
+VP11_12_UL46,CSNK2A2,2,0.3896,0.1455,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1,CK2_signaling
+VP16_UL48,CSNK2A2,2,0.3303,0.1238,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1,CK2_signaling
+ICP27_UL54,CSNK2A2,4,0.4398,0.1467,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1,CK2_signaling
+ICP22_US1,CSNK2A2,10,0.4128,0.1541,Kinase_CK2,active_site,MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1; MOD_CK2_1,CK2_signaling
+UL42,PRKACA,1,0.5554,0.3896,Kinase_PKA,active_site,MOD_PKA_2,cAMP_signaling
+VP16_UL48,PRKACA,1,0.4683,0.3285,Kinase_PKA,active_site,MOD_PKA_2,cAMP_signaling
+ICP27_UL54,PRKACA,1,0.535,0.3753,Kinase_PKA,active_site,MOD_PKA_2,cAMP_signaling
+ICP22_US1,PRKACA,1,0.487,0.3416,Kinase_PKA,active_site,MOD_PKA_2,cAMP_signaling
+UL42,PRKACB,1,0.5554,0.3519,Kinase_PKA,active_site,MOD_PKA_2,cAMP_signaling
+VP16_UL48,PRKACB,1,0.4683,0.2967,Kinase_PKA,active_site,MOD_PKA_2,cAMP_signaling
+ICP27_UL54,PRKACB,1,0.535,0.339,Kinase_PKA,active_site,MOD_PKA_2,cAMP_signaling
+ICP22_US1,PRKACB,1,0.487,0.3086,Kinase_PKA,active_site,MOD_PKA_2,cAMP_signaling
+UL42,GRK2,1,0.3322,0.1572,Kinase_GRK,active_site,MOD_GRK_1,GPCR_signaling
+ICP22_US1,GRK2,1,0.2853,0.135,Kinase_GRK,active_site,MOD_GRK_1,GPCR_signaling
+UL42,GRK5,1,0.3322,0.1454,Kinase_GRK,active_site,MOD_GRK_1,GPCR_signaling
+ICP22_US1,GRK5,1,0.2853,0.1249,Kinase_GRK,active_site,MOD_GRK_1,GPCR_signaling
+VP16_UL48,TRAF2,1,0.3595,0.1573,TRAF_MATH,TRAF_groove,LIG_TRAF2_1,NFkB_innate_immunity
+pUL37,TRAF6,1,0.4797,0.1798,TRAF_MATH,TRAF_groove,LIG_TRAF6_MATH_1,NFkB_innate_immunity
+gD_US6,TRAF6,1,0.3693,0.1385,TRAF_MATH,TRAF_groove,LIG_TRAF6_MATH_1,NFkB_innate_immunity
+VP16_UL48,TRAF6,1,0.3595,0.1348,TRAF_MATH,TRAF_groove,LIG_TRAF2_1,NFkB_innate_immunity
+ICP27_UL54,TRAF6,1,0.4407,0.1652,TRAF_MATH,TRAF_groove,LIG_TRAF6_MATH_1,NFkB_innate_immunity
+ICP8_UL29,BRCA1,1,0.2298,0.0431,BRCT,pS_pocket,LIG_BRCT_BRCA1_1,DNA_damage_signaling
+pUL37,PLK1,1,0.2509,0.047,Kinase_PLK,active_site,MOD_PLK_1,cell_cycle
+pUL37,NEK2,1,0.2107,0.0249,Kinase_NEK,active_site,MOD_NEK2_1,cell_cycle
+pUL37,CCNA2,3,0.3032,0.0568,Cyclin_N,hydrophobic_patch,DOC_CYCLIN_RxL_1; DOC_CYCLIN_RxL_1; DOC_CYCLIN_RxL_1,cell_cycle
+pUL37,CCNB1,3,0.3032,0.0568,Cyclin_N,hydrophobic_patch,DOC_CYCLIN_RxL_1; DOC_CYCLIN_RxL_1; DOC_CYCLIN_RxL_1,cell_cycle
+pUL37,CCNE1,3,0.3032,0.0359,Cyclin_N,hydrophobic_patch,DOC_CYCLIN_RxL_1; DOC_CYCLIN_RxL_1; DOC_CYCLIN_RxL_1,cell_cycle
+ICP8_UL29,PLK1,1,0.2218,0.0416,Kinase_PLK,active_site,MOD_PLK_1,cell_cycle
+VP16_UL48,PLK1,1,0.2172,0.0407,Kinase_PLK,active_site,MOD_PLK_1,cell_cycle
+ICP22_US1,PLK1,2,0.2688,0.0504,Kinase_PLK,active_site,MOD_PLK_1; MOD_PLK_1,cell_cycle
+ICP27_UL54,NEK2,1,0.2727,0.0323,Kinase_NEK,active_site,MOD_NEK2_1,cell_cycle
+ICP22_US1,NEK2,4,0.2501,0.0296,Kinase_NEK,active_site,MOD_NEK2_1; MOD_NEK2_1; MOD_NEK2_1; MOD_NEK2_1,cell_cycle
+VP16_UL48,CCNA2,1,0.1921,0.036,Cyclin_N,hydrophobic_patch,DOC_CYCLIN_RxL_1,cell_cycle
+ICP22_US1,CCNA2,2,0.2555,0.0479,Cyclin_N,hydrophobic_patch,DOC_CYCLIN_RxL_1; DOC_CYCLIN_RxL_1,cell_cycle
+VP16_UL48,CCNB1,1,0.1921,0.036,Cyclin_N,hydrophobic_patch,DOC_CYCLIN_RxL_1,cell_cycle
+ICP22_US1,CCNB1,2,0.2555,0.0479,Cyclin_N,hydrophobic_patch,DOC_CYCLIN_RxL_1; DOC_CYCLIN_RxL_1,cell_cycle
+VP16_UL48,CCNE1,1,0.1921,0.0227,Cyclin_N,hydrophobic_patch,DOC_CYCLIN_RxL_1,cell_cycle
+ICP22_US1,CCNE1,2,0.2555,0.0302,Cyclin_N,hydrophobic_patch,DOC_CYCLIN_RxL_1; DOC_CYCLIN_RxL_1,cell_cycle
+ICP8_UL29,STT3A,1,0.2416,0.1255,STT3_OST,active_site,MOD_N-GLC_1,glycosylation
+ICP8_UL29,STT3B,1,0.2416,0.1143,STT3_OST,active_site,MOD_N-GLC_1,glycosylation
+gD_US6,STT3A,1,0.274,0.1423,STT3_OST,active_site,MOD_N-GLC_1,glycosylation
+VP11_12_UL46,STT3A,4,0.3025,0.1485,STT3_OST,active_site,MOD_N-GLC_1; MOD_N-GLC_1; MOD_N-GLC_1; MOD_N-GLC_1,glycosylation
+gD_US6,STT3B,1,0.274,0.1296,STT3_OST,active_site,MOD_N-GLC_1,glycosylation
+VP11_12_UL46,STT3B,4,0.3025,0.1353,STT3_OST,active_site,MOD_N-GLC_1; MOD_N-GLC_1; MOD_N-GLC_1; MOD_N-GLC_1,glycosylation
+UL42,YWHAB,3,0.4617,0.4152,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+UL42,YWHAE,3,0.4617,0.4415,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+UL42,YWHAG,3,0.4617,0.4589,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+UL42,YWHAH,3,0.4617,0.3929,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+UL42,YWHAQ,3,0.4617,0.3755,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+UL42,YWHAZ,3,0.4617,0.4326,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+UL42,AKT1,1,0.3758,0.1952,Kinase_Akt,active_site,MOD_PKB_1,PI3K_Akt_signaling
+UL42,AKT2,1,0.3758,0.1409,Kinase_Akt,active_site,MOD_PKB_1,PI3K_Akt_signaling
+UL42,AKT3,1,0.3758,0.2298,Kinase_Akt,active_site,MOD_PKB_1,PI3K_Akt_signaling
+UL42,KPNA3,1,0.3214,0.1315,Importin_alpha_ARM,NLS_groove,TRG_NLS_Bipartite_1,nuclear_transport
+UL42,FBXW7,1,0.3197,0.1199,WD40_FBW7,degron_pocket,DEG_SCF_FBW7_1,ubiquitin_proteasome
+VP16_UL48,YWHAB,2,0.3895,0.3525,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+ICP22_US1,YWHAB,1,0.4361,0.3946,14-3-3,phospho_groove,LIG_14-3-3_CanoR_2,14-3-3_signaling
+VP16_UL48,YWHAE,2,0.3895,0.3747,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+ICP22_US1,YWHAE,1,0.4361,0.4195,14-3-3,phospho_groove,LIG_14-3-3_CanoR_2,14-3-3_signaling
+VP16_UL48,YWHAG,2,0.3895,0.3895,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+ICP22_US1,YWHAG,1,0.4361,0.4361,14-3-3,phospho_groove,LIG_14-3-3_CanoR_2,14-3-3_signaling
+VP16_UL48,YWHAH,2,0.3895,0.3334,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+ICP22_US1,YWHAH,1,0.4361,0.3733,14-3-3,phospho_groove,LIG_14-3-3_CanoR_2,14-3-3_signaling
+VP16_UL48,YWHAQ,2,0.3895,0.3187,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+ICP22_US1,YWHAQ,1,0.4361,0.3569,14-3-3,phospho_groove,LIG_14-3-3_CanoR_2,14-3-3_signaling
+VP16_UL48,YWHAZ,2,0.3895,0.3672,14-3-3,phospho_groove,LIG_14-3-3_CanoR_1; LIG_14-3-3_CanoR_2,14-3-3_signaling
+ICP22_US1,YWHAZ,1,0.4361,0.4111,14-3-3,phospho_groove,LIG_14-3-3_CanoR_2,14-3-3_signaling
+ICP22_US1,KPNA3,1,0.296,0.1211,Importin_alpha_ARM,NLS_groove,TRG_NLS_Bipartite_1,nuclear_transport
+VP11_12_UL46,FBXW7,1,0.3124,0.1171,WD40_FBW7,degron_pocket,DEG_SCF_FBW7_1,ubiquitin_proteasome
+gD_US6,AP1M1,1,0.2737,0.1295,AP_sigma,LL_pocket,TRG_LysEnd_APsAcLL_1,endocytosis
+gD_US6,AP3D1,1,0.2737,0.112,AP_sigma,LL_pocket,TRG_LysEnd_APsAcLL_1,endocytosis
+VP11_12_UL46,BCL2,1,0.4564,0.2159,Bcl-2,BH3_groove,LIG_BH3_BclXL_1,apoptosis
+VP11_12_UL46,BCL2L1,1,0.4564,0.3135,Bcl-2,BH3_groove,LIG_BH3_BclXL_1,apoptosis
+VP11_12_UL46,MCL1,1,0.4564,0.2674,Bcl-2,BH3_groove,LIG_BH3_BclXL_1,apoptosis
+VP16_UL48,NEDD4,1,0.2748,0.168,WW,PY_groove,LIG_WW_1,ubiquitin_signaling
+VP16_UL48,NEDD4L,1,0.2748,0.1528,WW,PY_groove,LIG_WW_1,ubiquitin_signaling
+VP16_UL48,ITCH,1,0.2748,0.13,WW,PY_groove,LIG_WW_1,ubiquitin_signaling
+VP16_UL48,WWP1,1,0.2748,0.1203,WW,PY_groove,LIG_WW_1,ubiquitin_signaling
+ICP27_UL54,MAP1LC3A,1,0.5876,0.3839,Atg8/LC3,hydrophobic_groove,LIG_LIR_Gen_1,autophagy
+ICP27_UL54,GABARAPL2,1,0.5876,0.4576,Atg8/LC3,hydrophobic_groove,LIG_LIR_Gen_1,autophagy
+ICP27_UL54,PPP3CA,1,0.4791,0.3361,Calcineurin_B,PxIxIT_groove,LIG_CaN_CNBR_1,phosphatase_signaling
+ICP27_UL54,PPP3CB,1,0.4791,0.2929,Calcineurin_B,PxIxIT_groove,LIG_CaN_CNBR_1,phosphatase_signaling
+ICP22_US1,MAP1LC3A,1,0.6433,0.4202,Atg8/LC3,hydrophobic_groove,LIG_LIR_Gen_1,autophagy
+ICP22_US1,GABARAPL2,1,0.6433,0.501,Atg8/LC3,hydrophobic_groove,LIG_LIR_Gen_1,autophagy
+ICP22_US1,ULK1,1,0.2336,0.1105,Atg8/LC3,hydrophobic_groove,LIG_ULK_LIR_1,autophagy
+ICP22_US1,ULK2,1,0.2336,0.0956,Atg8/LC3,hydrophobic_groove,LIG_ULK_LIR_1,autophagy
+ICP22_US1,STAT3,1,0.3278,0.1551,SH2,pY_pocket,LIG_SH2_STAT3_1,JAK_STAT_signaling
+ICP22_US1,MYO5A,2,0.4339,0.2053,Myosin_head,cargo_site,LIG_MYOSIN_MEF2_1; LIG_MYOSIN_MEF2_1,axonal_transport
+ICP22_US1,MYO6,2,0.4339,0.2254,Myosin_head,cargo_site,LIG_MYOSIN_MEF2_1; LIG_MYOSIN_MEF2_1,axonal_transport
+ICP22_US1,AP2M1,1,0.3144,0.1922,AP2_mu,YXXF_pocket,TRG_ENDOCYTIC_2,endocytosis

@@ -1,0 +1,96 @@
+node,type,category,degree,degree_centrality,betweenness_centrality,cns_weighted_degree,mean_host_cns_specificity,n_pathways,pathways,brain_tpm,cns_specificity,viral_partners
+ICP34.5,viral,target,38,0.4043,0.1066,6.594,0.46,12.0,DNA_damage_signaling; MAPK_signaling; SH3_signaling; WW_signaling; Wnt_signaling; apoptosis; autophagy; axonal_transport; cell_cycle; nuclear_transport; ubiquitin_proteasome; ubiquitin_signaling,,,
+US3,viral,target,22,0.234,0.0448,4.012,0.469,10.0,CK2_signaling; DNA_damage_signaling; GPCR_signaling; MAPK_signaling; NFkB_innate_immunity; Wnt_signaling; apoptosis; cAMP_signaling; nuclear_transport; ubiquitin_signaling,,,
+pUL37,viral,target,13,0.1383,0.0096,1.304,0.301,6.0,CK2_signaling; DNA_damage_signaling; NFkB_innate_immunity; apoptosis; cell_cycle; ubiquitin_signaling,,,
+ICP8_UL29,viral,control,9,0.0957,0.0118,1.542,0.451,6.0,DNA_damage_signaling; WW_signaling; autophagy; cell_cycle; glycosylation; nuclear_transport,,,
+UL42,viral,control,40,0.4255,0.1489,8.687,0.542,14.0,14-3-3_signaling; CK2_signaling; GPCR_signaling; MAPK_signaling; PI3K_Akt_signaling; SH3_signaling; WW_signaling; Wnt_signaling; apoptosis; cAMP_signaling; cell_cycle; nuclear_transport; ubiquitin_proteasome; ubiquitin_signaling,,,
+gD_US6,viral,control,16,0.1702,0.0562,2.143,0.421,8.0,CK2_signaling; DNA_damage_signaling; NFkB_innate_immunity; Wnt_signaling; apoptosis; endocytosis; glycosylation; ubiquitin_signaling,,,
+VP11_12_UL46,viral,control,34,0.3617,0.1288,5.617,0.465,11.0,CK2_signaling; DNA_damage_signaling; MAPK_signaling; SH3_signaling; Wnt_signaling; apoptosis; axonal_transport; cell_cycle; glycosylation; ubiquitin_proteasome; ubiquitin_signaling,,,
+VP16_UL48,viral,control,33,0.3511,0.1431,5.502,0.498,11.0,14-3-3_signaling; CK2_signaling; DNA_damage_signaling; NFkB_innate_immunity; SH3_signaling; WW_signaling; Wnt_signaling; apoptosis; cAMP_signaling; cell_cycle; ubiquitin_signaling,,,
+VP22_UL49,viral,control,4,0.0426,0.0002,0.588,0.466,1.0,SH3_signaling,,,
+ICP27_UL54,viral,control,39,0.4149,0.12,7.959,0.487,16.0,CK2_signaling; DNA_damage_signaling; MAPK_signaling; NFkB_innate_immunity; SH3_signaling; WW_signaling; Wnt_signaling; apoptosis; autophagy; axonal_transport; cAMP_signaling; cell_cycle; nuclear_transport; phosphatase_signaling; ubiquitin_proteasome; ubiquitin_signaling,,,
+ICP22_US1,viral,control,62,0.6596,0.3647,11.953,0.501,19.0,14-3-3_signaling; CK2_signaling; DNA_damage_signaling; GPCR_signaling; JAK_STAT_signaling; MAPK_signaling; SH2_signaling; SH3_signaling; WW_signaling; Wnt_signaling; apoptosis; autophagy; axonal_transport; cAMP_signaling; cell_cycle; endocytosis; nuclear_transport; ubiquitin_proteasome; ubiquitin_signaling,,,
+MAP1LC3B,host,,4,0.0426,0.0035,,,,,120.0,0.818,ICP34.5; ICP8_UL29; ICP27_UL54; ICP22_US1
+GABARAP,host,,4,0.0426,0.0035,,,,,180.0,0.887,ICP34.5; ICP8_UL29; ICP27_UL54; ICP22_US1
+CASP3,host,,9,0.0957,0.0194,,,,,10.0,0.409,ICP34.5; US3; pUL37; UL42; gD_US6; VP11_12_UL46; VP16_UL48; ICP27_UL54; ICP22_US1
+CASP7,host,,9,0.0957,0.0194,,,,,5.0,0.306,ICP34.5; US3; pUL37; UL42; gD_US6; VP11_12_UL46; VP16_UL48; ICP27_UL54; ICP22_US1
+MAPK1,host,,4,0.0426,0.0023,,,,,40.0,0.634,ICP34.5; US3; UL42; ICP22_US1
+MAPK3,host,,4,0.0426,0.0023,,,,,25.0,0.556,ICP34.5; US3; UL42; ICP22_US1
+MAPK8,host,,6,0.0638,0.0063,,,,,18.0,0.502,ICP34.5; US3; UL42; VP11_12_UL46; ICP27_UL54; ICP22_US1
+MAPK14,host,,4,0.0426,0.0023,,,,,15.0,0.473,ICP34.5; US3; UL42; ICP22_US1
+MAPK9,host,,4,0.0426,0.0023,,,,,12.0,0.438,ICP34.5; VP11_12_UL46; ICP27_UL54; ICP22_US1
+MAPK10,host,,4,0.0426,0.0023,,,,,25.0,0.556,ICP34.5; VP11_12_UL46; ICP27_UL54; ICP22_US1
+CDK1,host,,4,0.0426,0.0029,,,,,3.0,0.237,ICP34.5; UL42; VP11_12_UL46; ICP22_US1
+CDK2,host,,4,0.0426,0.0029,,,,,5.0,0.306,ICP34.5; UL42; VP11_12_UL46; ICP22_US1
+CDK5,host,,4,0.0426,0.0029,,,,,65.0,0.715,ICP34.5; UL42; VP11_12_UL46; ICP22_US1
+CSNK1A1,host,,5,0.0532,0.0042,,,,,35.0,0.611,ICP34.5; UL42; VP11_12_UL46; ICP27_UL54; ICP22_US1
+CSNK1D,host,,5,0.0532,0.0042,,,,,20.0,0.519,ICP34.5; UL42; VP11_12_UL46; ICP27_UL54; ICP22_US1
+CSNK1E,host,,5,0.0532,0.0042,,,,,15.0,0.473,ICP34.5; UL42; VP11_12_UL46; ICP27_UL54; ICP22_US1
+GSK3A,host,,8,0.0851,0.0166,,,,,20.0,0.519,ICP34.5; US3; UL42; gD_US6; VP11_12_UL46; VP16_UL48; ICP27_UL54; ICP22_US1
+GSK3B,host,,8,0.0851,0.0166,,,,,45.0,0.653,ICP34.5; US3; UL42; gD_US6; VP11_12_UL46; VP16_UL48; ICP27_UL54; ICP22_US1
+ATM,host,,5,0.0532,0.0057,,,,,5.0,0.306,ICP34.5; gD_US6; VP11_12_UL46; ICP27_UL54; ICP22_US1
+ATR,host,,5,0.0532,0.0057,,,,,4.0,0.275,ICP34.5; gD_US6; VP11_12_UL46; ICP27_UL54; ICP22_US1
+SRC,host,,7,0.0745,0.0134,,,,,15.0,0.473,ICP34.5; UL42; VP11_12_UL46; VP16_UL48; VP22_UL49; ICP27_UL54; ICP22_US1
+FYN,host,,7,0.0745,0.0134,,,,,55.0,0.687,ICP34.5; UL42; VP11_12_UL46; VP16_UL48; VP22_UL49; ICP27_UL54; ICP22_US1
+LCK,host,,7,0.0745,0.0134,,,,,2.0,0.187,ICP34.5; UL42; VP11_12_UL46; VP16_UL48; VP22_UL49; ICP27_UL54; ICP22_US1
+GRB2,host,,7,0.0745,0.0134,,,,,20.0,0.519,ICP34.5; UL42; VP11_12_UL46; VP16_UL48; VP22_UL49; ICP27_UL54; ICP22_US1
+ABL1,host,,3,0.0319,0.0011,,,,,10.0,0.409,ICP34.5; UL42; ICP22_US1
+KPNA1,host,,6,0.0638,0.0078,,,,,20.0,0.519,ICP34.5; US3; ICP8_UL29; UL42; ICP27_UL54; ICP22_US1
+KPNA2,host,,6,0.0638,0.0078,,,,,15.0,0.473,ICP34.5; US3; ICP8_UL29; UL42; ICP27_UL54; ICP22_US1
+ANAPC2,host,,4,0.0426,0.0023,,,,,10.0,0.409,ICP34.5; VP11_12_UL46; ICP27_UL54; ICP22_US1
+FZR1,host,,4,0.0426,0.0023,,,,,15.0,0.473,ICP34.5; VP11_12_UL46; ICP27_UL54; ICP22_US1
+FE65,host,,6,0.0638,0.0102,,,,,0.0,0.0,ICP34.5; ICP8_UL29; UL42; VP16_UL48; ICP27_UL54; ICP22_US1
+KLC1,host,,4,0.0426,0.0023,,,,,30.0,0.586,ICP34.5; VP11_12_UL46; ICP27_UL54; ICP22_US1
+KLC2,host,,4,0.0426,0.0023,,,,,20.0,0.519,ICP34.5; VP11_12_UL46; ICP27_UL54; ICP22_US1
+CCND1,host,,1,0.0106,0.0,,,,,5.0,0.306,ICP34.5
+CCND3,host,,1,0.0106,0.0,,,,,8.0,0.375,ICP34.5
+CHEK2,host,,8,0.0851,0.0148,,,,,3.0,0.237,ICP34.5; US3; pUL37; gD_US6; VP11_12_UL46; VP16_UL48; ICP27_UL54; ICP22_US1
+RNF8,host,,8,0.0851,0.0148,,,,,5.0,0.306,ICP34.5; US3; pUL37; gD_US6; VP11_12_UL46; VP16_UL48; ICP27_UL54; ICP22_US1
+MDC1,host,,4,0.0426,0.0032,,,,,4.0,0.275,ICP34.5; VP16_UL48; ICP27_UL54; ICP22_US1
+USP7,host,,9,0.0957,0.0194,,,,,20.0,0.519,ICP34.5; US3; pUL37; UL42; gD_US6; VP11_12_UL46; VP16_UL48; ICP27_UL54; ICP22_US1
+CSNK2A1,host,,8,0.0851,0.0159,,,,,30.0,0.586,US3; pUL37; UL42; gD_US6; VP11_12_UL46; VP16_UL48; ICP27_UL54; ICP22_US1
+CSNK2A2,host,,8,0.0851,0.0159,,,,,8.0,0.375,US3; pUL37; UL42; gD_US6; VP11_12_UL46; VP16_UL48; ICP27_UL54; ICP22_US1
+PRKACA,host,,5,0.0532,0.005,,,,,60.0,0.701,US3; UL42; VP16_UL48; ICP27_UL54; ICP22_US1
+PRKACB,host,,5,0.0532,0.005,,,,,40.0,0.634,US3; UL42; VP16_UL48; ICP27_UL54; ICP22_US1
+GRK2,host,,3,0.0319,0.0013,,,,,15.0,0.473,US3; UL42; ICP22_US1
+GRK5,host,,3,0.0319,0.0013,,,,,12.0,0.438,US3; UL42; ICP22_US1
+TRAF2,host,,2,0.0213,0.0004,,,,,12.0,0.438,US3; VP16_UL48
+TRAF6,host,,5,0.0532,0.0043,,,,,8.0,0.375,US3; pUL37; gD_US6; VP16_UL48; ICP27_UL54
+BRCA1,host,,2,0.0213,0.0004,,,,,2.0,0.187,US3; ICP8_UL29
+PLK1,host,,4,0.0426,0.0048,,,,,2.0,0.187,pUL37; ICP8_UL29; VP16_UL48; ICP22_US1
+NEK2,host,,3,0.0319,0.0011,,,,,1.0,0.118,pUL37; ICP27_UL54; ICP22_US1
+CCNA2,host,,3,0.0319,0.0016,,,,,2.0,0.187,pUL37; VP16_UL48; ICP22_US1
+CCNB1,host,,3,0.0319,0.0016,,,,,2.0,0.187,pUL37; VP16_UL48; ICP22_US1
+CCNE1,host,,3,0.0319,0.0016,,,,,1.0,0.118,pUL37; VP16_UL48; ICP22_US1
+STT3A,host,,3,0.0319,0.0022,,,,,20.0,0.519,ICP8_UL29; gD_US6; VP11_12_UL46
+STT3B,host,,3,0.0319,0.0022,,,,,15.0,0.473,ICP8_UL29; gD_US6; VP11_12_UL46
+YWHAB,host,,3,0.0319,0.002,,,,,200.0,0.905,UL42; VP16_UL48; ICP22_US1
+YWHAE,host,,3,0.0319,0.002,,,,,280.0,0.962,UL42; VP16_UL48; ICP22_US1
+YWHAG,host,,3,0.0319,0.002,,,,,350.0,1.0,UL42; VP16_UL48; ICP22_US1
+YWHAH,host,,3,0.0319,0.002,,,,,150.0,0.856,UL42; VP16_UL48; ICP22_US1
+YWHAQ,host,,3,0.0319,0.002,,,,,120.0,0.818,UL42; VP16_UL48; ICP22_US1
+YWHAZ,host,,3,0.0319,0.002,,,,,250.0,0.943,UL42; VP16_UL48; ICP22_US1
+AKT1,host,,1,0.0106,0.0,,,,,20.0,0.519,UL42
+AKT2,host,,1,0.0106,0.0,,,,,8.0,0.375,UL42
+AKT3,host,,1,0.0106,0.0,,,,,35.0,0.611,UL42
+KPNA3,host,,2,0.0213,0.0004,,,,,10.0,0.409,UL42; ICP22_US1
+FBXW7,host,,2,0.0213,0.0006,,,,,8.0,0.375,UL42; VP11_12_UL46
+AP1M1,host,,1,0.0106,0.0,,,,,15.0,0.473,gD_US6
+AP3D1,host,,1,0.0106,0.0,,,,,10.0,0.409,gD_US6
+BCL2,host,,1,0.0106,0.0,,,,,15.0,0.473,VP11_12_UL46
+BCL2L1,host,,1,0.0106,0.0,,,,,55.0,0.687,VP11_12_UL46
+MCL1,host,,1,0.0106,0.0,,,,,30.0,0.586,VP11_12_UL46
+NEDD4,host,,1,0.0106,0.0,,,,,35.0,0.611,VP16_UL48
+NEDD4L,host,,1,0.0106,0.0,,,,,25.0,0.556,VP16_UL48
+ITCH,host,,1,0.0106,0.0,,,,,15.0,0.473,VP16_UL48
+WWP1,host,,1,0.0106,0.0,,,,,12.0,0.438,VP16_UL48
+MAP1LC3A,host,,2,0.0213,0.0003,,,,,45.0,0.653,ICP27_UL54; ICP22_US1
+GABARAPL2,host,,2,0.0213,0.0003,,,,,95.0,0.779,ICP27_UL54; ICP22_US1
+PPP3CA,host,,1,0.0106,0.0,,,,,60.0,0.701,ICP27_UL54
+PPP3CB,host,,1,0.0106,0.0,,,,,35.0,0.611,ICP27_UL54
+ULK1,host,,1,0.0106,0.0,,,,,15.0,0.473,ICP22_US1
+ULK2,host,,1,0.0106,0.0,,,,,10.0,0.409,ICP22_US1
+STAT3,host,,1,0.0106,0.0,,,,,15.0,0.473,ICP22_US1
+MYO5A,host,,1,0.0106,0.0,,,,,15.0,0.473,ICP22_US1
+MYO6,host,,1,0.0106,0.0,,,,,20.0,0.519,ICP22_US1
+AP2M1,host,,1,0.0106,0.0,,,,,35.0,0.611,ICP22_US1

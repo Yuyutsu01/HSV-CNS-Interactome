@@ -1,0 +1,287 @@
+[
+  {
+    "protein": "ICP34.5",
+    "category": "target",
+    "length": 248,
+    "confidence_tier": "Tier 1 (High)",
+    "n_idrs": 4,
+    "idr_fraction": 0.8468,
+    "idr_boundaries": [
+      [
+        1,
+        66
+      ],
+      [
+        73,
+        132
+      ],
+      [
+        145,
+        179
+      ],
+      [
+        200,
+        248
+      ]
+    ],
+    "n_methods": 2
+  },
+  {
+    "protein": "US3",
+    "category": "target",
+    "length": 481,
+    "confidence_tier": "Tier 2 (Medium-High)",
+    "n_idrs": 4,
+    "idr_fraction": 0.3929,
+    "idr_boundaries": [
+      [
+        7,
+        67
+      ],
+      [
+        81,
+        120
+      ],
+      [
+        125,
+        183
+      ],
+      [
+        412,
+        440
+      ]
+    ],
+    "n_methods": 2
+  },
+  {
+    "protein": "pUL37",
+    "category": "target",
+    "length": 1123,
+    "confidence_tier": "Tier 3 (Medium)",
+    "n_idrs": 6,
+    "idr_fraction": 0.2057,
+    "idr_boundaries": [
+      [
+        1,
+        57
+      ],
+      [
+        323,
+        343
+      ],
+      [
+        794,
+        818
+      ],
+      [
+        914,
+        933
+      ],
+      [
+        959,
+        986
+      ],
+      [
+        1044,
+        1123
+      ]
+    ],
+    "n_methods": 2
+  },
+  {
+    "protein": "ICP8_UL29",
+    "category": "control",
+    "length": 1196,
+    "confidence_tier": "Control",
+    "n_idrs": 6,
+    "idr_fraction": 0.1513,
+    "idr_boundaries": [
+      [
+        122,
+        147
+      ],
+      [
+        280,
+        315
+      ],
+      [
+        420,
+        444
+      ],
+      [
+        741,
+        762
+      ],
+      [
+        924,
+        952
+      ],
+      [
+        1152,
+        1194
+      ]
+    ],
+    "n_methods": 2
+  },
+  {
+    "protein": "UL42",
+    "category": "control",
+    "length": 334,
+    "confidence_tier": "Control",
+    "n_idrs": 1,
+    "idr_fraction": 0.2994,
+    "idr_boundaries": [
+      [
+        1,
+        100
+      ]
+    ],
+    "n_methods": 2
+  },
+  {
+    "protein": "gD_US6",
+    "category": "control",
+    "length": 394,
+    "confidence_tier": "Control",
+    "n_idrs": 2,
+    "idr_fraction": 0.9239,
+    "idr_boundaries": [
+      [
+        21,
+        346
+      ],
+      [
+        357,
+        394
+      ]
+    ],
+    "n_methods": 3
+  },
+  {
+    "protein": "VP11_12_UL46",
+    "category": "control",
+    "length": 511,
+    "confidence_tier": "Control",
+    "n_idrs": 2,
+    "idr_fraction": 0.2505,
+    "idr_boundaries": [
+      [
+        27,
+        133
+      ],
+      [
+        452,
+        472
+      ]
+    ],
+    "n_methods": 2
+  },
+  {
+    "protein": "VP16_UL48",
+    "category": "control",
+    "length": 490,
+    "confidence_tier": "Control",
+    "n_idrs": 4,
+    "idr_fraction": 0.2898,
+    "idr_boundaries": [
+      [
+        12,
+        60
+      ],
+      [
+        306,
+        327
+      ],
+      [
+        379,
+        424
+      ],
+      [
+        444,
+        468
+      ]
+    ],
+    "n_methods": 2
+  },
+  {
+    "protein": "VP22_UL49",
+    "category": "control",
+    "length": 596,
+    "confidence_tier": "Control",
+    "n_idrs": 5,
+    "idr_fraction": 0.3037,
+    "idr_boundaries": [
+      [
+        70,
+        111
+      ],
+      [
+        220,
+        246
+      ],
+      [
+        257,
+        283
+      ],
+      [
+        296,
+        333
+      ],
+      [
+        353,
+        399
+      ]
+    ],
+    "n_methods": 2
+  },
+  {
+    "protein": "ICP27_UL54",
+    "category": "control",
+    "length": 512,
+    "confidence_tier": "Control",
+    "n_idrs": 2,
+    "idr_fraction": 0.5059,
+    "idr_boundaries": [
+      [
+        17,
+        245
+      ],
+      [
+        272,
+        301
+      ]
+    ],
+    "n_methods": 2
+  },
+  {
+    "protein": "ICP22_US1",
+    "category": "control",
+    "length": 420,
+    "confidence_tier": "Control",
+    "n_idrs": 5,
+    "idr_fraction": 0.6381,
+    "idr_boundaries": [
+      [
+        6,
+        91
+      ],
+      [
+        97,
+        133
+      ],
+      [
+        141,
+        190
+      ],
+      [
+        304,
+        360
+      ],
+      [
+        368,
+        405
+      ]
+    ],
+    "n_methods": 2
+  }
+]

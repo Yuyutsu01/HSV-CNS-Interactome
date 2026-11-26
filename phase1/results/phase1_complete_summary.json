@@ -1,0 +1,923 @@
+{
+  "metadata": {
+    "description": "Phase 1 Complete: Multi-method disorder, SS propensities, accessibility, charge patterning, confidence tiers",
+    "methods": {
+      "disorder_method_1": "IUPred3 long disorder (threshold 0.5)",
+      "disorder_method_2": "Composition-based (Dunker propensity scale, window=21)",
+      "disorder_method_3": "Complexity-based (Shannon entropy + charge + hydropathy, window=21)",
+      "consensus": "\u22652/3 methods agree, contiguous \u226520 residues",
+      "secondary_structure": "Chou-Fasman propensities (helix/sheet/turn), window=9",
+      "accessibility": "Emini surface + Janin interior scales + disorder context",
+      "charge_patterning": "localCIDER (FCR, NCPR, kappa, hydropathy, Das-Pappu class)"
+    },
+    "confidence_tiers": {
+      "Tier1_High": "All 3 methods agree",
+      "Tier2_Medium": "2/3 methods agree",
+      "Tier3_Low": "Only 1/3 methods predicts disorder"
+    },
+    "n_proteins": 11
+  },
+  "proteins": [
+    {
+      "protein": "ICP34.5",
+      "accession": "P36313",
+      "category": "target",
+      "length": 248,
+      "iupred3_mean": 0.7715,
+      "composition_mean": 0.5522,
+      "complexity_mean": 0.3067,
+      "consensus_idr_fraction": 0.621,
+      "consensus_idr_count": 3,
+      "consensus_idr_boundaries": [
+        [
+          1,
+          60
+        ],
+        [
+          73,
+          126
+        ],
+        [
+          149,
+          174
+        ]
+      ],
+      "original_idr_boundaries": [
+        [
+          1,
+          66
+        ],
+        [
+          73,
+          132
+        ],
+        [
+          145,
+          179
+        ]
+      ],
+      "confidence_tiers": {
+        "tier1_disordered": 23,
+        "tier1_ordered": 45,
+        "tier2_medium": 131,
+        "tier3_low": 49
+      },
+      "secondary_structure": {
+        "helix_residues": 78,
+        "sheet_residues": 22,
+        "turn_residues": 139,
+        "coil_residues": 9,
+        "helix_fraction": 0.315,
+        "sheet_fraction": 0.089,
+        "turn_fraction": 0.56,
+        "coil_fraction": 0.036
+      },
+      "accessibility_mean": 0.5462,
+      "cider_metrics": {
+        "kappa": 0.3504,
+        "fcr": 0.2419,
+        "ncpr": 0.0726,
+        "mean_hydropathy": 3.761,
+        "delta": 0.0776,
+        "deltaMax": 0.2216,
+        "source": "localCIDER"
+      },
+      "idr_cider": [
+        {
+          "region": "1-66",
+          "length": 66,
+          "fcr": 0.1667,
+          "ncpr": 0.1364,
+          "mean_hydropathy": -0.891,
+          "das_pappu_class": "globule"
+        },
+        {
+          "region": "73-132",
+          "length": 60,
+          "fcr": 0.2833,
+          "ncpr": -0.0833,
+          "mean_hydropathy": -1.338,
+          "das_pappu_class": "strong_polyampholyte"
+        },
+        {
+          "region": "145-179",
+          "length": 35,
+          "fcr": 0.2286,
+          "ncpr": 0.1143,
+          "mean_hydropathy": -0.723,
+          "das_pappu_class": "globule"
+        }
+      ]
+    },
+    {
+      "protein": "US3",
+      "accession": "P04413",
+      "category": "target",
+      "length": 481,
+      "iupred3_mean": 0.3973,
+      "composition_mean": 0.4222,
+      "complexity_mean": 0.3877,
+      "consensus_idr_fraction": 0.3306,
+      "consensus_idr_count": 4,
+      "consensus_idr_boundaries": [
+        [
+          14,
+          34
+        ],
+        [
+          37,
+          66
+        ],
+        [
+          79,
+          121
+        ],
+        [
+          123,
+          145
+        ]
+      ],
+      "original_idr_boundaries": [
+        [
+          14,
+          34
+        ],
+        [
+          37,
+          67
+        ],
+        [
+          81,
+          120
+        ],
+        [
+          125,
+          160
+        ]
+      ],
+      "confidence_tiers": {
+        "tier1_disordered": 86,
+        "tier1_ordered": 255,
+        "tier2_medium": 73,
+        "tier3_low": 67
+      },
+      "secondary_structure": {
+        "helix_residues": 126,
+        "sheet_residues": 121,
+        "turn_residues": 212,
+        "coil_residues": 22,
+        "helix_fraction": 0.262,
+        "sheet_fraction": 0.252,
+        "turn_fraction": 0.441,
+        "coil_fraction": 0.046
+      },
+      "accessibility_mean": 0.4876,
+      "cider_metrics": {
+        "kappa": 0.2517,
+        "fcr": 0.2308,
+        "ncpr": -0.027,
+        "mean_hydropathy": 4.099,
+        "delta": 0.0564,
+        "deltaMax": 0.224,
+        "source": "localCIDER"
+      },
+      "idr_cider": [
+        {
+          "region": "14-34",
+          "length": 21,
+          "fcr": 0.381,
+          "ncpr": 0.0952,
+          "mean_hydropathy": -1.462,
+          "das_pappu_class": "strong_polyampholyte"
+        },
+        {
+          "region": "37-67",
+          "length": 31,
+          "fcr": 0.2581,
+          "ncpr": -0.129,
+          "mean_hydropathy": -1.174,
+          "das_pappu_class": "polyelectrolyte"
+        },
+        {
+          "region": "81-120",
+          "length": 40,
+          "fcr": 0.425,
+          "ncpr": -0.425,
+          "mean_hydropathy": -1.05,
+          "das_pappu_class": "polyelectrolyte"
+        },
+        {
+          "region": "125-160",
+          "length": 36,
+          "fcr": 0.25,
+          "ncpr": -0.0278,
+          "mean_hydropathy": -0.581,
+          "das_pappu_class": "strong_polyampholyte"
+        }
+      ]
+    },
+    {
+      "protein": "pUL37",
+      "accession": "P10221",
+      "category": "target",
+      "length": 1123,
+      "iupred3_mean": 0.2931,
+      "composition_mean": 0.4566,
+      "complexity_mean": 0.393,
+      "consensus_idr_fraction": 0.203,
+      "consensus_idr_count": 3,
+      "consensus_idr_boundaries": [
+        [
+          1,
+          54
+        ],
+        [
+          961,
+          985
+        ],
+        [
+          1045,
+          1123
+        ]
+      ],
+      "original_idr_boundaries": [
+        [
+          1,
+          52
+        ],
+        [
+          964,
+          983
+        ],
+        [
+          1051,
+          1123
+        ]
+      ],
+      "confidence_tiers": {
+        "tier1_disordered": 101,
+        "tier1_ordered": 570,
+        "tier2_medium": 127,
+        "tier3_low": 325
+      },
+      "secondary_structure": {
+        "helix_residues": 453,
+        "sheet_residues": 257,
+        "turn_residues": 320,
+        "coil_residues": 93,
+        "helix_fraction": 0.403,
+        "sheet_fraction": 0.229,
+        "turn_fraction": 0.285,
+        "coil_fraction": 0.083
+      },
+      "accessibility_mean": 0.4738,
+      "cider_metrics": {
+        "kappa": 0.1582,
+        "fcr": 0.1834,
+        "ncpr": -0.0196,
+        "mean_hydropathy": 4.542,
+        "delta": 0.0285,
+        "deltaMax": 0.1802,
+        "source": "localCIDER"
+      },
+      "idr_cider": [
+        {
+          "region": "1-52",
+          "length": 52,
+          "fcr": 0.1731,
+          "ncpr": -0.0577,
+          "mean_hydropathy": -0.433,
+          "das_pappu_class": "globule"
+        },
+        {
+          "region": "964-983",
+          "length": 20,
+          "fcr": 0.25,
+          "ncpr": -0.15,
+          "mean_hydropathy": -0.655,
+          "das_pappu_class": "polyelectrolyte"
+        },
+        {
+          "region": "1051-1123",
+          "length": 73,
+          "fcr": 0.274,
+          "ncpr": -0.137,
+          "mean_hydropathy": -1.084,
+          "das_pappu_class": "polyelectrolyte"
+        }
+      ]
+    },
+    {
+      "protein": "ICP8_UL29",
+      "accession": "P04296",
+      "category": "control",
+      "length": 1196,
+      "iupred3_mean": 0.252,
+      "composition_mean": 0.4608,
+      "complexity_mean": 0.3497,
+      "consensus_idr_fraction": 0.1463,
+      "consensus_idr_count": 1,
+      "consensus_idr_boundaries": [
+        [
+          1153,
+          1196
+        ]
+      ],
+      "original_idr_boundaries": [
+        [
+          1153,
+          1194
+        ]
+      ],
+      "confidence_tiers": {
+        "tier1_disordered": 85,
+        "tier1_ordered": 646,
+        "tier2_medium": 90,
+        "tier3_low": 375
+      },
+      "secondary_structure": {
+        "helix_residues": 465,
+        "sheet_residues": 280,
+        "turn_residues": 362,
+        "coil_residues": 89,
+        "helix_fraction": 0.389,
+        "sheet_fraction": 0.234,
+        "turn_fraction": 0.303,
+        "coil_fraction": 0.074
+      },
+      "accessibility_mean": 0.4291,
+      "cider_metrics": {
+        "kappa": 0.1774,
+        "fcr": 0.1957,
+        "ncpr": -0.0117,
+        "mean_hydropathy": 4.447,
+        "delta": 0.0343,
+        "deltaMax": 0.1931,
+        "source": "localCIDER"
+      },
+      "idr_cider": [
+        {
+          "region": "1153-1194",
+          "length": 42,
+          "fcr": 0.2619,
+          "ncpr": -0.0238,
+          "mean_hydropathy": -0.876,
+          "das_pappu_class": "strong_polyampholyte"
+        }
+      ]
+    },
+    {
+      "protein": "UL42",
+      "accession": "P10186",
+      "category": "control",
+      "length": 334,
+      "iupred3_mean": 0.4383,
+      "composition_mean": 0.4553,
+      "complexity_mean": 0.311,
+      "consensus_idr_fraction": 0.3084,
+      "consensus_idr_count": 1,
+      "consensus_idr_boundaries": [
+        [
+          1,
+          101
+        ]
+      ],
+      "original_idr_boundaries": [
+        [
+          1,
+          100
+        ]
+      ],
+      "confidence_tiers": {
+        "tier1_disordered": 45,
+        "tier1_ordered": 209,
+        "tier2_medium": 58,
+        "tier3_low": 22
+      },
+      "secondary_structure": {
+        "helix_residues": 70,
+        "sheet_residues": 79,
+        "turn_residues": 162,
+        "coil_residues": 23,
+        "helix_fraction": 0.21,
+        "sheet_fraction": 0.237,
+        "turn_fraction": 0.485,
+        "coil_fraction": 0.069
+      },
+      "accessibility_mean": 0.4597,
+      "cider_metrics": {
+        "kappa": 0.1903,
+        "fcr": 0.2096,
+        "ncpr": 0.0299,
+        "mean_hydropathy": 4.09,
+        "delta": 0.038,
+        "deltaMax": 0.1999,
+        "source": "localCIDER"
+      },
+      "idr_cider": [
+        {
+          "region": "1-100",
+          "length": 100,
+          "fcr": 0.22,
+          "ncpr": 0.02,
+          "mean_hydropathy": -0.884,
+          "das_pappu_class": "globule"
+        }
+      ]
+    },
+    {
+      "protein": "gD_US6",
+      "accession": "P57083",
+      "category": "control",
+      "length": 394,
+      "iupred3_mean": 0.2841,
+      "composition_mean": 0.4317,
+      "complexity_mean": 0.3577,
+      "consensus_idr_fraction": 0.2234,
+      "consensus_idr_count": 1,
+      "consensus_idr_boundaries": [
+        [
+          277,
+          308
+        ]
+      ],
+      "original_idr_boundaries": [
+        [
+          277,
+          308
+        ]
+      ],
+      "confidence_tiers": {
+        "tier1_disordered": 39,
+        "tier1_ordered": 227,
+        "tier2_medium": 49,
+        "tier3_low": 79
+      },
+      "secondary_structure": {
+        "helix_residues": 81,
+        "sheet_residues": 110,
+        "turn_residues": 164,
+        "coil_residues": 39,
+        "helix_fraction": 0.206,
+        "sheet_fraction": 0.279,
+        "turn_fraction": 0.416,
+        "coil_fraction": 0.099
+      },
+      "accessibility_mean": 0.538,
+      "cider_metrics": {
+        "kappa": 0.2534,
+        "fcr": 0.1777,
+        "ncpr": 0.0051,
+        "mean_hydropathy": 4.343,
+        "delta": 0.0432,
+        "deltaMax": 0.1706,
+        "source": "localCIDER"
+      },
+      "idr_cider": [
+        {
+          "region": "277-308",
+          "length": 32,
+          "fcr": 0.2812,
+          "ncpr": -0.2812,
+          "mean_hydropathy": -0.634,
+          "das_pappu_class": "polyelectrolyte"
+        }
+      ]
+    },
+    {
+      "protein": "VP11_12_UL46",
+      "accession": "P10228",
+      "category": "control",
+      "length": 511,
+      "iupred3_mean": 0.492,
+      "composition_mean": 0.4911,
+      "complexity_mean": 0.2986,
+      "consensus_idr_fraction": 0.3738,
+      "consensus_idr_count": 1,
+      "consensus_idr_boundaries": [
+        [
+          26,
+          131
+        ]
+      ],
+      "original_idr_boundaries": [
+        [
+          27,
+          133
+        ]
+      ],
+      "confidence_tiers": {
+        "tier1_disordered": 44,
+        "tier1_ordered": 218,
+        "tier2_medium": 147,
+        "tier3_low": 102
+      },
+      "secondary_structure": {
+        "helix_residues": 65,
+        "sheet_residues": 150,
+        "turn_residues": 264,
+        "coil_residues": 32,
+        "helix_fraction": 0.127,
+        "sheet_fraction": 0.294,
+        "turn_fraction": 0.517,
+        "coil_fraction": 0.063
+      },
+      "accessibility_mean": 0.4939,
+      "cider_metrics": {
+        "kappa": 0.216,
+        "fcr": 0.1624,
+        "ncpr": 0.002,
+        "mean_hydropathy": 4.174,
+        "delta": 0.0339,
+        "deltaMax": 0.1569,
+        "source": "localCIDER"
+      },
+      "idr_cider": [
+        {
+          "region": "27-133",
+          "length": 107,
+          "fcr": 0.1589,
+          "ncpr": 0.028,
+          "mean_hydropathy": -1.101,
+          "das_pappu_class": "weak_polyampholyte"
+        }
+      ]
+    },
+    {
+      "protein": "VP16_UL48",
+      "accession": "P06492",
+      "category": "control",
+      "length": 490,
+      "iupred3_mean": 0.3229,
+      "composition_mean": 0.4533,
+      "complexity_mean": 0.4536,
+      "consensus_idr_fraction": 0.3061,
+      "consensus_idr_count": 4,
+      "consensus_idr_boundaries": [
+        [
+          12,
+          38
+        ],
+        [
+          376,
+          399
+        ],
+        [
+          409,
+          433
+        ],
+        [
+          442,
+          464
+        ]
+      ],
+      "original_idr_boundaries": [
+        [
+          12,
+          38
+        ],
+        [
+          379,
+          399
+        ],
+        [
+          405,
+          424
+        ],
+        [
+          444,
+          464
+        ]
+      ],
+      "confidence_tiers": {
+        "tier1_disordered": 70,
+        "tier1_ordered": 207,
+        "tier2_medium": 80,
+        "tier3_low": 133
+      },
+      "secondary_structure": {
+        "helix_residues": 195,
+        "sheet_residues": 75,
+        "turn_residues": 180,
+        "coil_residues": 40,
+        "helix_fraction": 0.398,
+        "sheet_fraction": 0.153,
+        "turn_fraction": 0.367,
+        "coil_fraction": 0.082
+      },
+      "accessibility_mean": 0.532,
+      "cider_metrics": {
+        "kappa": 0.202,
+        "fcr": 0.2327,
+        "ncpr": -0.0531,
+        "mean_hydropathy": 4.236,
+        "delta": 0.0448,
+        "deltaMax": 0.222,
+        "source": "localCIDER"
+      },
+      "idr_cider": [
+        {
+          "region": "12-38",
+          "length": 27,
+          "fcr": 0.1111,
+          "ncpr": 0.037,
+          "mean_hydropathy": -0.837,
+          "das_pappu_class": "globule"
+        },
+        {
+          "region": "379-399",
+          "length": 21,
+          "fcr": 0.3333,
+          "ncpr": -0.2381,
+          "mean_hydropathy": -0.233,
+          "das_pappu_class": "polyelectrolyte"
+        },
+        {
+          "region": "405-424",
+          "length": 20,
+          "fcr": 0.25,
+          "ncpr": -0.05,
+          "mean_hydropathy": -0.65,
+          "das_pappu_class": "strong_polyampholyte"
+        },
+        {
+          "region": "444-464",
+          "length": 21,
+          "fcr": 0.1905,
+          "ncpr": -0.1905,
+          "mean_hydropathy": -0.638,
+          "das_pappu_class": "globule"
+        }
+      ]
+    },
+    {
+      "protein": "VP22_UL49",
+      "accession": "P10216",
+      "category": "control",
+      "length": 596,
+      "iupred3_mean": 0.2619,
+      "composition_mean": 0.4582,
+      "complexity_mean": 0.4298,
+      "consensus_idr_fraction": 0.2701,
+      "consensus_idr_count": 2,
+      "consensus_idr_boundaries": [
+        [
+          73,
+          106
+        ],
+        [
+          315,
+          335
+        ]
+      ],
+      "original_idr_boundaries": [
+        [
+          80,
+          106
+        ]
+      ],
+      "confidence_tiers": {
+        "tier1_disordered": 73,
+        "tier1_ordered": 281,
+        "tier2_medium": 88,
+        "tier3_low": 154
+      },
+      "secondary_structure": {
+        "helix_residues": 202,
+        "sheet_residues": 155,
+        "turn_residues": 195,
+        "coil_residues": 44,
+        "helix_fraction": 0.339,
+        "sheet_fraction": 0.26,
+        "turn_fraction": 0.327,
+        "coil_fraction": 0.074
+      },
+      "accessibility_mean": 0.434,
+      "cider_metrics": {
+        "kappa": 0.2186,
+        "fcr": 0.2047,
+        "ncpr": -0.0067,
+        "mean_hydropathy": 4.451,
+        "delta": 0.0438,
+        "deltaMax": 0.2002,
+        "source": "localCIDER"
+      },
+      "idr_cider": [
+        {
+          "region": "80-106",
+          "length": 27,
+          "fcr": 0.2222,
+          "ncpr": 0.0,
+          "mean_hydropathy": -1.281,
+          "das_pappu_class": "weak_polyampholyte"
+        }
+      ]
+    },
+    {
+      "protein": "ICP27_UL54",
+      "accession": "P10238",
+      "category": "control",
+      "length": 512,
+      "iupred3_mean": 0.5647,
+      "composition_mean": 0.5257,
+      "complexity_mean": 0.3804,
+      "consensus_idr_fraction": 0.5059,
+      "consensus_idr_count": 4,
+      "consensus_idr_boundaries": [
+        [
+          13,
+          113
+        ],
+        [
+          115,
+          213
+        ],
+        [
+          215,
+          243
+        ],
+        [
+          273,
+          294
+        ]
+      ],
+      "original_idr_boundaries": [
+        [
+          17,
+          245
+        ],
+        [
+          272,
+          294
+        ]
+      ],
+      "confidence_tiers": {
+        "tier1_disordered": 144,
+        "tier1_ordered": 211,
+        "tier2_medium": 115,
+        "tier3_low": 42
+      },
+      "secondary_structure": {
+        "helix_residues": 126,
+        "sheet_residues": 71,
+        "turn_residues": 271,
+        "coil_residues": 44,
+        "helix_fraction": 0.246,
+        "sheet_fraction": 0.139,
+        "turn_fraction": 0.529,
+        "coil_fraction": 0.086
+      },
+      "accessibility_mean": 0.5641,
+      "cider_metrics": {
+        "kappa": 0.2444,
+        "fcr": 0.252,
+        "ncpr": -0.0059,
+        "mean_hydropathy": 3.91,
+        "delta": 0.0604,
+        "deltaMax": 0.2471,
+        "source": "localCIDER"
+      },
+      "idr_cider": [
+        {
+          "region": "17-245",
+          "length": 229,
+          "fcr": 0.3013,
+          "ncpr": -0.0044,
+          "mean_hydropathy": -1.376,
+          "das_pappu_class": "strong_polyampholyte"
+        },
+        {
+          "region": "272-294",
+          "length": 23,
+          "fcr": 0.0435,
+          "ncpr": -0.0435,
+          "mean_hydropathy": -0.417,
+          "das_pappu_class": "globule"
+        }
+      ]
+    },
+    {
+      "protein": "ICP22_US1",
+      "accession": "P04485",
+      "category": "control",
+      "length": 420,
+      "iupred3_mean": 0.5734,
+      "composition_mean": 0.5229,
+      "complexity_mean": 0.5066,
+      "consensus_idr_fraction": 0.5976,
+      "consensus_idr_count": 5,
+      "consensus_idr_boundaries": [
+        [
+          20,
+          86
+        ],
+        [
+          96,
+          134
+        ],
+        [
+          153,
+          180
+        ],
+        [
+          299,
+          360
+        ],
+        [
+          363,
+          394
+        ]
+      ],
+      "original_idr_boundaries": [
+        [
+          6,
+          91
+        ],
+        [
+          97,
+          133
+        ],
+        [
+          141,
+          180
+        ],
+        [
+          304,
+          350
+        ],
+        [
+          368,
+          393
+        ]
+      ],
+      "confidence_tiers": {
+        "tier1_disordered": 145,
+        "tier1_ordered": 113,
+        "tier2_medium": 106,
+        "tier3_low": 56
+      },
+      "secondary_structure": {
+        "helix_residues": 100,
+        "sheet_residues": 52,
+        "turn_residues": 228,
+        "coil_residues": 40,
+        "helix_fraction": 0.238,
+        "sheet_fraction": 0.124,
+        "turn_fraction": 0.543,
+        "coil_fraction": 0.095
+      },
+      "accessibility_mean": 0.4896,
+      "cider_metrics": {
+        "kappa": 0.2895,
+        "fcr": 0.2976,
+        "ncpr": -0.0071,
+        "mean_hydropathy": 3.722,
+        "delta": 0.0846,
+        "deltaMax": 0.2922,
+        "source": "localCIDER"
+      },
+      "idr_cider": [
+        {
+          "region": "6-91",
+          "length": 86,
+          "fcr": 0.3488,
+          "ncpr": 0.0233,
+          "mean_hydropathy": -0.991,
+          "das_pappu_class": "strong_polyampholyte"
+        },
+        {
+          "region": "97-133",
+          "length": 37,
+          "fcr": 0.3784,
+          "ncpr": -0.1081,
+          "mean_hydropathy": -1.292,
+          "das_pappu_class": "polyelectrolyte"
+        },
+        {
+          "region": "141-180",
+          "length": 40,
+          "fcr": 0.225,
+          "ncpr": 0.175,
+          "mean_hydropathy": -0.848,
+          "das_pappu_class": "globule"
+        },
+        {
+          "region": "304-350",
+          "length": 47,
+          "fcr": 0.2979,
+          "ncpr": -0.2128,
+          "mean_hydropathy": -0.649,
+          "das_pappu_class": "polyelectrolyte"
+        },
+        {
+          "region": "368-393",
+          "length": 26,
+          "fcr": 0.2692,
+          "ncpr": -0.1154,
+          "mean_hydropathy": -0.538,
+          "das_pappu_class": "polyelectrolyte"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "ICP34.5": {
+    "length": 248,
+    "n_orthologs": 1,
+    "mean_conservation": 0.4816,
+    "mean_identity": 0.6048,
+    "mean_dnds_proxy": 0.8472,
+    "idr_conservation": [
+      {
+        "region": "1-66",
+        "mean_conservation": 0.3822,
+        "mean_identity": 0.5152
+      },
+      {
+        "region": "73-132",
+        "mean_conservation": 0.3698,
+        "mean_identity": 0.5333
+      },
+      {
+        "region": "145-179",
+        "mean_conservation": 0.1118,
+        "mean_identity": 0.4
+      }
+    ]
+  },
+  "US3": {
+    "length": 481,
+    "n_orthologs": 5,
+    "mean_conservation": 0.1237,
+    "mean_identity": 0.3917,
+    "mean_dnds_proxy": 0.7417,
+    "idr_conservation": [
+      {
+        "region": "14-34",
+        "mean_conservation": -0.276,
+        "mean_identity": 0.2
+      },
+      {
+        "region": "37-67",
+        "mean_conservation": -0.1078,
+        "mean_identity": 0.2968
+      },
+      {
+        "region": "81-120",
+        "mean_conservation": -0.0703,
+        "mean_identity": 0.28
+      },
+      {
+        "region": "125-160",
+        "mean_conservation": -0.1977,
+        "mean_identity": 0.2278
+      }
+    ]
+  },
+  "pUL37": {
+    "length": 1123,
+    "n_orthologs": 3,
+    "mean_conservation": 0.3274,
+    "mean_identity": 0.4752,
+    "mean_dnds_proxy": 0.8165,
+    "idr_conservation": [
+      {
+        "region": "1-52",
+        "mean_conservation": -0.0725,
+        "mean_identity": 0.2692
+      },
+      {
+        "region": "964-983",
+        "mean_conservation": 0.4167,
+        "mean_identity": 0.5667
+      },
+      {
+        "region": "1051-1123",
+        "mean_conservation": -0.1557,
+        "mean_identity": 0.242
+      }
+    ]
+  }
+}

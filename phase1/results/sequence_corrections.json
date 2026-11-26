@@ -1,0 +1,22 @@
+{
+  "pUL37": {
+    "accession": "P10221",
+    "species": "HSV-1 strain 17",
+    "length": 1123
+  },
+  "HSV2_UL37": {
+    "accession": "G9I259",
+    "species": "HSV-2 (HG52)",
+    "length": 1114
+  },
+  "PRV_US3": {
+    "accession": "A0A0S2MM84",
+    "species": "PRV (Becker)",
+    "length": 334
+  },
+  "PRV_UL37": {
+    "accession": "Q911W0",
+    "species": "PRV",
+    "length": 919
+  }
+}

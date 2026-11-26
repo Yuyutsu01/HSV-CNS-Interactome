@@ -1,0 +1,12 @@
+protein,category,length,confidence_tier,n_idrs,idr_fraction,idr_boundaries,n_methods
+ICP34.5,target,248,Tier 1 (High),4,0.8468,1-66; 73-132; 145-179; 200-248,2
+US3,target,481,Tier 2 (Medium-High),4,0.3929,7-67; 81-120; 125-183; 412-440,2
+pUL37,target,1123,Tier 3 (Medium),6,0.2057,1-57; 323-343; 794-818; 914-933; 959-986; 1044-1123,2
+ICP8_UL29,control,1196,Control,6,0.1513,122-147; 280-315; 420-444; 741-762; 924-952; 1152-1194,2
+UL42,control,334,Control,1,0.2994,1-100,2
+gD_US6,control,394,Control,2,0.9239,21-346; 357-394,3
+VP11_12_UL46,control,511,Control,2,0.2505,27-133; 452-472,2
+VP16_UL48,control,490,Control,4,0.2898,12-60; 306-327; 379-424; 444-468,2
+VP22_UL49,control,596,Control,5,0.3037,70-111; 220-246; 257-283; 296-333; 353-399,2
+ICP27_UL54,control,512,Control,2,0.5059,17-245; 272-301,2
+ICP22_US1,control,420,Control,5,0.6381,6-91; 97-133; 141-190; 304-360; 368-405,2

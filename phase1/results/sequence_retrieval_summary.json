@@ -1,0 +1,128 @@
+{
+  "targets": {
+    "ICP34.5": {
+      "accession": "P36313",
+      "length": 248,
+      "disorder_annotations": [
+        "1-129",
+        "149-174"
+      ]
+    },
+    "US3": {
+      "accession": "P04413",
+      "length": 481,
+      "disorder_annotations": [
+        "12-63"
+      ]
+    },
+    "pUL37": {
+      "accession": "P10218",
+      "length": 275,
+      "disorder_annotations": []
+    }
+  },
+  "controls": {
+    "ICP8_UL29": {
+      "accession": "P04296",
+      "length": 1196,
+      "disorder_annotations": [
+        "1158-1196"
+      ]
+    },
+    "UL42": {
+      "accession": "P10186",
+      "length": 334,
+      "disorder_annotations": [
+        "1-63",
+        "79-104"
+      ]
+    },
+    "gD_US6": {
+      "accession": "P57083",
+      "length": 394,
+      "disorder_annotations": [
+        "275-301"
+      ]
+    },
+    "VP11_12_UL46": {
+      "accession": "P10228",
+      "length": 511,
+      "disorder_annotations": [
+        "42-130"
+      ]
+    },
+    "VP16_UL48": {
+      "accession": "P06492",
+      "length": 490,
+      "disorder_annotations": [
+        "12-35"
+      ]
+    },
+    "VP22_UL49": {
+      "accession": "P10216",
+      "length": 596,
+      "disorder_annotations": [
+        "76-106"
+      ]
+    },
+    "ICP27_UL54": {
+      "accession": "P10238",
+      "length": 512,
+      "disorder_annotations": [
+        "1-243"
+      ]
+    },
+    "ICP22_US1": {
+      "accession": "P04485",
+      "length": 420,
+      "disorder_annotations": [
+        "1-172",
+        "315-341",
+        "373-393"
+      ]
+    }
+  },
+  "orthologs": {
+    "ICP34.5": {
+      "HSV2_RL1": {
+        "accession": "P89449",
+        "species": "HSV-2 (HG52)",
+        "length": 637
+      }
+    },
+    "US3": {
+      "HSV2_US3": {
+        "accession": "P06485",
+        "species": "HSV-2 (HG52)",
+        "length": 291
+      },
+      "VZV_ORF66": {
+        "accession": "P09259",
+        "species": "VZV (Dumas)",
+        "length": 623
+      },
+      "BoHV1_US3": {
+        "accession": "Q65563",
+        "species": "BoHV-1",
+        "length": 574
+      },
+      "EHV1_US3": {
+        "accession": "P28969",
+        "species": "EHV-1 (Ab4)",
+        "length": 734
+      }
+    },
+    "pUL37": {
+      "HSV2_UL37": {
+        "accession": "G9I242",
+        "species": "HSV-2 (HG52)",
+        "length": 532
+      },
+      "VZV_ORF21": {
+        "accession": "P09252",
+        "species": "VZV (Dumas)",
+        "length": 1194
+      }
+    }
+  }
+}

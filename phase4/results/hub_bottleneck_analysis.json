@@ -1,0 +1,355 @@
+{
+  "viral_hubs": [
+    {
+      "protein": "UL42",
+      "degree": 70,
+      "betweenness": 0.1464,
+      "category": "control"
+    }
+  ],
+  "viral_bottlenecks": [
+    {
+      "protein": "VP16_UL48",
+      "degree": 65,
+      "betweenness": 0.1725,
+      "category": "control"
+    }
+  ],
+  "viral_hub_bottlenecks": [
+    {
+      "protein": "ICP22_US1",
+      "degree": 120,
+      "betweenness": 0.3831,
+      "category": "control"
+    },
+    {
+      "protein": "ICP27_UL54",
+      "degree": 84,
+      "betweenness": 0.1845,
+      "category": "control"
+    }
+  ],
+  "host_hubs": [
+    {
+      "protein": "TAP1",
+      "degree": 6,
+      "betweenness": 0.0026,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "TAP2",
+      "degree": 6,
+      "betweenness": 0.0026,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "CSNK1A1",
+      "degree": 5,
+      "betweenness": 0.0021,
+      "brain_tpm": 35
+    },
+    {
+      "protein": "CSNK1D",
+      "degree": 5,
+      "betweenness": 0.0021,
+      "brain_tpm": 20
+    },
+    {
+      "protein": "CSNK1E",
+      "degree": 5,
+      "betweenness": 0.0021,
+      "brain_tpm": 15
+    },
+    {
+      "protein": "MMP2",
+      "degree": 5,
+      "betweenness": 0.0023,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "MMP9",
+      "degree": 5,
+      "betweenness": 0.0023,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "MMP14",
+      "degree": 5,
+      "betweenness": 0.0023,
+      "brain_tpm": 0
+    }
+  ],
+  "host_bottlenecks": [],
+  "host_hub_bottlenecks": [
+    {
+      "protein": "PRKCA",
+      "degree": 10,
+      "betweenness": 0.0124,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "PIN1",
+      "degree": 10,
+      "betweenness": 0.0124,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "CASP3",
+      "degree": 9,
+      "betweenness": 0.0109,
+      "brain_tpm": 10
+    },
+    {
+      "protein": "CASP7",
+      "degree": 9,
+      "betweenness": 0.0109,
+      "brain_tpm": 5
+    },
+    {
+      "protein": "USP7",
+      "degree": 9,
+      "betweenness": 0.0109,
+      "brain_tpm": 20
+    },
+    {
+      "protein": "GSK3A",
+      "degree": 8,
+      "betweenness": 0.009,
+      "brain_tpm": 20
+    },
+    {
+      "protein": "GSK3B",
+      "degree": 8,
+      "betweenness": 0.009,
+      "brain_tpm": 45
+    },
+    {
+      "protein": "CHEK2",
+      "degree": 8,
+      "betweenness": 0.0082,
+      "brain_tpm": 3
+    },
+    {
+      "protein": "RNF8",
+      "degree": 8,
+      "betweenness": 0.0082,
+      "brain_tpm": 5
+    },
+    {
+      "protein": "TBK1",
+      "degree": 8,
+      "betweenness": 0.0085,
+      "brain_tpm": 10
+    },
+    {
+      "protein": "IKBKE",
+      "degree": 8,
+      "betweenness": 0.0085,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "NCK1",
+      "degree": 8,
+      "betweenness": 0.0076,
+      "brain_tpm": 12
+    },
+    {
+      "protein": "NCK2",
+      "degree": 8,
+      "betweenness": 0.0076,
+      "brain_tpm": 8
+    },
+    {
+      "protein": "PCSK5",
+      "degree": 8,
+      "betweenness": 0.0071,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "PCSK7",
+      "degree": 8,
+      "betweenness": 0.0071,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "CSNK2A1",
+      "degree": 8,
+      "betweenness": 0.0096,
+      "brain_tpm": 30
+    },
+    {
+      "protein": "CSNK2A2",
+      "degree": 8,
+      "betweenness": 0.0096,
+      "brain_tpm": 8
+    },
+    {
+      "protein": "SRC",
+      "degree": 7,
+      "betweenness": 0.007,
+      "brain_tpm": 15
+    },
+    {
+      "protein": "FYN",
+      "degree": 7,
+      "betweenness": 0.007,
+      "brain_tpm": 55
+    },
+    {
+      "protein": "LCK",
+      "degree": 7,
+      "betweenness": 0.007,
+      "brain_tpm": 2
+    },
+    {
+      "protein": "GRB2",
+      "degree": 7,
+      "betweenness": 0.007,
+      "brain_tpm": 20
+    },
+    {
+      "protein": "PRKCB",
+      "degree": 7,
+      "betweenness": 0.0059,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "PRKCE",
+      "degree": 7,
+      "betweenness": 0.0059,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "TRAF6",
+      "degree": 7,
+      "betweenness": 0.0053,
+      "brain_tpm": 8
+    },
+    {
+      "protein": "SYTL1",
+      "degree": 7,
+      "betweenness": 0.005,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "MAPK8",
+      "degree": 6,
+      "betweenness": 0.0032,
+      "brain_tpm": 18
+    },
+    {
+      "protein": "KPNA1",
+      "degree": 6,
+      "betweenness": 0.0032,
+      "brain_tpm": 20
+    },
+    {
+      "protein": "KPNA2",
+      "degree": 6,
+      "betweenness": 0.0032,
+      "brain_tpm": 15
+    },
+    {
+      "protein": "FE65",
+      "degree": 6,
+      "betweenness": 0.0044,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "COPA",
+      "degree": 6,
+      "betweenness": 0.0042,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "COPB1",
+      "degree": 6,
+      "betweenness": 0.0042,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "PADI4",
+      "degree": 6,
+      "betweenness": 0.0051,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "ATM",
+      "degree": 5,
+      "betweenness": 0.0029,
+      "brain_tpm": 5
+    },
+    {
+      "protein": "ATR",
+      "degree": 5,
+      "betweenness": 0.0029,
+      "brain_tpm": 4
+    },
+    {
+      "protein": "PRKACA",
+      "degree": 5,
+      "betweenness": 0.0038,
+      "brain_tpm": 60
+    },
+    {
+      "protein": "PRKACB",
+      "degree": 5,
+      "betweenness": 0.0038,
+      "brain_tpm": 40
+    },
+    {
+      "protein": "CAMK2A",
+      "degree": 5,
+      "betweenness": 0.0038,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "CAMK2B",
+      "degree": 5,
+      "betweenness": 0.0038,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "CAMK2D",
+      "degree": 5,
+      "betweenness": 0.0038,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "CAMK2G",
+      "degree": 5,
+      "betweenness": 0.0038,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "NOTCH1",
+      "degree": 5,
+      "betweenness": 0.0029,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "NOTCH2",
+      "degree": 5,
+      "betweenness": 0.0029,
+      "brain_tpm": 0
+    },
+    {
+      "protein": "YWHAB",
+      "degree": 5,
+      "betweenness": 0.0037,
+      "brain_tpm": 200
+    },
+    {
+      "protein": "YWHAG",
+      "degree": 5,
+      "betweenness": 0.0037,
+      "brain_tpm": 350
+    },
+    {
+      "protein": "YWHAZ",
+      "degree": 5,
+      "betweenness": 0.0037,
+      "brain_tpm": 250
+    }
+  ]
+}

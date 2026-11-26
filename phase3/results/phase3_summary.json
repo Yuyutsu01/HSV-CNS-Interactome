@@ -1,0 +1,19 @@
+{
+  "network": {
+    "nodes": 95,
+    "edges": 310,
+    "viral_proteins": 11,
+    "host_proteins": 84
+  },
+  "hypothesis_test": {
+    "target_mean_h1": 0.4535,
+    "control_mean_h1": 0.6473,
+    "mann_whitney_p": 0.8606,
+    "effect_size": -0.709,
+    "conclusion": "H1 not significant (discuss pathway specificity)"
+  },
+  "structural_context": {
+    "target_mean_accessibility": 0.534,
+    "control_mean_accessibility": 0.551
+  }
+}

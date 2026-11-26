@@ -1,0 +1,12 @@
+Protein,Category,Length (aa),IDR fraction,SLiMs (total),SLiMs (high conf),Exposed SLiMs,Switch candidates,High-conf switches,FCR,NCPR,kappa,Das-Pappu class,Conservation (mean ID),H1 score,CNS-weighted degree,Pathway diversity
+ICP22_US1,control,420,0.562,295,160,115,1275,1202,0.298,-0.007,0.289,,N/A (no orthologs),0.8623,16.771,38
+ICP27_UL54,control,512,0.492,262,89,91,351,348,0.252,-0.006,0.244,,N/A (no orthologs),0.7769,13.744,32
+ICP34.5,target,248,0.649,118,64,58,177,177,0.242,0.073,0.35,,0.605,0.7571,11.753,23
+ICP8_UL29,control,1196,0.035,541,15,16,33,29,0.196,-0.012,0.177,,N/A (no orthologs),0.385,1.846,11
+UL42,control,334,0.299,202,69,62,803,798,0.21,0.03,0.19,,N/A (no orthologs),0.9587,14.4,25
+US3,target,481,0.266,252,59,52,267,252,0.231,-0.027,0.252,,0.392,0.5542,5.283,24
+VP11_12_UL46,control,511,0.209,277,63,67,340,334,0.162,0.002,0.216,,N/A (no orthologs),0.8442,11.672,23
+VP16_UL48,control,490,0.182,324,42,24,169,125,0.233,-0.053,0.202,,N/A (no orthologs),0.7784,8.999,26
+VP22_UL49,control,596,0.045,321,2,12,0,0,0.205,-0.007,0.219,,N/A (no orthologs),0.1522,1.099,2
+gD_US6,control,394,0.081,195,22,19,133,133,0.178,0.005,0.253,,N/A (no orthologs),0.6232,3.578,13
+pUL37,target,1123,0.129,589,41,32,147,144,0.183,-0.02,0.158,,0.475,0.4185,2.733,17

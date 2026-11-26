@@ -1,0 +1,53 @@
+{
+  "description": "HSV-2 ortholog gene names for control proteins. Download from UniProt or NCBI to enable conservation analysis for controls.",
+  "orthologs": {
+    "ICP8_UL29": {
+      "hsv2_gene": "UL29",
+      "uniprot_hsv2": "P89444",
+      "ncbi_protein": "AHG54717.1",
+      "notes": "Single-stranded DNA-binding protein, highly conserved"
+    },
+    "UL42": {
+      "hsv2_gene": "UL42",
+      "uniprot_hsv2": "P13394",
+      "ncbi_protein": "AHG54730.1",
+      "notes": "DNA polymerase processivity factor"
+    },
+    "gD_US6": {
+      "hsv2_gene": "US6",
+      "uniprot_hsv2": "P03172",
+      "ncbi_protein": "AHG54782.1",
+      "notes": "Glycoprotein D, entry receptor binding"
+    },
+    "VP11_12_UL46": {
+      "hsv2_gene": "UL46",
+      "uniprot_hsv2": "P89440",
+      "ncbi_protein": "AHG54734.1",
+      "notes": "Tegument protein VP11/12"
+    },
+    "VP16_UL48": {
+      "hsv2_gene": "UL48",
+      "uniprot_hsv2": "P06492",
+      "ncbi_protein": "AHG54736.1",
+      "notes": "VP16 transactivator, tegument"
+    },
+    "VP22_UL49": {
+      "hsv2_gene": "UL49",
+      "uniprot_hsv2": "P89437",
+      "ncbi_protein": "AHG54737.1",
+      "notes": "Tegument protein VP22"
+    },
+    "ICP27_UL54": {
+      "hsv2_gene": "UL54",
+      "uniprot_hsv2": "P28284",
+      "ncbi_protein": "AHG54742.1",
+      "notes": "mRNA export factor, essential IE protein"
+    },
+    "ICP22_US1": {
+      "hsv2_gene": "US1",
+      "uniprot_hsv2": "P13289",
+      "ncbi_protein": "AHG54777.1",
+      "notes": "Immediate-early protein ICP22"
+    }
+  }
+}

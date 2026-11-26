@@ -1,0 +1,47 @@
+{
+  "data_source": "slim_hits_high_confidence.csv (627 hits, expanded ELM + ML scoring)",
+  "network": {
+    "nodes": 190,
+    "edges": 614,
+    "viral": 11,
+    "host": 179
+  },
+  "hypothesis_test": {
+    "mann_whitney_p": 0.8606,
+    "permutation_p": 0.7397,
+    "effect_size": -0.41,
+    "target_mean": 0.5766,
+    "control_mean": 0.6726
+  },
+  "communities": {
+    "n_greedy": 4,
+    "modularity": 0.2381
+  },
+  "perturbation_top_cns_viral": [
+    [
+      "ICP8_UL29",
+      0.3672,
+      5.236
+    ],
+    [
+      "ICP27_UL54",
+      0.3607,
+      5.309
+    ],
+    [
+      "VP22_UL49",
+      0.3589,
+      4.896
+    ],
+    [
+      "VP11_12_UL46",
+      0.358,
+      5.239
+    ],
+    [
+      "ICP22_US1",
+      0.3579,
+      5.273
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "description": "Phase 3 Structural Analysis: AlphaFold pLDDT, SLiM exposure estimates, competitive accessibility",
+    "methods": {
+      "plddt": "AlphaFold2 predicted LDDT from EBI database",
+      "exposure": "Composite of Emini accessibility, IUPred3 disorder, pLDDT confidence, and disorder propensity",
+      "competition": "Sequence proximity (<30 residues), structural property differences, exposure correlation",
+      "note": "Full MD (CALVADOS 2) and docking (FlexPepDock) require compute clusters"
+    }
+  },
+  "alphafold_plddt": {},
+  "exposure_summary": {
+    "total_slims_scored": 3376,
+    "likely_exposed": 548,
+    "moderately_exposed": 1496,
+    "partially_buried": 1208,
+    "likely_buried": 124
+  },
+  "competition_summary": {
+    "total_pairs": 9420,
+    "strong_competition": 42,
+    "moderate_competition": 6555,
+    "switch_candidates": 3695
+  }
+}
