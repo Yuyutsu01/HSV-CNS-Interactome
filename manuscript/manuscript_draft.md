@@ -118,7 +118,7 @@ For each viral protein, the set of predicted host interactors was tested for enr
 
 ### 2.10. Computational Environment and Reproducibility
 
-All analyses were performed in Python 3.11.8 on Windows 11 (AMD Ryzen 7 7840HS, 16 GB RAM). Key library versions: NumPy 2.4.6, SciPy 1.17.1, NetworkX 3.6.1, localCIDER 0.1.21. Random seeds were fixed (seed = 42) for all stochastic procedures (permutation tests, power simulations, network layout). The ELM motif database was compiled from elm.eu.org published regex patterns, totaling 196 classes across six categories (CLV, DEG, DOC, LIG, MOD, TRG); 81 classes from an initial curated set and 115 from an expanded compilation. GTEx v8 median TPM values were used for tissue expression [17]. Individual protein sequences were retrieved from UniProt using accessions for HSV-1 strain 17: ICP34.5 (P36313), US3 (P04413), pUL37 (P10218), and control proteins as listed in Table 1. IUPred3 was accessed via its web API [11]. No GPU computation was required; total pipeline runtime across all six phases was approximately 15 minutes. All code and intermediate outputs are available at [TO BE ADDED — provide GitHub or Zenodo URL before submission].
+All analyses were performed in Python 3.11.8 on Windows 11 (AMD Ryzen 7 7840HS, 16 GB RAM). Key library versions: NumPy 2.4.6, SciPy 1.17.1, NetworkX 3.6.1, localCIDER 0.1.21. Random seeds were fixed (seed = 42) for all stochastic procedures (permutation tests, power simulations, network layout). The ELM motif database was compiled from elm.eu.org published regex patterns, totaling 196 classes across six categories (CLV, DEG, DOC, LIG, MOD, TRG); 81 classes from an initial curated set and 115 from an expanded compilation. GTEx v8 median TPM values were used for tissue expression [17]. Individual protein sequences were retrieved from UniProt using accessions for HSV-1 strain 17: ICP34.5 (P36313), US3 (P04413), pUL37 (P10218), and control proteins as listed in Table 1. IUPred3 was accessed via its web API [11]. No GPU computation was required; total pipeline runtime across all six phases was approximately 15 minutes. All code and intermediate outputs are available at https://github.com/Yuyutsu01/HSV-CNS-Interactome.
 
 ---
 
@@ -238,7 +238,7 @@ We present a computational analysis of the IDR-SLiM-interactome landscape of HSV
 
 ## Data Availability
 
-All data, code, and analysis pipelines are available at [TO BE ADDED — provide GitHub or Zenodo URL before submission]. The analysis pipeline consists of six phases: (1) disorder and charge patterning prediction, (2) SLiM scanning and composite scoring, (3) structural accessibility estimation, (4) CNS-weighted interactome construction, (5) competitive-binding switch identification, and (6) integration and hypothesis testing.
+All data, code, and analysis pipelines are available at https://github.com/Yuyutsu01/HSV-CNS-Interactome. The analysis pipeline consists of six phases: (1) disorder and charge patterning prediction, (2) SLiM scanning and composite scoring, (3) structural accessibility estimation, (4) CNS-weighted interactome construction, (5) competitive-binding switch identification, and (6) integration and hypothesis testing.
 
 ---
 
